@@ -27,19 +27,21 @@ just moving the domain back.
 
 ## Env var checklist (new project)
 
-| Variable                                                                                                                         | Status                                                                  |
-| -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| NEXT_PUBLIC_SERVER_URL, SUPABASE_URL, NEXT_PUBLIC_POSTHOG_KEY/HOST, POSTHOG_HOST, POSTHOG_PROJECT_ID, SENTRY_ORG, SENTRY_PROJECT | set                                                                     |
-| RESEND_API_KEY                                                                                                                   | set (new sending-only key `vercel-911electrics-prod`)                   |
-| DATABASE_URL (pooler, :6543)                                                                                                     | **needed**, from the old project                                        |
-| PAYLOAD_SECRET                                                                                                                   | **needed**, same value as the old project, or all admins get signed out |
-| SUPABASE_SERVICE_ROLE_KEY                                                                                                        | **needed**                                                              |
-| CRON_SECRET                                                                                                                      | **needed** (a new value is fine)                                        |
-| BLOG_API_TOKEN, LEADS_API_TOKEN                                                                                                  | **needed**, same values as the old project                              |
-| LEAD_FROM_EMAIL, LEAD_NOTIFICATION_EMAIL                                                                                         | **needed**                                                              |
-| SENTRY_AUTH_TOKEN                                                                                                                | **needed** (Sentry org token)                                           |
-| POSTHOG_API_KEY                                                                                                                  | **needed** (PostHog personal key)                                       |
-| `TWILIO_*`, `TURNSTILE_*`, `GOOGLE_CLIENT_*`, `NEXT_PUBLIC_GA_ID`                                                                | copy whatever the old project has                                       |
+Already set: `NEXT_PUBLIC_SERVER_URL`, `SUPABASE_URL`, `NEXT_PUBLIC_POSTHOG_KEY`,
+`NEXT_PUBLIC_POSTHOG_HOST`, `POSTHOG_HOST`, `POSTHOG_PROJECT_ID`, `SENTRY_ORG`,
+`SENTRY_PROJECT`, `RESEND_API_KEY` (new sending-only key), `LEAD_FROM_EMAIL`
+(`hello@911electrics.com`), `LEAD_NOTIFICATION_EMAIL` (`info@911electrics.com`).
+
+Still to add (all from dashboards, no CLI needed):
+
+| Variable                    | Where it comes from                                                                                                                                                                                              |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `DATABASE_URL`              | Set a password on the dedicated `vercel_app` role (db/migrations/20261009_vercel_app_role.sql), then `postgresql://vercel_app.hywqbbjwepliduwamhip:<password>@aws-1-us-east-2.pooler.supabase.com:6543/postgres` |
+| `SUPABASE_SERVICE_ROLE_KEY` | Supabase → Project Settings → API Keys → service_role                                                                                                                                                            |
+| `PAYLOAD_SECRET`            | Any new random 64-char string. Studio users sign in again once; nothing else depends on it (2FA secrets are not encrypted with it, and no Google tokens are stored)                                              |
+| `CRON_SECRET`               | Any new random string                                                                                                                                                                                            |
+| `BLOG_API_TOKEN`            | The token the blog-writing automation sends (it posted 94 times in the last 45 days, so it must keep working). Same value as the old project, or a new value that the automation is also switched to             |
+| optional                    | `SENTRY_AUTH_TOKEN` (readable stack traces), `POSTHOG_API_KEY` (Studio analytics tab), `TURNSTILE_*` (Cloudflare, currently live per Sentry), `TWILIO_*`, `NEXT_PUBLIC_GA_ID`                                    |
 
 ## Cutover (≈15 min, weekday late evening Pacific)
 
