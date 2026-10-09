@@ -30,7 +30,8 @@ just moving the domain back.
 Already set: `NEXT_PUBLIC_SERVER_URL`, `SUPABASE_URL`, `NEXT_PUBLIC_POSTHOG_KEY`,
 `NEXT_PUBLIC_POSTHOG_HOST`, `POSTHOG_HOST`, `POSTHOG_PROJECT_ID`, `SENTRY_ORG`,
 `SENTRY_PROJECT`, `RESEND_API_KEY` (new sending-only key), `LEAD_FROM_EMAIL`
-(`hello@911electrics.com`), `LEAD_NOTIFICATION_EMAIL` (`info@911electrics.com`).
+(`hello@911electrics.com`), `LEAD_NOTIFICATION_EMAIL` (`info@911electrics.com`),
+`BLOG_API_TOKEN` (same value the daily blog task sends, so it needs no change).
 
 Still to add (all from dashboards, no CLI needed):
 
@@ -83,3 +84,24 @@ unpause it. The database is shared, so no data is lost either way.
 - Pre-existing, not touched: a blog category `maecenas` (looks like placeholder
   text) exists in the database and so has a `/category/maecenas/` page. Removing
   it is an SEO decision for the owner and is out of scope for the move.
+
+## Daily blog task (external automation)
+
+A scheduled Claude task publishes one post a day through the legacy content API
+(`GET/POST /api/blog/publish/`, `GET/PATCH /api/blog/posts/{id}/`) with
+`BLOG_API_TOKEN`. Same URLs and same token on the new project, so it keeps working
+across cutover with no change. Three dependencies:
+
+- **Hero images need `SUPABASE_SERVICE_ROLE_KEY`.** The task PATCHes `heroImageUrl` and
+  the server downloads the image into Supabase Storage. Without that key the post
+  still publishes but its hero image fails. That key must be set before cutover.
+- **Don't cut over while it runs.** Schedule the cutover away from the task's run
+  time, or skip that day's run, so a POST can't straddle the domain move.
+- **The site is behind Cloudflare.** The task notes Cloudflare blocking some clients
+  (`error code: 1010`), and the quote form uses Cloudflare Turnstile. So DNS for
+  911electrics.com is very likely on Cloudflare: the `_vercel` TXT record in
+  step 2 is added in Cloudflare. If the records are proxied (orange cloud), keep
+  them exactly as they are; only the Vercel project behind them changes.
+- After the move, consider replacing the legacy token with a Studio API key
+  scoped to `posts:write` and `media:write`, then removing `BLOG_API_TOKEN`. The
+  current value has been shared in chat.
