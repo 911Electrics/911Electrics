@@ -25,6 +25,19 @@ just moving the domain back.
 - [ ] Manual: a test quote submitted → row in `leads` + email arrives → test row deleted;
       Studio login + 2FA; `/api/cron/tick` without the secret → 401/503.
 
+## Until cutover: no production deploys on the new project
+
+Vercel runs `vercel.json` crons only on the **production** deployment. A production
+deploy of `main` on the new project before cutover would run `/api/cron/tick` alongside
+the old project: double follow-up reminder emails, against the same database. Until
+cutover, test with **preview** deployments only, and don't push to `main`.
+
+Settings to fix once (GitHub and Vercel UI, not reachable from the connectors):
+
+- GitHub → 911Electrics/911Electrics → Settings → General → Default branch → `main`
+  (it is currently the migration branch, because that was pushed first).
+- Vercel → 911electrics → Settings → Git → Production Branch → `main`.
+
 ## Env var checklist (new project)
 
 Already set: `NEXT_PUBLIC_SERVER_URL`, `SUPABASE_URL`, `NEXT_PUBLIC_POSTHOG_KEY`,
@@ -49,6 +62,8 @@ Still to add (all from dashboards, no CLI needed):
 That window misses the daily blog task (mornings) and both `/api/cron/tick` runs
 (14:00 and 19:00 UTC = 7 am and 12 pm PDT).
 
+0. Promote: merge the migration branch into `main` and push. That builds the first real
+   production deployment and starts its crons, so do it right before step 1, never earlier.
 1. DNS is on **Cloudflare** (confirmed). Don't touch the existing A/CNAME records or
    their proxy (orange/grey cloud) setting, and don't change SSL/TLS mode. Only the
    Vercel project behind them changes. Before starting, screenshot the DNS page and
