@@ -1,0 +1,26 @@
+build
+dist / media
+node_modules
+.DS_Store
+.env
+.next
+next-env.d.ts
+.vercel
+
+# Media binaries ARE committed: Vercel's filesystem is ephemeral, so the
+# migrated library ships with the repo (web-compressed, ~14 MB). New uploads
+# in production need Vercel Blob (see launch checklist).
+
+public/robots.txt
+public/sitemap*.xml
+
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# WP media binaries (large, re-downloadable via scripts/download-media.mjs)
+wp-snapshot/media/

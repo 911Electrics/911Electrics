@@ -1,0 +1,602 @@
+[
+  {
+    "id": 22,
+    "count": 14,
+    "description": "",
+    "link": "https://911electrics.com/category/electrical-tips/",
+    "name": "Electrical Tips",
+    "slug": "electrical-tips",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v27.7 (Yoast SEO v27.7) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->\n<title>Electrical Tips Archives - 911 Construction &amp; Electric Inc.</title>\n<meta name=\"description\" content=\"Electrical tips, repair guidance, upgrade advice, and safety insights from 911 Construction &amp; Electric Inc. serving Los Angeles and surrounding areas.\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://911electrics.com/category/electrical-tips/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Electrical Tips Archives\" />\n<meta property=\"og:description\" content=\"Electrical tips, repair guidance, upgrade advice, and safety insights from 911 Construction &amp; Electric Inc. serving Los Angeles and surrounding areas.\" />\n<meta property=\"og:url\" content=\"https://911electrics.com/category/electrical-tips/\" />\n<meta property=\"og:site_name\" content=\"911 Construction &amp; Electric Inc.\" />\n<meta property=\"og:image\" content=\"https://911electrics.com/wp-content/uploads/2026/03/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png\" />\n\t<meta property=\"og:image:width\" content=\"512\" />\n\t<meta property=\"og:image:height\" content=\"512\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/\",\"url\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/\",\"name\":\"Electrical Tips Archives - 911 Construction &amp; Electric Inc.\",\"isPartOf\":{\"@id\":\"https:\\/\\/911electrics.com\\/#website\"},\"description\":\"Electrical tips, repair guidance, upgrade advice, and safety insights from 911 Construction & Electric Inc. serving Los Angeles and surrounding areas.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/911electrics.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Electrical Tips\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/911electrics.com\\/#website\",\"url\":\"https:\\/\\/911electrics.com\\/\",\"name\":\"911 Construction & Electric Inc.\",\"description\":\"24\\/7 Electrical Services in Los Angeles CA – Licensed, Reliable &amp; Fast\",\"publisher\":{\"@id\":\"https:\\/\\/911electrics.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/911electrics.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":[\"Organization\",\"Place\",\"Electrician\"],\"@id\":\"https:\\/\\/911electrics.com\\/#organization\",\"name\":\"911 Construction & Electric Inc.\",\"alternateName\":\"911 Construction & Electric Inc. – Los Angeles Electricians\",\"url\":\"https:\\/\\/911electrics.com\\/\",\"logo\":{\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/#local-main-organization-logo\"},\"image\":{\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/#local-main-organization-logo\"},\"address\":{\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/#local-main-place-address\"},\"telephone\":[\"747-255-8595\"],\"contactPoint\":{\"@type\":\"ContactPoint\",\"telephone\":\"747-255-8595\",\"email\":\"info@911electrics.com\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}],\"email\":\"info@911electrics.com\",\"globalLocationNumber\":\"747-255-8595\"},{\"@type\":\"PostalAddress\",\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/#local-main-place-address\",\"streetAddress\":\"10526 leolang ave\",\"addressLocality\":\"sunland\",\"postalCode\":\"91040\",\"addressRegion\":\"ca\",\"addressCountry\":\"US\"},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/#local-main-organization-logo\",\"url\":\"https:\\/\\/911electrics.com\\/wp-content\\/uploads\\/2026\\/03\\/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png\",\"contentUrl\":\"https:\\/\\/911electrics.com\\/wp-content\\/uploads\\/2026\\/03\\/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png\",\"width\":512,\"height\":512,\"caption\":\"911 Construction & Electric Inc.\"}]}</script>\n<meta name=\"geo.placename\" content=\"sunland\" />\n<meta name=\"geo.region\" content=\"United States (US)\" />\n<!-- / Yoast SEO Premium plugin. -->",
+    "yoast_head_json": {
+      "title": "Electrical Tips Archives - 911 Construction &amp; Electric Inc.",
+      "description": "Electrical tips, repair guidance, upgrade advice, and safety insights from 911 Construction & Electric Inc. serving Los Angeles and surrounding areas.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://911electrics.com/category/electrical-tips/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Electrical Tips Archives",
+      "og_description": "Electrical tips, repair guidance, upgrade advice, and safety insights from 911 Construction & Electric Inc. serving Los Angeles and surrounding areas.",
+      "og_url": "https://911electrics.com/category/electrical-tips/",
+      "og_site_name": "911 Construction &amp; Electric Inc.",
+      "og_image": [
+        {
+          "width": 512,
+          "height": 512,
+          "url": "https://911electrics.com/wp-content/uploads/2026/03/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png",
+          "type": "image/png"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://911electrics.com/category/electrical-tips/",
+            "url": "https://911electrics.com/category/electrical-tips/",
+            "name": "Electrical Tips Archives - 911 Construction &amp; Electric Inc.",
+            "isPartOf": {
+              "@id": "https://911electrics.com/#website"
+            },
+            "description": "Electrical tips, repair guidance, upgrade advice, and safety insights from 911 Construction & Electric Inc. serving Los Angeles and surrounding areas.",
+            "breadcrumb": {
+              "@id": "https://911electrics.com/category/electrical-tips/#breadcrumb"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://911electrics.com/category/electrical-tips/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://911electrics.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Electrical Tips"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://911electrics.com/#website",
+            "url": "https://911electrics.com/",
+            "name": "911 Construction & Electric Inc.",
+            "description": "24/7 Electrical Services in Los Angeles CA – Licensed, Reliable &amp; Fast",
+            "publisher": {
+              "@id": "https://911electrics.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://911electrics.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": [
+              "Organization",
+              "Place",
+              "Electrician"
+            ],
+            "@id": "https://911electrics.com/#organization",
+            "name": "911 Construction & Electric Inc.",
+            "alternateName": "911 Construction & Electric Inc. – Los Angeles Electricians",
+            "url": "https://911electrics.com/",
+            "logo": {
+              "@id": "https://911electrics.com/category/electrical-tips/#local-main-organization-logo"
+            },
+            "image": {
+              "@id": "https://911electrics.com/category/electrical-tips/#local-main-organization-logo"
+            },
+            "address": {
+              "@id": "https://911electrics.com/category/electrical-tips/#local-main-place-address"
+            },
+            "telephone": [
+              "747-255-8595"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "747-255-8595",
+              "email": "info@911electrics.com"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "09:00",
+                "closes": "17:00"
+              }
+            ],
+            "email": "info@911electrics.com",
+            "globalLocationNumber": "747-255-8595"
+          },
+          {
+            "@type": "PostalAddress",
+            "@id": "https://911electrics.com/category/electrical-tips/#local-main-place-address",
+            "streetAddress": "10526 leolang ave",
+            "addressLocality": "sunland",
+            "postalCode": "91040",
+            "addressRegion": "ca",
+            "addressCountry": "US"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://911electrics.com/category/electrical-tips/#local-main-organization-logo",
+            "url": "https://911electrics.com/wp-content/uploads/2026/03/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png",
+            "contentUrl": "https://911electrics.com/wp-content/uploads/2026/03/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png",
+            "width": 512,
+            "height": 512,
+            "caption": "911 Construction & Electric Inc."
+          }
+        ]
+      },
+      "geo.placename": "sunland",
+      "geo.region": "United States (US)"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://911electrics.com/wp-json/wp/v2/categories/22",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://911electrics.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://911electrics.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://911electrics.com/wp-json/wp/v2/posts?categories=22"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "count": 0,
+    "description": "",
+    "link": "https://911electrics.com/category/maecenas/",
+    "name": "Maecenas",
+    "slug": "maecenas",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v27.7 (Yoast SEO v27.7) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->\n<title>Maecenas Archives - 911 Construction &amp; Electric Inc.</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://911electrics.com/category/maecenas/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Maecenas Archives\" />\n<meta property=\"og:url\" content=\"https://911electrics.com/category/maecenas/\" />\n<meta property=\"og:site_name\" content=\"911 Construction &amp; Electric Inc.\" />\n<meta property=\"og:image\" content=\"https://911electrics.com/wp-content/uploads/2026/03/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png\" />\n\t<meta property=\"og:image:width\" content=\"512\" />\n\t<meta property=\"og:image:height\" content=\"512\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/911electrics.com\\/category\\/maecenas\\/\",\"url\":\"https:\\/\\/911electrics.com\\/category\\/maecenas\\/\",\"name\":\"Maecenas Archives - 911 Construction &amp; Electric Inc.\",\"isPartOf\":{\"@id\":\"https:\\/\\/911electrics.com\\/#website\"},\"breadcrumb\":{\"@id\":\"https:\\/\\/911electrics.com\\/category\\/maecenas\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/911electrics.com\\/category\\/maecenas\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/911electrics.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Maecenas\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/911electrics.com\\/#website\",\"url\":\"https:\\/\\/911electrics.com\\/\",\"name\":\"911 Construction & Electric Inc.\",\"description\":\"24\\/7 Electrical Services in Los Angeles CA – Licensed, Reliable &amp; Fast\",\"publisher\":{\"@id\":\"https:\\/\\/911electrics.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/911electrics.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":[\"Organization\",\"Place\",\"Electrician\"],\"@id\":\"https:\\/\\/911electrics.com\\/#organization\",\"name\":\"911 Construction & Electric Inc.\",\"alternateName\":\"911 Construction & Electric Inc. – Los Angeles Electricians\",\"url\":\"https:\\/\\/911electrics.com\\/\",\"logo\":{\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/#local-main-organization-logo\"},\"image\":{\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/#local-main-organization-logo\"},\"address\":{\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/#local-main-place-address\"},\"telephone\":[\"747-255-8595\"],\"contactPoint\":{\"@type\":\"ContactPoint\",\"telephone\":\"747-255-8595\",\"email\":\"info@911electrics.com\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}],\"email\":\"info@911electrics.com\",\"globalLocationNumber\":\"747-255-8595\"},{\"@type\":\"PostalAddress\",\"@id\":\"https:\\/\\/911electrics.com\\/category\\/maecenas\\/#local-main-place-address\",\"streetAddress\":\"10526 leolang ave\",\"addressLocality\":\"sunland\",\"postalCode\":\"91040\",\"addressRegion\":\"ca\",\"addressCountry\":\"US\"},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/911electrics.com\\/category\\/maecenas\\/#local-main-organization-logo\",\"url\":\"https:\\/\\/911electrics.com\\/wp-content\\/uploads\\/2026\\/03\\/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png\",\"contentUrl\":\"https:\\/\\/911electrics.com\\/wp-content\\/uploads\\/2026\\/03\\/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png\",\"width\":512,\"height\":512,\"caption\":\"911 Construction & Electric Inc.\"}]}</script>\n<meta name=\"geo.placename\" content=\"sunland\" />\n<meta name=\"geo.region\" content=\"United States (US)\" />\n<!-- / Yoast SEO Premium plugin. -->",
+    "yoast_head_json": {
+      "title": "Maecenas Archives - 911 Construction &amp; Electric Inc.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://911electrics.com/category/maecenas/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Maecenas Archives",
+      "og_url": "https://911electrics.com/category/maecenas/",
+      "og_site_name": "911 Construction &amp; Electric Inc.",
+      "og_image": [
+        {
+          "width": 512,
+          "height": 512,
+          "url": "https://911electrics.com/wp-content/uploads/2026/03/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png",
+          "type": "image/png"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://911electrics.com/category/maecenas/",
+            "url": "https://911electrics.com/category/maecenas/",
+            "name": "Maecenas Archives - 911 Construction &amp; Electric Inc.",
+            "isPartOf": {
+              "@id": "https://911electrics.com/#website"
+            },
+            "breadcrumb": {
+              "@id": "https://911electrics.com/category/maecenas/#breadcrumb"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://911electrics.com/category/maecenas/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://911electrics.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Maecenas"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://911electrics.com/#website",
+            "url": "https://911electrics.com/",
+            "name": "911 Construction & Electric Inc.",
+            "description": "24/7 Electrical Services in Los Angeles CA – Licensed, Reliable &amp; Fast",
+            "publisher": {
+              "@id": "https://911electrics.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://911electrics.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": [
+              "Organization",
+              "Place",
+              "Electrician"
+            ],
+            "@id": "https://911electrics.com/#organization",
+            "name": "911 Construction & Electric Inc.",
+            "alternateName": "911 Construction & Electric Inc. – Los Angeles Electricians",
+            "url": "https://911electrics.com/",
+            "logo": {
+              "@id": "https://911electrics.com/category/electrical-tips/#local-main-organization-logo"
+            },
+            "image": {
+              "@id": "https://911electrics.com/category/electrical-tips/#local-main-organization-logo"
+            },
+            "address": {
+              "@id": "https://911electrics.com/category/electrical-tips/#local-main-place-address"
+            },
+            "telephone": [
+              "747-255-8595"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "747-255-8595",
+              "email": "info@911electrics.com"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "09:00",
+                "closes": "17:00"
+              }
+            ],
+            "email": "info@911electrics.com",
+            "globalLocationNumber": "747-255-8595"
+          },
+          {
+            "@type": "PostalAddress",
+            "@id": "https://911electrics.com/category/maecenas/#local-main-place-address",
+            "streetAddress": "10526 leolang ave",
+            "addressLocality": "sunland",
+            "postalCode": "91040",
+            "addressRegion": "ca",
+            "addressCountry": "US"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://911electrics.com/category/maecenas/#local-main-organization-logo",
+            "url": "https://911electrics.com/wp-content/uploads/2026/03/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png",
+            "contentUrl": "https://911electrics.com/wp-content/uploads/2026/03/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png",
+            "width": 512,
+            "height": 512,
+            "caption": "911 Construction & Electric Inc."
+          }
+        ]
+      },
+      "geo.placename": "sunland",
+      "geo.region": "United States (US)"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://911electrics.com/wp-json/wp/v2/categories/2",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://911electrics.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://911electrics.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://911electrics.com/wp-json/wp/v2/posts?categories=2"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 5,
+    "description": "",
+    "link": "https://911electrics.com/category/uncategorized/",
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v27.7 (Yoast SEO v27.7) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->\n<title>Uncategorized Archives - 911 Construction &amp; Electric Inc.</title>\n<meta name=\"description\" content=\"Electrical tips, repair guidance, upgrade advice, and safety insights from 911 Construction &amp; Electric Inc. serving Los Angeles and surrounding areas.\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://911electrics.com/category/uncategorized/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Uncategorized Archives\" />\n<meta property=\"og:description\" content=\"Electrical tips, repair guidance, upgrade advice, and safety insights from 911 Construction &amp; Electric Inc. serving Los Angeles and surrounding areas.\" />\n<meta property=\"og:url\" content=\"https://911electrics.com/category/uncategorized/\" />\n<meta property=\"og:site_name\" content=\"911 Construction &amp; Electric Inc.\" />\n<meta property=\"og:image\" content=\"https://911electrics.com/wp-content/uploads/2026/03/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png\" />\n\t<meta property=\"og:image:width\" content=\"512\" />\n\t<meta property=\"og:image:height\" content=\"512\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/911electrics.com\\/category\\/uncategorized\\/\",\"url\":\"https:\\/\\/911electrics.com\\/category\\/uncategorized\\/\",\"name\":\"Uncategorized Archives - 911 Construction &amp; Electric Inc.\",\"isPartOf\":{\"@id\":\"https:\\/\\/911electrics.com\\/#website\"},\"description\":\"Electrical tips, repair guidance, upgrade advice, and safety insights from 911 Construction & Electric Inc. serving Los Angeles and surrounding areas.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/911electrics.com\\/category\\/uncategorized\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/911electrics.com\\/category\\/uncategorized\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/911electrics.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Uncategorized\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/911electrics.com\\/#website\",\"url\":\"https:\\/\\/911electrics.com\\/\",\"name\":\"911 Construction & Electric Inc.\",\"description\":\"24\\/7 Electrical Services in Los Angeles CA – Licensed, Reliable &amp; Fast\",\"publisher\":{\"@id\":\"https:\\/\\/911electrics.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/911electrics.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":[\"Organization\",\"Place\",\"Electrician\"],\"@id\":\"https:\\/\\/911electrics.com\\/#organization\",\"name\":\"911 Construction & Electric Inc.\",\"alternateName\":\"911 Construction & Electric Inc. – Los Angeles Electricians\",\"url\":\"https:\\/\\/911electrics.com\\/\",\"logo\":{\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/#local-main-organization-logo\"},\"image\":{\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/#local-main-organization-logo\"},\"address\":{\"@id\":\"https:\\/\\/911electrics.com\\/category\\/electrical-tips\\/#local-main-place-address\"},\"telephone\":[\"747-255-8595\"],\"contactPoint\":{\"@type\":\"ContactPoint\",\"telephone\":\"747-255-8595\",\"email\":\"info@911electrics.com\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}],\"email\":\"info@911electrics.com\",\"globalLocationNumber\":\"747-255-8595\"},{\"@type\":\"PostalAddress\",\"@id\":\"https:\\/\\/911electrics.com\\/category\\/uncategorized\\/#local-main-place-address\",\"streetAddress\":\"10526 leolang ave\",\"addressLocality\":\"sunland\",\"postalCode\":\"91040\",\"addressRegion\":\"ca\",\"addressCountry\":\"US\"},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/911electrics.com\\/category\\/uncategorized\\/#local-main-organization-logo\",\"url\":\"https:\\/\\/911electrics.com\\/wp-content\\/uploads\\/2026\\/03\\/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png\",\"contentUrl\":\"https:\\/\\/911electrics.com\\/wp-content\\/uploads\\/2026\\/03\\/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png\",\"width\":512,\"height\":512,\"caption\":\"911 Construction & Electric Inc.\"}]}</script>\n<meta name=\"geo.placename\" content=\"sunland\" />\n<meta name=\"geo.region\" content=\"United States (US)\" />\n<!-- / Yoast SEO Premium plugin. -->",
+    "yoast_head_json": {
+      "title": "Uncategorized Archives - 911 Construction &amp; Electric Inc.",
+      "description": "Electrical tips, repair guidance, upgrade advice, and safety insights from 911 Construction & Electric Inc. serving Los Angeles and surrounding areas.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://911electrics.com/category/uncategorized/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Uncategorized Archives",
+      "og_description": "Electrical tips, repair guidance, upgrade advice, and safety insights from 911 Construction & Electric Inc. serving Los Angeles and surrounding areas.",
+      "og_url": "https://911electrics.com/category/uncategorized/",
+      "og_site_name": "911 Construction &amp; Electric Inc.",
+      "og_image": [
+        {
+          "width": 512,
+          "height": 512,
+          "url": "https://911electrics.com/wp-content/uploads/2026/03/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png",
+          "type": "image/png"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://911electrics.com/category/uncategorized/",
+            "url": "https://911electrics.com/category/uncategorized/",
+            "name": "Uncategorized Archives - 911 Construction &amp; Electric Inc.",
+            "isPartOf": {
+              "@id": "https://911electrics.com/#website"
+            },
+            "description": "Electrical tips, repair guidance, upgrade advice, and safety insights from 911 Construction & Electric Inc. serving Los Angeles and surrounding areas.",
+            "breadcrumb": {
+              "@id": "https://911electrics.com/category/uncategorized/#breadcrumb"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://911electrics.com/category/uncategorized/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://911electrics.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Uncategorized"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://911electrics.com/#website",
+            "url": "https://911electrics.com/",
+            "name": "911 Construction & Electric Inc.",
+            "description": "24/7 Electrical Services in Los Angeles CA – Licensed, Reliable &amp; Fast",
+            "publisher": {
+              "@id": "https://911electrics.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://911electrics.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": [
+              "Organization",
+              "Place",
+              "Electrician"
+            ],
+            "@id": "https://911electrics.com/#organization",
+            "name": "911 Construction & Electric Inc.",
+            "alternateName": "911 Construction & Electric Inc. – Los Angeles Electricians",
+            "url": "https://911electrics.com/",
+            "logo": {
+              "@id": "https://911electrics.com/category/electrical-tips/#local-main-organization-logo"
+            },
+            "image": {
+              "@id": "https://911electrics.com/category/electrical-tips/#local-main-organization-logo"
+            },
+            "address": {
+              "@id": "https://911electrics.com/category/electrical-tips/#local-main-place-address"
+            },
+            "telephone": [
+              "747-255-8595"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "747-255-8595",
+              "email": "info@911electrics.com"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "09:00",
+                "closes": "17:00"
+              }
+            ],
+            "email": "info@911electrics.com",
+            "globalLocationNumber": "747-255-8595"
+          },
+          {
+            "@type": "PostalAddress",
+            "@id": "https://911electrics.com/category/uncategorized/#local-main-place-address",
+            "streetAddress": "10526 leolang ave",
+            "addressLocality": "sunland",
+            "postalCode": "91040",
+            "addressRegion": "ca",
+            "addressCountry": "US"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://911electrics.com/category/uncategorized/#local-main-organization-logo",
+            "url": "https://911electrics.com/wp-content/uploads/2026/03/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png",
+            "contentUrl": "https://911electrics.com/wp-content/uploads/2026/03/cropped-94142c042cb7-911_Construction___Electric_Inc._Logo_White_Background-removebg-preview.png",
+            "width": 512,
+            "height": 512,
+            "caption": "911 Construction & Electric Inc."
+          }
+        ]
+      },
+      "geo.placename": "sunland",
+      "geo.region": "United States (US)"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://911electrics.com/wp-json/wp/v2/categories/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://911electrics.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://911electrics.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://911electrics.com/wp-json/wp/v2/posts?categories=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

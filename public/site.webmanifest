@@ -1,0 +1,13 @@
+{
+  "name": "911 Construction & Electric Inc.",
+  "short_name": "911 Electrics",
+  "description": "Licensed electrician serving Los Angeles and surrounding areas. 24/7 emergency service.",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#d01d24",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "start_url": "/"
+}
