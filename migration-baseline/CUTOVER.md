@@ -13,9 +13,9 @@ just moving the domain back.
 - [ ] `node scripts/seo-crawl.mjs crawl https://911electrics.com migration-baseline/crawl-live.tsv`
       has been run against the **old** live site.
 - [ ] The same crawl against the new deployment (`VERCEL_BYPASS=… node scripts/seo-crawl.mjs
-    crawl https://911electrics-info911electrical-4885.vercel.app migration-baseline/crawl-new.tsv`)
+  crawl https://911electrics-info911electrical-4885.vercel.app migration-baseline/crawl-new.tsv`)
       diffs clean: `node scripts/seo-crawl.mjs diff migration-baseline/crawl-live.tsv
-    migration-baseline/crawl-new.tsv --ignore-robots` → **0 differences**.
+  migration-baseline/crawl-new.tsv --ignore-robots` → **0 differences**.
 - [ ] On the new deployment the robots headers read `noindex`, which is correct
       for a non-canonical host. This proves `NEXT_PUBLIC_SERVER_URL` is set.
 - [ ] Manual: a test quote submitted → row in `leads` + email arrives → test row deleted;
@@ -35,7 +35,7 @@ just moving the domain back.
 | LEAD_FROM_EMAIL, LEAD_NOTIFICATION_EMAIL                                                                                         | **needed**                                                              |
 | SENTRY_AUTH_TOKEN                                                                                                                | **needed** (Sentry org token)                                           |
 | POSTHOG_API_KEY                                                                                                                  | **needed** (PostHog personal key)                                       |
-| TWILIO*\*, TURNSTILE*_, GOOGLE*CLIENT*_, NEXT_PUBLIC_GA_ID                                                                       | copy whatever the old project has                                       |
+| `TWILIO_*`, `TURNSTILE_*`, `GOOGLE_CLIENT_*`, `NEXT_PUBLIC_GA_ID`                                                                | copy whatever the old project has                                       |
 
 ## Cutover (≈15 min, weekday late evening Pacific)
 
