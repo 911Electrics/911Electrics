@@ -44,12 +44,18 @@ Still to add (all from dashboards, no CLI needed):
 | `BLOG_API_TOKEN`            | The token the blog-writing automation sends (it posted 94 times in the last 45 days, so it must keep working). Same value as the old project, or a new value that the automation is also switched to             |
 | optional                    | `SENTRY_AUTH_TOKEN` (readable stack traces), `POSTHOG_API_KEY` (Studio analytics tab), `TURNSTILE_*` (Cloudflare, currently live per Sentry), `TWILIO_*`, `NEXT_PUBLIC_GA_ID`                                    |
 
-## Cutover (≈15 min, weekday late evening Pacific)
+## Cutover (≈15 min, weekday 8–10 pm Pacific)
 
-1. Lower nothing in DNS. Records stay pointed at Vercel; only project ownership moves.
+That window misses the daily blog task (mornings) and both `/api/cron/tick` runs
+(14:00 and 19:00 UTC = 7 am and 12 pm PDT).
+
+1. DNS is on **Cloudflare** (confirmed). Don't touch the existing A/CNAME records or
+   their proxy (orange/grey cloud) setting, and don't change SSL/TLS mode. Only the
+   Vercel project behind them changes. Before starting, screenshot the DNS page and
+   SSL/TLS mode so it can be restored exactly.
 2. New project → Settings → Domains → add `911electrics.com` and `www.911electrics.com`.
    Vercel will ask for a `_vercel` TXT record because the domain is held by another
-   account. Add it at the DNS host and wait for "Verified".
+   account. Add it in Cloudflare → DNS as **DNS only** (grey cloud, TXT records cannot be proxied anyway) and wait for "Verified".
 3. Old account → old project → Domains → **remove** both domains. The new project
    serves them within seconds to a minute.
 4. Old project → Settings → **Pause** it (stops its crons). Do not delete it.
@@ -97,11 +103,8 @@ across cutover with no change. Three dependencies:
   still publishes but its hero image fails. That key must be set before cutover.
 - **Don't cut over while it runs.** Schedule the cutover away from the task's run
   time, or skip that day's run, so a POST can't straddle the domain move.
-- **The site is behind Cloudflare.** The task notes Cloudflare blocking some clients
-  (`error code: 1010`), and the quote form uses Cloudflare Turnstile. So DNS for
-  911electrics.com is very likely on Cloudflare: the `_vercel` TXT record in
-  step 2 is added in Cloudflare. If the records are proxied (orange cloud), keep
-  them exactly as they are; only the Vercel project behind them changes.
+- **The site is behind Cloudflare** (confirmed). Its bot rules can block some HTTP
+  clients (`error code: 1010`); they apply equally before and after the move.
 - After the move, consider replacing the legacy token with a Studio API key
   scoped to `posts:write` and `media:write`, then removing `BLOG_API_TOKEN`. The
   current value has been shared in chat.
