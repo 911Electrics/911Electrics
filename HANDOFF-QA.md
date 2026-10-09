@@ -20,10 +20,10 @@ admin (Studio).
 
 | Thing | Where |
 |---|---|
-| **App under test (Vercel prod)** | `https://911electrics.vercel.app` |
-| Live apex (may still be WordPress until DNS cutover) | `https://911electrics.com` |
-| Studio admin | `https://911electrics.vercel.app/studio/login` |
-| Repo | `github.com/alwayzlegit/911electrics` |
+| **App under test (Vercel prod)** | `https://911electrics-info911electrical-4885.vercel.app` (Vercel project `911electrics`, behind Vercel Authentication) |
+| Live apex | `https://911electrics.com` |
+| Studio admin | `https://911electrics.com/studio/login` |
+| Repo | `github.com/911Electrics/911Electrics` (moved from `AlwayzLegit/911electrics`, October 2026) |
 | Database (LIVE prod) | Supabase project `hywqbbjwepliduwamhip` |
 
 > **Test against the `*.vercel.app` URL**, which always serves the latest
