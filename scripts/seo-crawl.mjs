@@ -2,7 +2,7 @@
 /**
  * SEO snapshot + diff, for the hosting migration (and any later regression hunt).
  *
- *   node scripts/seo-crawl.mjs crawl <origin> <out.tsv>
+ *   node scripts/seo-crawl.mjs crawl <origin> <out.tsv> [--paths-from <before.tsv>]
  *   node scripts/seo-crawl.mjs diff <before.tsv> <after.tsv> [--ignore-robots]
  *
  * `crawl` fetches every URL the site is known by (the target's own sitemap, the
@@ -128,13 +128,16 @@ async function get(url) {
   }
 }
 
-async function inventory(origin) {
+async function inventory(origin, pathsFrom) {
   const paths = new Set(LEGACY_SOURCES)
+  // Re-crawl every path of an earlier snapshot too, so a page the new build
+  // dropped from its sitemap still shows up (as a 404) instead of vanishing.
+  if (pathsFrom) for (const path of load(pathsFrom).keys()) paths.add(path)
   const res = await get(`${origin}/sitemap.xml`)
   if (res.status !== 200) throw new Error(`sitemap.xml answered ${res.status} on ${origin}`)
-  for (const m of (await res.text()).matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g))
-    paths.add(pathOf(m[1]))
-  const sitemapCount = paths.size - LEGACY_SOURCES.length
+  const locs = [...(await res.text()).matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)]
+  for (const m of locs) paths.add(pathOf(m[1]))
+  const sitemapCount = locs.length
   for (const u of JSON.parse(readFileSync('wp-snapshot/urls.json', 'utf8'))) paths.add(pathOf(u))
   if (existsSync('migration-baseline/pages-us.csv')) {
     for (const line of readFileSync('migration-baseline/pages-us.csv', 'utf8')
@@ -148,9 +151,9 @@ async function inventory(origin) {
   return [...paths].sort()
 }
 
-async function crawl(origin, out) {
+async function crawl(origin, out, pathsFrom) {
   origin = origin.replace(/\/$/, '')
-  const paths = await inventory(origin)
+  const paths = await inventory(origin, pathsFrom)
   const rows = []
   let next = 0
   async function worker() {
@@ -228,12 +231,12 @@ function diff(beforeFile, afterFile, ignoreRobots) {
   process.exit(problems ? 1 : 0)
 }
 
-const [cmd, a, b, flag] = process.argv.slice(2)
-if (cmd === 'crawl' && a && b) await crawl(a, b)
+const [cmd, a, b, flag, extra] = process.argv.slice(2)
+if (cmd === 'crawl' && a && b) await crawl(a, b, flag === '--paths-from' ? extra : undefined)
 else if (cmd === 'diff' && a && b) diff(a, b, flag === '--ignore-robots')
 else {
   console.error(
-    'usage: seo-crawl.mjs crawl <origin> <out.tsv> | diff <before.tsv> <after.tsv> [--ignore-robots]',
+    'usage: seo-crawl.mjs crawl <origin> <out.tsv> [--paths-from <before.tsv>] | diff <before.tsv> <after.tsv> [--ignore-robots]',
   )
   process.exit(2)
 }

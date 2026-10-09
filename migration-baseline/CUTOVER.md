@@ -12,10 +12,14 @@ just moving the domain back.
       `main` is **READY**.
 - [ ] `node scripts/seo-crawl.mjs crawl https://911electrics.com migration-baseline/crawl-live.tsv`
       has been run against the **old** live site.
-- [ ] The same crawl against the new deployment (`VERCEL_BYPASS=… node scripts/seo-crawl.mjs
-  crawl https://911electrics-info911electrical-4885.vercel.app migration-baseline/crawl-new.tsv`)
-      diffs clean: `node scripts/seo-crawl.mjs diff migration-baseline/crawl-live.tsv
-  migration-baseline/crawl-new.tsv --ignore-robots` → **0 differences**.
+- [ ] The same paths crawled on the new deployment, then diffed:
+
+      VERCEL_BYPASS=… node scripts/seo-crawl.mjs crawl https://911electrics-info911electrical-4885.vercel.app migration-baseline/crawl-new.tsv --paths-from migration-baseline/crawl-live.tsv
+      node scripts/seo-crawl.mjs diff migration-baseline/crawl-live.tsv migration-baseline/crawl-new.tsv --ignore-robots
+
+      → **0 differences** (`--paths-from` re-checks every live path, so a page
+      missing from the new sitemap shows up as a 404 instead of being skipped).
+
 - [ ] On the new deployment the robots headers read `noindex`, which is correct
       for a non-canonical host. This proves `NEXT_PUBLIC_SERVER_URL` is set.
 - [ ] Manual: a test quote submitted → row in `leads` + email arrives → test row deleted;
@@ -50,7 +54,7 @@ just moving the domain back.
    - `curl -sI https://911electrics.com/`: 200, **no** `x-robots-tag`, served by the new deployment.
    - `curl -sI https://www.911electrics.com/`: 308 → apex.
    - Re-run the crawl against the live domain, then diff against `crawl-live.tsv` **without**
-     `--ignore-robots`. The result must be 0 differences.
+     `--ignore-robots`, passing `--paths-from migration-baseline/crawl-live.tsv`. The result must be 0 differences.
 
 ## Rollback
 
@@ -63,5 +67,17 @@ unpause it. The database is shared, so no data is lost either way.
 - Watch Vercel 404s, Sentry and PostHog for 48 h.
 - Semrush Site Audit (project 29905821, daily): health ≥ 95%, 0 4xx/5xx, 0 noindex
   (see README.md). Position Tracking weekly for 4 weeks.
-- Day 30: delete the old Vercel project, revoke the old Resend key, archive
+- Expect a short burst of Sentry "Failed to find Server Action" (911ELECTRICS-WEB-D) from
+  tabs opened before cutover. It already occurs on every deploy and is not a regression.
+- Day 30: delete the old Vercel project, revoke the two old Resend keys named "Onboarding", archive
   `AlwayzLegit/911electrics` with a pointer to the new repo.
+
+## Notes
+
+- The build **fails** without `DATABASE_URL` (`/studio/leads/export` needs it at
+  page-data collection), so a deploy that is missing it cannot go live by accident.
+  A set-but-unreachable `DATABASE_URL` would still build, but without the 3
+  `url_redirects`. The crawl covers those three sources.
+- Pre-existing, not touched: a blog category `maecenas` (looks like placeholder
+  text) exists in the database and so has a `/category/maecenas/` page. Removing
+  it is an SEO decision for the owner and is out of scope for the move.
