@@ -19,6 +19,7 @@ import {
   getSiteSettings,
 } from '@/lib/queries'
 import { electricianSchema, faqSchema, jsonLdGraph, lexicalToPlainText } from '@/lib/schema-org'
+import { absoluteUrl } from '@/utilities/absoluteUrl'
 import { getServerSideURL } from '@/utilities/getURL'
 import { mergeOpenGraph } from '@/utilities/mergeOpenGraph'
 
@@ -87,7 +88,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: { canonical: '/' },
     openGraph: mergeOpenGraph({
       description: meta.description ?? '',
-      images: ogPath ? [{ url: base + ogPath }] : undefined,
+      images: ogPath ? [{ url: absoluteUrl(ogPath, base) }] : undefined,
       title,
       url: '/',
     }),

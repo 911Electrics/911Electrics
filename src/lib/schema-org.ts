@@ -1,4 +1,5 @@
 import type { SiteSettings } from '@/db/types'
+import { absoluteUrl } from '@/utilities/absoluteUrl'
 import { getServerSideURL } from '@/utilities/getURL'
 
 /**
@@ -18,9 +19,10 @@ export function electricianSchema(
   const { address, geo, aggregateRating } = siteSettings
 
   const mediaURL = (m: SiteSettings['logo']): string | undefined =>
-    m && typeof m === 'object' && m.url ? base + m.url : undefined
+    m && typeof m === 'object' && m.url ? absoluteUrl(m.url, base) : undefined
   const logo = mediaURL(siteSettings.logo) ?? `${base}/logo.png`
-  const image = mediaURL(siteSettings.defaultOGImage) ?? mediaURL(siteSettings.logo) ?? `${base}/og-default.jpg`
+  const image =
+    mediaURL(siteSettings.defaultOGImage) ?? mediaURL(siteSettings.logo) ?? `${base}/og-default.jpg`
 
   const schema: JsonLd = {
     '@type': 'Electrician',
@@ -118,7 +120,7 @@ type BlogPostSchemaInput = {
 
 export function blogPostingSchema(post: BlogPostSchemaInput, siteSettings: SiteSettings): JsonLd {
   const base = getServerSideURL()
-  const image = post.heroImage?.url ? base + post.heroImage.url : undefined
+  const image = absoluteUrl(post.heroImage?.url, base)
   return {
     '@type': 'BlogPosting',
     headline: post.title,
