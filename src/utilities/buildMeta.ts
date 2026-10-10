@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 
 import type { MediaImage } from '@/db/types'
 
+import { absoluteUrl } from './absoluteUrl'
 import { getServerSideURL } from './getURL'
 import { mergeOpenGraph } from './mergeOpenGraph'
 
@@ -29,7 +30,7 @@ export function buildMeta({
     alternates: { canonical: path },
     openGraph: mergeOpenGraph({
       description: description ?? '',
-      images: ogPath ? [{ url: getServerSideURL() + ogPath }] : undefined,
+      images: ogPath ? [{ url: absoluteUrl(ogPath, getServerSideURL()) }] : undefined,
       title: resolvedTitle,
       url: path,
     }),
