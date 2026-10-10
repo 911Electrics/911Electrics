@@ -93,8 +93,7 @@ export function isRetiredComboPath(path: string): boolean {
 /**
  * Legacy URLs (all currently 404, or redirecting to a generic hub / via 2 hops).
  * Order matters only relative to redirects.ts catch-alls: these are emitted first.
- * Sources are written without a trailing slash where the old URL had none; the
- * redirect builder emits both the bare and the trailing-slash form.
+ * Sources are written without a trailing slash; cleanupRedirects() adds it.
  */
 export const LEGACY_REDIRECTS: readonly Redirect301[] = [
   // GSC 404 (new since Oct 7). /home, /home/, /home/home and www variants.
@@ -332,11 +331,11 @@ export const KNOWN_PAGE_DESTINATIONS = [
 ] as const
 
 /**
- * Build the 301 list for next.config redirects. Every source is emitted in its
- * trailing-slash form (the site uses `trailingSlash: true`, so Next's own
- * slash-append redirect runs first for bare paths). Bare legacy paths get a
- * single-hop 301 from vercel.json instead (see vercel.json, kept in sync by
- * tests/int/seo-cleanup.int.spec.ts).
+ * Build the 301 list for next.config redirects. Sources are emitted in their
+ * trailing-slash form: the site uses `trailingSlash: true`, and Next always runs
+ * its own slash-append redirect (308) before custom redirects, so a bare legacy
+ * URL like /our-company takes 308 -> /our-company/ then 301 -> /about/. A
+ * vercel.json redirect does not run earlier (verified on the PR preview).
  */
 export function cleanupRedirects(): { source: string; destination: string; statusCode: 301 }[] {
   const withSlash = (p: string) => (p.endsWith('/') ? p : `${p}/`)

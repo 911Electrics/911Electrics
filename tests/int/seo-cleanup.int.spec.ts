@@ -1,6 +1,3 @@
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
-
 import { describe, expect, it } from 'vitest'
 
 import { redirects } from '../../redirects'
@@ -55,11 +52,7 @@ const ROUND_3_SGV = [
 const slash = (p: string) => (p.endsWith('/') ? p : `${p}/`)
 const CITY_HUB = /^\/electrician-[a-z-]+-ca\/$/
 
-const vercel = JSON.parse(readFileSync(resolve(process.cwd(), 'vercel.json'), 'utf8')) as {
-  redirects: { source: string; destination: string; statusCode: number }[]
-}
-
-const all = [...cleanupRedirects(), ...vercel.redirects]
+const all = cleanupRedirects()
 const sources = new Set(all.flatMap((r) => [slash(r.source), r.source.replace(/\/$/, '')]))
 
 describe('retired service×city combos (round 1)', () => {
@@ -108,17 +101,6 @@ describe('legacy redirects', () => {
   it('has the 38 approved + 2 Blog-confirmed old URLs', () => {
     expect(LEGACY_REDIRECTS).toHaveLength(40)
     expect(new Set(LEGACY_REDIRECTS.map((r) => r.source)).size).toBe(40)
-  })
-
-  it('vercel.json carries the bare (no-slash) form of every legacy source as a 301', () => {
-    expect(vercel.redirects).toEqual(
-      LEGACY_REDIRECTS.map((r) => ({
-        source: r.source,
-        destination: r.destination,
-        statusCode: 301,
-      })),
-    )
-    for (const r of vercel.redirects) expect(r.source.endsWith('/')).toBe(false)
   })
 })
 
