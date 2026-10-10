@@ -73,15 +73,13 @@ export function QuoteForm({
 
   return (
     <form action={formAction} className="mt-4 space-y-3.5">
-      {/* Spam traps */}
-      <input
-        aria-hidden
-        autoComplete="off"
-        className="absolute -left-[9999px] h-px w-px opacity-0"
-        name="company_website"
-        tabIndex={-1}
-        type="text"
-      />
+      {/* Spam traps. The honeypot sits inside a display:none wrapper with a
+          non-semantic name so browser/password-manager autofill (which filled
+          the old off-screen "company_website" field for real customers) never
+          touches it. Only naive bots that fill every input will. */}
+      <div aria-hidden style={{ display: 'none' }}>
+        <input autoComplete="off" defaultValue="" name="hp_ref_x" tabIndex={-1} type="text" />
+      </div>
       <input name="startedAt" type="hidden" value={startedAt} />
       <input name="sourcePath" type="hidden" value={pathname ?? ''} />
       <input name="formLocation" type="hidden" value={formLocation} />

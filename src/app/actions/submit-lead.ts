@@ -98,7 +98,9 @@ export async function submitLead(_prev: LeadFormState, formData: FormData): Prom
     return { status: 'success' }
   }
 
-  const honeypot = formData.get('company_website')
+  // Honeypot (hidden with display:none in QuoteForm; renamed from
+  // company_website, which Chrome autofilled for real customers).
+  const honeypot = formData.get('hp_ref_x')
   let spamReason = scoreSpamHeuristics({
     honeypot: typeof honeypot === 'string' ? honeypot : null,
     startedAt: Number(formData.get('startedAt')),
