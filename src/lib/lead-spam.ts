@@ -31,7 +31,12 @@ export type SpamSignals = {
  * Heuristic spam reason (honeypot / too-fast / per-IP burst), or null. The
  * Turnstile check is handled by the caller so it's only run when needed.
  */
-export function scoreSpamHeuristics({ honeypot, startedAt, now, counts }: SpamSignals): string | null {
+export function scoreSpamHeuristics({
+  honeypot,
+  startedAt,
+  now,
+  counts,
+}: SpamSignals): string | null {
   if (typeof honeypot === 'string' && honeypot.length > 0) {
     return 'Hidden honeypot field was filled'
   }
@@ -42,4 +47,61 @@ export function scoreSpamHeuristics({ honeypot, startedAt, now, counts }: SpamSi
     return 'Many submissions from this IP in a short time'
   }
   return null
+}
+
+/**
+ * Why a lead was flagged, and which kind of flag it is.
+ *
+ * - `heuristic`: honeypot filled, submitted too fast, or a per-IP burst. These
+ *   are near-certain bots: saved as spam with no notifications at all.
+ * - `challenge`: the Cloudflare Turnstile bot challenge was missing or failed.
+ *   Real customers do fail it (old browsers, privacy extensions, flaky mobile
+ *   networks), so the lead is still saved as spam (Studio keeps it separate)
+ *   but the owner gets a clearly marked "POSSIBLE SPAM" alert email.
+ */
+export type SpamFlag = { kind: 'heuristic' | 'challenge'; reason: string }
+
+export type TurnstileResult = { ok: true } | { ok: false; reason: string }
+
+/**
+ * Pure interpretation of a Turnstile check. `response` is the parsed siteverify
+ * JSON, or `'fetch-error'` if Cloudflare could not be reached.
+ */
+export function turnstileOutcome(opts: {
+  secretConfigured: boolean
+  token: string | undefined | null
+  response?: { success?: boolean; 'error-codes'?: string[] } | 'fetch-error'
+}): TurnstileResult {
+  // Not configured: honeypot + time trap still apply.
+  if (!opts.secretConfigured) return { ok: true }
+  if (!opts.token) {
+    return { ok: false, reason: 'Bot challenge (Turnstile) token was missing' }
+  }
+  // A Cloudflare outage shouldn't block real customers.
+  if (!opts.response || opts.response === 'fetch-error') return { ok: true }
+  if (opts.response.success) return { ok: true }
+  const codes = (opts.response['error-codes'] ?? []).filter(Boolean)
+  return {
+    ok: false,
+    reason: `Did not pass the bot challenge (Turnstile${codes.length ? `: ${codes.join(', ')}` : ''})`,
+  }
+}
+
+export type LeadNotificationPlan = {
+  /** Internal alert email to the owner (LEAD_NOTIFICATION_EMAIL). */
+  ownerAlert: boolean
+  /** Mark the owner alert "POSSIBLE SPAM" with the reason. */
+  possibleSpam: boolean
+  customerAutoReply: boolean
+  ownerSms: boolean
+}
+
+/** Which notifications a newly saved lead gets, based on its spam flag. */
+export function leadNotificationPlan(flag: SpamFlag | null): LeadNotificationPlan {
+  if (!flag)
+    return { ownerAlert: true, possibleSpam: false, customerAutoReply: true, ownerSms: true }
+  if (flag.kind === 'challenge') {
+    return { ownerAlert: true, possibleSpam: true, customerAutoReply: false, ownerSms: false }
+  }
+  return { ownerAlert: false, possibleSpam: false, customerAutoReply: false, ownerSms: false }
 }

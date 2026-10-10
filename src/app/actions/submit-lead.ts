@@ -5,15 +5,16 @@ import { Resend } from 'resend'
 import { z } from 'zod'
 
 import { query } from '@/db/client'
+import { buildLeadAlertEmail } from '@/lib/lead-alert-email'
+import { brandFromSettings } from '@/lib/email-template'
 import {
-  brandFromSettings,
-  emailButton,
-  emailInfoRows,
-  escapeHtml,
-  renderBrandedEmail,
-} from '@/lib/email-template'
-import { telHref } from '@/lib/format'
-import { isHardFlood, scoreSpamHeuristics } from '@/lib/lead-spam'
+  isHardFlood,
+  leadNotificationPlan,
+  scoreSpamHeuristics,
+  type SpamFlag,
+  type TurnstileResult,
+  turnstileOutcome,
+} from '@/lib/lead-spam'
 import { sendCustomerAutoReply, sendOwnerSms } from '@/lib/notify'
 import { getSiteSettings } from '@/lib/queries'
 
@@ -60,22 +61,23 @@ async function recentSubmissionCounts(
   }
 }
 
-async function verifyTurnstile(token: string | undefined, ip: string | undefined): Promise<boolean> {
+async function verifyTurnstile(
+  token: string | undefined,
+  ip: string | undefined,
+): Promise<TurnstileResult> {
   const secret = process.env.TURNSTILE_SECRET_KEY
-  // Turnstile is optional — if not configured, honeypot + time-trap still apply
-  if (!secret) return true
-  if (!token) return false
+  if (!secret || !token) return turnstileOutcome({ secretConfigured: !!secret, token })
   try {
     const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ secret, response: token, remoteip: ip }),
     })
-    const data = (await res.json()) as { success: boolean }
-    return data.success
+    const data = (await res.json()) as { success?: boolean; 'error-codes'?: string[] }
+    return turnstileOutcome({ secretConfigured: true, token, response: data })
   } catch {
     // Cloudflare outage shouldn't block real customers
-    return true
+    return turnstileOutcome({ secretConfigured: true, token, response: 'fetch-error' })
   }
 }
 
@@ -101,19 +103,22 @@ export async function submitLead(_prev: LeadFormState, formData: FormData): Prom
   // Honeypot (hidden with display:none in QuoteForm; renamed from
   // company_website, which Chrome autofilled for real customers).
   const honeypot = formData.get('hp_ref_x')
-  let spamReason = scoreSpamHeuristics({
+  const heuristicReason = scoreSpamHeuristics({
     honeypot: typeof honeypot === 'string' ? honeypot : null,
     startedAt: Number(formData.get('startedAt')),
     now: Date.now(),
     counts,
   })
-  if (!spamReason) {
-    const turnstileOk = await verifyTurnstile(
-      formData.get('cf-turnstile-response')?.toString(),
-      ip,
-    )
-    if (!turnstileOk) spamReason = 'Did not pass the bot challenge'
+  let spamFlag: SpamFlag | null = heuristicReason
+    ? { kind: 'heuristic', reason: heuristicReason }
+    : null
+  if (!spamFlag) {
+    const turnstile = await verifyTurnstile(formData.get('cf-turnstile-response')?.toString(), ip)
+    // A failed/missing bot challenge is "possible spam": still saved as spam,
+    // but the owner is alerted (real customers do fail Turnstile).
+    if (!turnstile.ok) spamFlag = { kind: 'challenge', reason: turnstile.reason }
   }
+  const plan = leadNotificationPlan(spamFlag)
 
   // --- Validation ---
   const parsed = leadSchema.safeParse({
@@ -141,7 +146,7 @@ export async function submitLead(_prev: LeadFormState, formData: FormData): Prom
 
   const data = parsed.data
   // Controlled literal (never user input) — safe to interpolate into SQL.
-  const leadStatus = spamReason ? 'spam' : 'new'
+  const leadStatus = spamFlag ? 'spam' : 'new'
 
   // UTM params captured by the client from the landing URL
   const utm = {
@@ -190,13 +195,21 @@ export async function submitLead(_prev: LeadFormState, formData: FormData): Prom
     }
   }
 
-  // Flagged as spam: save it (so a false positive is recoverable) but skip all
-  // notifications. The owner can reclassify it to "New" from the Spam filter.
-  if (spamReason) {
-    await query(
-      `INSERT INTO lead_activity (lead_id, type, body) VALUES ($1, 'system', $2)`,
-      [leadId, `Auto-flagged as spam: ${spamReason}. Move to "New" if this is a real customer.`],
-    ).catch((e) => console.error('spam activity log failed', e))
+  // Flagged as spam: always saved (so a false positive is recoverable) and
+  // logged. Heuristic spam (honeypot, too fast, burst) gets no notifications.
+  // Bot-challenge failures continue below to the owner alert only, marked
+  // POSSIBLE SPAM; no customer auto-reply and no owner SMS.
+  if (spamFlag) {
+    const note =
+      spamFlag.kind === 'challenge'
+        ? `Auto-flagged as possible spam: ${spamFlag.reason}. Owner alert email marked POSSIBLE SPAM; no customer auto-reply. Move to "New" if this is a real customer.`
+        : `Auto-flagged as spam: ${spamFlag.reason}. Move to "New" if this is a real customer.`
+    await query(`INSERT INTO lead_activity (lead_id, type, body) VALUES ($1, 'system', $2)`, [
+      leadId,
+      note,
+    ]).catch((e) => console.error('spam activity log failed', e))
+  }
+  if (!plan.ownerAlert) {
     return {
       status: 'success',
       message: 'Thanks! We received your request and will call you shortly.',
@@ -228,41 +241,18 @@ export async function submitLead(_prev: LeadFormState, formData: FormData): Prom
       if (!to) {
         throw new Error('No recipient — set LEAD_NOTIFICATION_EMAIL or the Site Settings email')
       }
-      const brand = brandFromSettings(siteSettings)
-      const studioUrl = `${brand.siteUrl}/studio/leads/${leadId}`
-      const rows = emailInfoRows([
-        { label: 'Name', value: data.name },
-        {
-          label: 'Phone',
-          value: `<a href="${telHref(data.phone)}" style="color:#d01d24;text-decoration:none;font-weight:600;">${escapeHtml(data.phone)}</a>`,
-          isHtml: true,
-        },
-        {
-          label: 'Email',
-          value: data.email
-            ? `<a href="mailto:${escapeHtml(data.email)}" style="color:#d01d24;text-decoration:none;">${escapeHtml(data.email)}</a>`
-            : '',
-          isHtml: true,
-        },
-        { label: 'Service', value: data.service || '' },
-        { label: 'Address', value: data.address || '' },
-        { label: 'Message', value: data.message || '' },
-        { label: 'Page', value: data.sourcePath || '' },
-      ])
-      const html = renderBrandedEmail({
-        brand,
-        title: `New lead: ${data.name}`,
-        heading: 'New quote request',
-        preheader: `${data.name}${data.service ? ` — ${data.service}` : ''} · ${data.phone}`,
-        bodyHtml: `<p style="margin:0 0 12px;">A new quote request just came in from the website:</p>${rows}${emailButton('Open in Studio', studioUrl)}`,
+      const { subject, html, text } = buildLeadAlertEmail({
+        brand: brandFromSettings(siteSettings),
+        leadId,
+        data,
+        possibleSpamReason: plan.possibleSpam ? spamFlag?.reason : null,
       })
-      const text = `New quote request\n\nName: ${data.name}\nPhone: ${data.phone}\nEmail: ${data.email || '—'}\nService: ${data.service || '—'}\nAddress: ${data.address || '—'}\nMessage: ${data.message || '—'}\nPage: ${data.sourcePath || '—'}\n\nOpen in Studio: ${studioUrl}`
 
       // Resend reports API failures via the `error` field, not by throwing
       const { error } = await resend.emails.send({
         from: process.env.LEAD_FROM_EMAIL || 'leads@911electrics.com',
         to,
-        subject: `New lead: ${data.name}${data.service ? ` — ${data.service}` : ''}`,
+        subject,
         html,
         text,
       })
@@ -276,6 +266,14 @@ export async function submitLead(_prev: LeadFormState, formData: FormData): Prom
     } catch (err) {
       console.error('Lead saved but notification email failed', err)
       await recordEmailFailure(err instanceof Error ? err.message : 'Unknown email error')
+    }
+  }
+
+  // Possible spam: the owner alert above is all it gets.
+  if (!plan.customerAutoReply && !plan.ownerSms) {
+    return {
+      status: 'success',
+      message: 'Thanks! We received your request and will call you shortly.',
     }
   }
 
