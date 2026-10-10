@@ -23,7 +23,7 @@ import { ServiceCards } from '@/components/sections/ServiceCards'
 import { TestimonialCarousel } from '@/components/sections/TestimonialCarousel'
 import { JsonLd } from '@/components/seo/JsonLd'
 import { interpolateDeep, interpolateString, type CityTokens } from '@/lib/interpolate'
-import { isEligibleCity, serviceCityPath } from '@/lib/service-city'
+import { isEligibleCity, isRetiredCombo, serviceCityPath } from '@/lib/service-city'
 import {
   breadcrumbSchema,
   electricianSchema,
@@ -89,7 +89,9 @@ export function CityPage({
         licenseNumber={siteSettings.licenseNumber}
         phone={siteSettings.phone}
         rating={siteSettings.aggregateRating}
-        subheading={template.heroSubheading ? interpolateString(template.heroSubheading, tokens) : null}
+        subheading={
+          template.heroSubheading ? interpolateString(template.heroSubheading, tokens) : null
+        }
       />
 
       {intro && (
@@ -101,12 +103,16 @@ export function CityPage({
       )}
 
       <ProcessSteps
-        heading={template.processHeading ? interpolateString(template.processHeading, tokens) : null}
+        heading={
+          template.processHeading ? interpolateString(template.processHeading, tokens) : null
+        }
         steps={t(template.processSteps)}
       />
 
       <ServiceCards
-        heading={template.servicesHeading ? interpolateString(template.servicesHeading, tokens) : null}
+        heading={
+          template.servicesHeading ? interpolateString(template.servicesHeading, tokens) : null
+        }
         intro={template.servicesIntro ? interpolateString(template.servicesIntro, tokens) : null}
         services={services}
       />
@@ -128,7 +134,12 @@ export function CityPage({
                 <li key={s.id}>
                   <Link
                     className="inline-flex items-center gap-1.5 rounded-full bg-white px-3.5 py-1.5 text-sm font-medium text-navy-900 shadow-sm transition hover:text-brand-700"
-                    href={serviceCityPath(s.slug, city.slug)}
+                    href={
+                      // Retired combos 301 to this very hub; link the main service page instead.
+                      isRetiredCombo(s.slug, city.slug)
+                        ? `/${s.slug}/`
+                        : serviceCityPath(s.slug, city.slug)
+                    }
                   >
                     <MapPin aria-hidden className="size-3.5 text-brand-600" />
                     {s.navLabel} in {city.cityName}

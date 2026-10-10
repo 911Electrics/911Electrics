@@ -22,7 +22,7 @@ import {
   lexicalToPlainText,
   serviceSchema,
 } from '@/lib/schema-org'
-import { isEligibleCity, serviceCityPath } from '@/lib/service-city'
+import { isEligibleCity, isRetiredCombo, serviceCityPath } from '@/lib/service-city'
 import { getServerSideURL } from '@/utilities/getURL'
 
 const MAX_NEARBY = 9
@@ -83,7 +83,11 @@ export function ServiceCityPage({
   )
 
   // Cities in the same part of LA County first — see lib/city-regions.
-  const nearby = nearbyCities(city.slug, cities.filter(isEligibleCity), MAX_NEARBY)
+  const nearby = nearbyCities(
+    city.slug,
+    cities.filter((c) => isEligibleCity(c) && !isRetiredCombo(service.slug, c.slug)),
+    MAX_NEARBY,
+  )
   const areaLabel = cityRegionLabel(city.slug, city.region)
 
   return (

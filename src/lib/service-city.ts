@@ -17,6 +17,8 @@
  * request hot path and be unit-tested without a database.
  */
 
+import { isRetiredComboPath, RETIRED_COMBOS } from '@/lib/seo-cleanup'
+
 export const SERVICE_SLUG_SUFFIX = '-los-angeles-ca'
 export const CITY_SLUG_PREFIX = 'electrician-'
 
@@ -64,4 +66,14 @@ export function parseComboSlug(
     if (city) return { serviceSlug: service.slug, citySlug: city.slug }
   }
   return null
+}
+
+/** True when this service×city page was retired by the SEO cleanup (it 301s to the city hub). */
+export function isRetiredCombo(serviceSlug: string, citySlug: string): boolean {
+  return isRetiredComboPath(serviceCityPath(serviceSlug, citySlug))
+}
+
+/** City hub a retired combo slug redirects to, or null if the slug is not retired. */
+export function retiredComboTarget(slug: string): string | null {
+  return RETIRED_COMBOS[`/${slug}/`] ?? null
 }
