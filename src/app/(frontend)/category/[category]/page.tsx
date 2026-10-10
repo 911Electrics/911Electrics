@@ -23,6 +23,10 @@ export default async function CategoryPage({ params }: Args) {
 
 export async function generateMetadata({ params }: Args): Promise<Metadata> {
   const { category } = await params
+  // Empty or unknown categories (e.g. the placeholder "maecenas") are thin
+  // pages: keep them out of the index. The sitemap already skips them.
+  const known = (await getCategoriesWithCounts()).find((c) => c.slug === category)
+  const isEmpty = !known || known.count === 0
   const title = category
     .split('-')
     .map((w) => w[0]?.toUpperCase() + w.slice(1))
@@ -31,5 +35,6 @@ export async function generateMetadata({ params }: Args): Promise<Metadata> {
     title: `${title} | 911 Construction & Electric Inc.`,
     description: `${title} from 911 Construction & Electric — practical electrical advice and guides for Los Angeles homeowners and businesses, from licensed electricians.`,
     alternates: { canonical: `/category/${category}/` },
+    ...(isEmpty ? { robots: { index: false, follow: true } } : {}),
   }
 }
