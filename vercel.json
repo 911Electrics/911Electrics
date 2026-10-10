@@ -9,5 +9,207 @@
       "path": "/api/cron/tick",
       "schedule": "0 19 * * *"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/home",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/home/home",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/our-clients",
+      "destination": "/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/testimonials",
+      "destination": "/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/areas-we-serve",
+      "destination": "/service-areas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/commercial",
+      "destination": "/commercial-electrical-services-los-angeles/",
+      "statusCode": 301
+    },
+    {
+      "source": "/industrial",
+      "destination": "/commercial-electrical-services-los-angeles/",
+      "statusCode": 301
+    },
+    {
+      "source": "/our-company",
+      "destination": "/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/residential",
+      "destination": "/services/",
+      "statusCode": 301
+    },
+    {
+      "source": "/get-a-quote",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/single-post/where-to-locate-reliable-emergency-electrical-services-in-los-angeles",
+      "destination": "/emergency-electrician-los-angeles-ca/",
+      "statusCode": 301
+    },
+    {
+      "source": "/single-post/essential-guide-to-ev-charger-installation-by-911-construction-electrics-inc",
+      "destination": "/ev-charger-installation-los-angeles-ca/",
+      "statusCode": 301
+    },
+    {
+      "source": "/single-post/essential-guide-to-hiring-a-licensed-electrician-for-electrical-wire-repairs-in-greater-los-angeles",
+      "destination": "/electrical-repairs-los-angeles-ca/",
+      "statusCode": 301
+    },
+    {
+      "source": "/single-post/rewiring-your-house-staying-up-to-code-and-safe",
+      "destination": "/whole-house-rewiring-cost-los-angeles/",
+      "statusCode": 301
+    },
+    {
+      "source": "/single-post/why-you-should-always-hire-a-licensed-electrician-in-los-angeles",
+      "destination": "/how-to-choose-a-licensed-electrician-the-complete-guide-for-homeowners-and-businesses/",
+      "statusCode": 301
+    },
+    {
+      "source": "/single-post/unveiling-the-expertise-of-los-angeles-electricians-at-911-construction-and-electric-inc",
+      "destination": "/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/single-post/the-importance-of-trusting-local-electricians-in-the-los-angeles-area-with-911-construction-electr",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/single-post/how-ai-advances-will-drive-demand-for-electricians-and-the-future-role-of-911-construction-electri",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/electrical/residential/whole-house-rewiring-los-angeles-county",
+      "destination": "/whole-house-rewiring-cost-los-angeles/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/electrical/residential/ev-charger-installation-los-angeles-county",
+      "destination": "/ev-charger-installation-los-angeles-ca/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/electrical/residential/recessed-lighting-los-angeles-county",
+      "destination": "/recessed-lighting-installation-los-angeles/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/electrical/commercial/lighting-retrofits-los-angeles-county",
+      "destination": "/commercial-lighting-installation-los-angeles/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/electrical/commercial/solar-battery-los-angeles-county",
+      "destination": "/home-battery-backup-installation-los-angeles/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/electrical/commercial/generators-los-angeles-county",
+      "destination": "/commercial-generator-installation-los-angeles/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/electrical/commercial/panel-upgrade-los-angeles-county",
+      "destination": "/electrical-panel-upgrades-los-angeles-ca/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/electrical/commercial/electrical-panel-upgrade",
+      "destination": "/electrical-panel-upgrades-los-angeles-ca/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/electrical/commercial/security-system-wiring-los-angeles-county",
+      "destination": "/commercial-electrical-services-los-angeles/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/electrical/commercial/energy-management-los-angeles-county",
+      "destination": "/commercial-electrical-services-los-angeles/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/construction/residential/custom-home-builder-los-angeles-county",
+      "destination": "/new-construction-electrical-los-angeles-ca/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/construction/commercial/design-build-construction-los-angeles-county",
+      "destination": "/new-construction-electrical-los-angeles-ca/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/construction/commercial/title-24-energy-efficient-construction-los-angeles-county",
+      "destination": "/new-construction-electrical-los-angeles-ca/",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/construction/commercial/tenant-improvements-office-buildouts-in-los-angeles-county",
+      "destination": "/commercial-electrical-services-los-angeles/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/electrical-upgrades-los-angeles-home-remodel",
+      "destination": "/kitchen-remodel-electrical-los-angeles/",
+      "statusCode": 301
+    },
+    {
+      "source": "/electrician-los-angeles-ca",
+      "destination": "/services/los-angeles-ca/",
+      "statusCode": 301
+    },
+    {
+      "source": "/areas/burbank",
+      "destination": "/electrician-burbank-ca/",
+      "statusCode": 301
+    },
+    {
+      "source": "/areas/glendale",
+      "destination": "/electrician-glendale-ca/",
+      "statusCode": 301
+    },
+    {
+      "source": "/areas/santa-monica",
+      "destination": "/electrician-santa-monica-ca/",
+      "statusCode": 301
+    },
+    {
+      "source": "/los-angeles-gfci-outlet-upgrades",
+      "destination": "/do-los-angeles-homes-need-gfci-outlet-upgrades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/whole-house-surge-protection-los-angeles",
+      "destination": "/whole-house-surge-protector-installation-los-angeles/",
+      "statusCode": 301
+    }
   ]
 }

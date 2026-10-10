@@ -2,7 +2,7 @@ import 'server-only'
 
 import { getCityBySlug, type CityDetail } from '@/lib/cities'
 import { getCitiesNav, getServicesNav } from '@/lib/queries'
-import { isEligibleCity, parseComboSlug, serviceCityPath } from '@/lib/service-city'
+import { isEligibleCity, isRetiredCombo, parseComboSlug, serviceCityPath } from '@/lib/service-city'
 import { getServiceBySlug, type ServiceDetail } from '@/lib/services'
 
 /** Data fetchers for the programmatic service × city landing pages. */
@@ -25,13 +25,14 @@ export async function getServiceCity(slug: string): Promise<ServiceCityDetail | 
 
 export type ServiceCityCombo = { serviceSlug: string; citySlug: string; path: string }
 
-/** Every valid service × city combo (for the sitemap). */
+/** Every live service × city combo (for the sitemap). Retired combos (SEO cleanup) are excluded. */
 export async function listServiceCityCombos(): Promise<ServiceCityCombo[]> {
   const [services, cities] = await Promise.all([getServicesNav(), getCitiesNav()])
   const eligible = cities.filter(isEligibleCity)
   const combos: ServiceCityCombo[] = []
   for (const service of services) {
     for (const city of eligible) {
+      if (isRetiredCombo(service.slug, city.slug)) continue
       combos.push({
         serviceSlug: service.slug,
         citySlug: city.slug,

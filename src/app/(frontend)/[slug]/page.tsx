@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 
-import { notFound, redirect } from 'next/navigation'
+import { notFound, permanentRedirect, redirect } from 'next/navigation'
 import React, { cache } from 'react'
 
 import type { SiteSettings } from '@/db/types'
@@ -13,7 +13,7 @@ import {
   getSiteSettings,
   getCityPageTemplate,
 } from '@/lib/queries'
-import { serviceCityPath } from '@/lib/service-city'
+import { retiredComboTarget, serviceCityPath } from '@/lib/service-city'
 import { getServiceCity } from '@/lib/service-city.server'
 import { getServiceBySlug, type ServiceDetail } from '@/lib/services'
 import { BlogPostPage } from '@/templates/BlogPostPage'
@@ -33,7 +33,7 @@ type Resolved =
   | { type: 'city'; doc: CityDetail }
   | { type: 'post'; doc: PostDetail }
   | { type: 'service-city'; service: ServiceDetail; city: CityDetail }
-  | { type: 'redirect'; to: string }
+  | { type: 'redirect'; to: string; permanent?: boolean }
 
 /** On-demand ISR: pages render on first request and cache (no build-time SSG). */
 export const revalidate = 3600
@@ -57,6 +57,11 @@ const querySlug = cache(async (slug: string): Promise<Resolved | null> => {
   }
   if (post) return { type: 'post', doc: post }
 
+  // Retired combos (SEO cleanup) are 301'd by redirects.ts; this is a safety net in
+  // case a request reaches the page anyway.
+  const retired = retiredComboTarget(slug)
+  if (retired) return { type: 'redirect', to: retired, permanent: true }
+
   // Programmatic service × city landing pages (e.g. /ev-charger-installation-burbank-ca/).
   const combo = await getServiceCity(slug)
   if (combo) return { type: 'service-city', service: combo.service, city: combo.city }
@@ -73,7 +78,10 @@ export default async function RootSlugPage({ params: paramsPromise }: Args) {
   const resolved = await querySlug(decodeURIComponent(slug))
 
   if (!resolved) notFound()
-  if (resolved.type === 'redirect') redirect(resolved.to)
+  if (resolved.type === 'redirect') {
+    if (resolved.permanent) permanentRedirect(resolved.to)
+    redirect(resolved.to)
+  }
 
   const siteSettings = await getSiteSettings()
 

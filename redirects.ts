@@ -1,24 +1,27 @@
 import { Client } from 'pg'
 import type { NextConfig } from 'next'
 
+import { cleanupRedirects } from './src/lib/seo-cleanup'
+
 type Redirect = { source: string; destination: string; permanent: boolean }
+type Redirect301 = { source: string; destination: string; statusCode: 301 }
 
 /**
  * Infrastructure redirects preserving legacy WordPress URLs.
  */
 type HostRedirect = Redirect & { has: { type: 'host'; value: string }[] }
 
-const staticRedirects: (Redirect | HostRedirect)[] = [
-  // www -> apex, enforced in code so it holds regardless of DNS/Vercel domain
-  // settings. Google had both hosts indexed as separate URLs; the canonical tag
-  // already points at the apex, this makes the 308 actually happen.
-  {
-    source: '/:path*',
-    has: [{ type: 'host' as const, value: 'www.911electrics.com' }],
-    destination: 'https://911electrics.com/:path*',
-    permanent: true,
-  },
+// www -> apex, enforced in code so it holds regardless of DNS/Vercel domain
+// settings. Google had both hosts indexed as separate URLs; the canonical tag
+// already points at the apex, this makes the 308 actually happen.
+const hostRedirect: HostRedirect = {
+  source: '/:path*',
+  has: [{ type: 'host' as const, value: 'www.911electrics.com' }],
+  destination: 'https://911electrics.com/:path*',
+  permanent: true,
+}
 
+const staticRedirects: (Redirect | HostRedirect)[] = [
   // Yoast sitemap URLs -> the single Next.js sitemap. Covers every Yoast
   // sub-sitemap (page/post/category/geo/author/post_tag-sitemap.xml) plus the
   // index. The `:type-sitemap.xml` pattern never matches the real /sitemap.xml
@@ -59,10 +62,16 @@ async function dbRedirects(): Promise<Redirect[]> {
   const client = new Client({ connectionString, connectionTimeoutMillis: 8000 })
   try {
     await client.connect()
-    const { rows } = await client.query<{ source: string; destination: string; permanent: boolean }>(
-      `SELECT source, destination, permanent FROM url_redirects`,
-    )
-    return rows.map((r) => ({ source: r.source, destination: r.destination, permanent: r.permanent }))
+    const { rows } = await client.query<{
+      source: string
+      destination: string
+      permanent: boolean
+    }>(`SELECT source, destination, permanent FROM url_redirects`)
+    return rows.map((r) => ({
+      source: r.source,
+      destination: r.destination,
+      permanent: r.permanent,
+    }))
   } catch {
     return []
   } finally {
@@ -72,7 +81,18 @@ async function dbRedirects(): Promise<Redirect[]> {
 
 export const redirects: NextConfig['redirects'] = async () => {
   const fromDb = await dbRedirects()
-  // Static infra redirects win over any conflicting managed source.
-  const staticSources = new Set(staticRedirects.map((r) => r.source))
-  return [...staticRedirects, ...fromDb.filter((r) => !staticSources.has(r.source))]
+  // SEO cleanup 301s (src/lib/seo-cleanup.ts) come right after the host redirect so
+  // their specific /services/electrical/... sources beat the catch-all below.
+  const cleanup: Redirect301[] = cleanupRedirects()
+  // Code-defined redirects win over any conflicting managed (DB) source, with or
+  // without the trailing slash.
+  const codeSources = new Set(
+    [...staticRedirects, ...cleanup].flatMap((r) => [r.source, r.source.replace(/\/$/, '')]),
+  )
+  return [
+    hostRedirect,
+    ...cleanup,
+    ...staticRedirects,
+    ...fromDb.filter((r) => !codeSources.has(r.source) && !codeSources.has(`${r.source}/`)),
+  ]
 }
