@@ -8,6 +8,7 @@ import type { SiteSettings } from '@/db/types'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { PostCard } from '@/components/PostCard'
 import RichText from '@/components/RichText'
+import { BlogFeedback } from '@/components/blog/BlogFeedback'
 import { ReadingProgress } from '@/components/blog/ReadingProgress'
 import { ShareButtons } from '@/components/blog/ShareButtons'
 import { SidebarCTA, SidebarRecentPosts } from '@/components/blog/Sidebar'
@@ -118,7 +119,9 @@ export async function BlogPostPage({
           <div className="min-w-0">
             <RichText className="max-w-none" data={post.content} enableGutter={false} />
 
-            <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-border pt-6">
+            <BlogFeedback postId={post.id} postSlug={post.slug} />
+
+            <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-t border-border pt-6">
               <ShareButtons title={post.title} url={shareUrl} />
               <Link className="text-sm font-semibold text-brand-700 hover:underline" href="/blog/">
                 ← All articles
