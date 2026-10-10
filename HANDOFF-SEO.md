@@ -16,7 +16,7 @@ close any remaining on-page SEO gaps.
    `www.911electrics.com`. Previously both WebFetch and curl were blocked
    (`Host not in allowlist`) and the site also 403s bots. If still blocked, rely
    on Semrush + a user-provided GSC/sitemap export.
-3. GitHub MCP scoped to `alwayzlegit/911electrics`; Supabase MCP project
+3. GitHub MCP scoped to `911Electrics/911Electrics` (formerly `alwayzlegit/911electrics`); Supabase MCP project
    `hywqbbjwepliduwamhip`; Vercel project `prj_dyzjtrgRDs9965A8CAXKA8QCkKPe`,
    team `team_di6oiEhCIT17lNXsonHt3mSc`.
 4. Dev branch: `claude/festive-knuth-qmrwgy`. Commit trailer:
