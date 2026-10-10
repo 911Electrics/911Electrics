@@ -123,3 +123,17 @@ across cutover with no change. Three dependencies:
 - After the move, consider replacing the legacy token with a Studio API key
   scoped to `posts:write` and `media:write`, then removing `BLOG_API_TOKEN`. The
   current value has been shared in chat.
+
+## Cutover log: 2026-10-10 (done)
+
+- 05:03:00 UTC: production deploy of `main` (`f435d80`, same commit as the old project)
+  READY on the new project (`dpl_2wriF6wcU2Rxy2NxY1RwNvttBhGf`).
+- 05:03:45 UTC: `911electrics.com` verified on the new project (DNS on the new Cloudflare
+  account, records proxied). The site served throughout; Sentry shows requests up to the
+  switch.
+- 05:07:47 UTC: `www.911electrics.com` verified. www → apex is enforced in `redirects.ts`.
+- Old Vercel project paused by the owner. Traffic confirmed on the new project: `vercel_app`
+  DB queries rising while the old project's `postgres` queries flat-lined.
+- Still to do: post-cutover crawl of the live domain, diffed against `crawl-live.tsv`
+  WITHOUT `--ignore-robots`; resubmit the sitemap in Search Console; Vercel Pro; GitHub
+  default branch and Vercel production branch → `main`; rotate the secrets shared in chat.
