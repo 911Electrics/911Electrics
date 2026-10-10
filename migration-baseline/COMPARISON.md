@@ -35,10 +35,26 @@ sandbox's network policy refused both hosts.
 - **Redirects.** 16 redirects on each side. That includes the 3 Studio-managed
   `url_redirects` rows, which load at build time from the database.
 
+## Live snapshot: `crawl-live.tsv` (committed)
+
+Checked on its own, all 576 rows:
+
+- 557 HTML pages. Each has a title, an H1 and a self-referencing canonical
+  (`https://911electrics.com` + its own path), with no exceptions.
+- No duplicate titles, no `noindex` (header or meta), and no invalid JSON-LD.
+- 16 redirects, all to the intended targets: the 5 Yoast sitemap URLs → `/sitemap.xml`;
+  `/feed/`, `/comments/feed/`, `/author/admin/` and `/category/uncategorized/` → `/blog/`;
+  `/services/electrical/` and `/services/electrical/residential/` → `/services/`;
+  `/locations.kml` → `/service-areas/`; `/wp-admin/` → `/studio/login/`; and the 3 Studio
+  rows `/our-company` → `/`, `/residential` → `/services/`, and the EVITP slug → its new
+  post.
+
+This file is also the reference for the **post-cutover** check: crawl the domain again
+once it points at the new project and diff against it **without** `--ignore-robots`.
+
 ## Not yet done
 
-The row-by-row diff (title, H1, canonical and JSON-LD per path) needs `crawl-live.tsv` and
-`crawl-new.tsv`, which were downloaded to the owner's machine. Once they're added here:
+The row-by-row diff (title, H1, canonical and JSON-LD per path) needs `crawl-new.tsv`, which is still on the owner's machine. Once it's added here:
 
     node scripts/seo-crawl.mjs diff migration-baseline/crawl-live.tsv migration-baseline/crawl-new.tsv --ignore-robots
 
