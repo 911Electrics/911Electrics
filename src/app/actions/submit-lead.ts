@@ -10,8 +10,12 @@ import { brandFromSettings } from '@/lib/email-template'
 import {
   isHardFlood,
   leadNotificationPlan,
+  scoreSpamContent,
   scoreSpamHeuristics,
+  type SiteverifyResponse,
   type SpamFlag,
+  TURNSTILE_ACTION,
+  TURNSTILE_ALLOWED_HOSTNAMES,
   type TurnstileResult,
   turnstileOutcome,
 } from '@/lib/lead-spam'
@@ -61,23 +65,36 @@ async function recentSubmissionCounts(
   }
 }
 
+/**
+ * Server-side Turnstile check (Siteverify). Form-encoded with a 10s timeout;
+ * requires success, our hostname and the "lead" action. Fails closed on a bad
+ * token; a Cloudflare outage is returned as borderline (see turnstileOutcome).
+ */
 async function verifyTurnstile(
   token: string | undefined,
   ip: string | undefined,
 ): Promise<TurnstileResult> {
   const secret = process.env.TURNSTILE_SECRET_KEY
-  if (!secret || !token) return turnstileOutcome({ secretConfigured: !!secret, token })
+  const base = {
+    secretConfigured: !!secret,
+    token,
+    allowedHostnames: TURNSTILE_ALLOWED_HOSTNAMES,
+    expectedAction: TURNSTILE_ACTION,
+  }
+  if (!secret || !token || token.length > 2048) return turnstileOutcome(base)
   try {
+    const body = new URLSearchParams({ secret, response: token })
+    if (ip) body.set('remoteip', ip)
     const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ secret, response: token, remoteip: ip }),
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body,
+      signal: AbortSignal.timeout(10_000),
     })
-    const data = (await res.json()) as { success?: boolean; 'error-codes'?: string[] }
-    return turnstileOutcome({ secretConfigured: true, token, response: data })
+    const data = (await res.json()) as SiteverifyResponse
+    return turnstileOutcome({ ...base, response: data })
   } catch {
-    // Cloudflare outage shouldn't block real customers
-    return turnstileOutcome({ secretConfigured: true, token, response: 'fetch-error' })
+    return turnstileOutcome({ ...base, response: 'fetch-error' })
   }
 }
 
@@ -114,11 +131,22 @@ export async function submitLead(_prev: LeadFormState, formData: FormData): Prom
     : null
   if (!spamFlag) {
     const turnstile = await verifyTurnstile(formData.get('cf-turnstile-response')?.toString(), ip)
-    // A failed/missing bot challenge is "possible spam": still saved as spam,
-    // but the owner is alerted (real customers do fail Turnstile).
-    if (!turnstile.ok) spamFlag = { kind: 'challenge', reason: turnstile.reason }
+    if (!turnstile.ok) {
+      if (turnstile.reject) {
+        // Missing/failed/forged token: never saved. The invisible widget gives
+        // every real browser a token, so a person only sees this if the check
+        // could not run; they can retry or call.
+        console.warn(`Lead rejected: ${turnstile.reason}`)
+        return {
+          status: 'error',
+          message:
+            'We could not verify your request. Please try again, or call us at 747-255-8595.',
+        }
+      }
+      // Cloudflare unreachable: saved as spam with a POSSIBLE SPAM owner alert.
+      spamFlag = { kind: 'challenge', reason: turnstile.reason }
+    }
   }
-  const plan = leadNotificationPlan(spamFlag)
 
   // --- Validation ---
   const parsed = leadSchema.safeParse({
@@ -145,6 +173,14 @@ export async function submitLead(_prev: LeadFormState, formData: FormData): Prom
   }
 
   const data = parsed.data
+
+  // Content flags (outside California, malformed user agent, sales/SEO
+  // pitches, random names + phone-only message): saved as spam, no alert.
+  if (!spamFlag) {
+    const contentReason = scoreSpamContent({ ...data, userAgent })
+    if (contentReason) spamFlag = { kind: 'content', reason: contentReason }
+  }
+  const plan = leadNotificationPlan(spamFlag)
   // Controlled literal (never user input) — safe to interpolate into SQL.
   const leadStatus = spamFlag ? 'spam' : 'new'
 

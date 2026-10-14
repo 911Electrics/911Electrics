@@ -92,12 +92,51 @@ describe('turnstileOutcome', () => {
     expect(r.ok).toBe(false)
     if (!r.ok) expect(r.reason).toMatch(/timeout-or-duplicate/)
   })
-  it('passes on success and on a Cloudflare outage', () => {
+  it('rejects missing/failed tokens; a Cloudflare outage is borderline (saved, not rejected)', () => {
+    expect(turnstileOutcome({ secretConfigured: true, token: '' })).toMatchObject({
+      ok: false,
+      reject: true,
+    })
     expect(
-      turnstileOutcome({ secretConfigured: true, token: 't', response: { success: true } }).ok,
+      turnstileOutcome({ secretConfigured: true, token: 't', response: { success: false } }),
+    ).toMatchObject({ ok: false, reject: true })
+    expect(
+      turnstileOutcome({ secretConfigured: true, token: 't', response: 'fetch-error' }),
+    ).toMatchObject({ ok: false, reject: false })
+    expect(turnstileOutcome({ secretConfigured: true, token: 'x'.repeat(2049) })).toMatchObject({
+      ok: false,
+      reject: true,
+    })
+  })
+  it('checks hostname and action', () => {
+    const base = {
+      secretConfigured: true,
+      token: 't',
+      allowedHostnames: ['911electrics.com'],
+      expectedAction: 'lead',
+    }
+    expect(
+      turnstileOutcome({
+        ...base,
+        response: { success: true, hostname: '911electrics.com', action: 'lead' },
+      }).ok,
     ).toBe(true)
     expect(
-      turnstileOutcome({ secretConfigured: true, token: 't', response: 'fetch-error' }).ok,
+      turnstileOutcome({
+        ...base,
+        response: { success: true, hostname: 'evil.com', action: 'lead' },
+      }),
+    ).toMatchObject({ ok: false, reject: true })
+    expect(
+      turnstileOutcome({
+        ...base,
+        response: { success: true, hostname: '911electrics.com', action: 'x' },
+      }),
+    ).toMatchObject({ ok: false, reject: true })
+  })
+  it('passes on success', () => {
+    expect(
+      turnstileOutcome({ secretConfigured: true, token: 't', response: { success: true } }).ok,
     ).toBe(true)
   })
 })
@@ -175,22 +214,15 @@ describe('submitLead notifications', () => {
     expect(ownerSms).toHaveBeenCalledTimes(1)
   })
 
-  it('missing Turnstile token: saved as spam, POSSIBLE SPAM alert, no auto-reply/SMS', async () => {
+  it('missing Turnstile token: rejected, not saved, no email', async () => {
     process.env.TURNSTILE_SECRET_KEY = 'secret'
     const r = await submitLead({ status: 'idle' }, form())
-    expect(r.status).toBe('success')
-    expect(leadStatus()).toBe('spam')
-    expect(sent).toHaveLength(1)
-    expect(sent[0].to).toBe('info@911electrics.com')
-    expect(sent[0].subject).toMatch(/^POSSIBLE SPAM — New lead: Jane Customer/)
-    expect(sent[0].text).toMatch(/Reason: Bot challenge \(Turnstile\) token was missing/)
-    expect(autoReply).not.toHaveBeenCalled()
-    expect(ownerSms).not.toHaveBeenCalled()
-    expect(activity().some((a) => /possible spam/i.test(a))).toBe(true)
-    expect(queries.some((q) => q.sql.includes('email_sent = true'))).toBe(true)
+    expect(r.status).toBe('error')
+    expect(queries.some((q) => q.sql.includes('INSERT INTO leads'))).toBe(false)
+    expect(sent).toHaveLength(0)
   })
 
-  it('failed Turnstile challenge: POSSIBLE SPAM alert with the Cloudflare error code', async () => {
+  it('failed Turnstile challenge: rejected, not saved', async () => {
     process.env.TURNSTILE_SECRET_KEY = 'secret'
     vi.stubGlobal(
       'fetch',
@@ -198,12 +230,64 @@ describe('submitLead notifications', () => {
         json: async () => ({ success: false, 'error-codes': ['invalid-input-response'] }),
       })),
     )
-    await submitLead({ status: 'idle' }, form({ 'cf-turnstile-response': 'bad' }))
+    const r = await submitLead({ status: 'idle' }, form({ 'cf-turnstile-response': 'bad' }))
+    expect(r.status).toBe('error')
+    expect(queries.some((q) => q.sql.includes('INSERT INTO leads'))).toBe(false)
+    expect(sent).toHaveLength(0)
+  })
+
+  it('Cloudflare unreachable: saved as spam with POSSIBLE SPAM alert only', async () => {
+    process.env.TURNSTILE_SECRET_KEY = 'secret'
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () => {
+        throw new Error('down')
+      }),
+    )
+    const r = await submitLead({ status: 'idle' }, form({ 'cf-turnstile-response': 'tok' }))
+    expect(r.status).toBe('success')
     expect(leadStatus()).toBe('spam')
     expect(sent).toHaveLength(1)
     expect(sent[0].subject).toMatch(/^POSSIBLE SPAM/)
-    expect(sent[0].text).toMatch(/invalid-input-response/)
     expect(autoReply).not.toHaveBeenCalled()
+    expect(ownerSms).not.toHaveBeenCalled()
+  })
+
+  it('out-of-state address: saved as spam, no email at all', async () => {
+    const r = await submitLead(
+      { status: 'idle' },
+      form({ address: '519 8th Ave, New York, NY 10018' }),
+    )
+    expect(r.status).toBe('success')
+    expect(leadStatus()).toBe('spam')
+    expect(sent).toHaveLength(0)
+    expect(autoReply).not.toHaveBeenCalled()
+    expect(ownerSms).not.toHaveBeenCalled()
+    expect(activity().some((a) => /outside California/.test(a))).toBe(true)
+  })
+
+  it('quote-prefixed user agent: saved as spam, no email', async () => {
+    headerMap['user-agent'] = '"Mozilla/5.0 (Windows NT 10.0)'
+    await submitLead({ status: 'idle' }, form({ address: '91537' }))
+    expect(leadStatus()).toBe('spam')
+    expect(sent).toHaveLength(0)
+  })
+
+  it('real CA lead with a passed challenge stays new with the normal alert', async () => {
+    process.env.TURNSTILE_SECRET_KEY = 'secret'
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () => ({
+        json: async () => ({ success: true, hostname: 'www.911electrics.com', action: 'lead' }),
+      })),
+    )
+    await submitLead(
+      { status: 'idle' },
+      form({ 'cf-turnstile-response': 'ok', address: '123 Brand Blvd, Glendale, CA 91203' }),
+    )
+    expect(leadStatus()).toBe('new')
+    expect(sent).toHaveLength(1)
+    expect(sent[0].subject).not.toMatch(/POSSIBLE SPAM/)
   })
 
   it('passed Turnstile challenge: normal lead', async () => {
