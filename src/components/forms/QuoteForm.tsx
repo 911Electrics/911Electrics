@@ -25,11 +25,22 @@ const initialState: LeadFormState = { status: 'idle' }
 const inputClass =
   'w-full rounded-lg border border-input bg-white px-3.5 py-2.5 text-sm text-navy-950 placeholder:text-muted-foreground focus:border-brand-500 focus:ring-2 focus:ring-brand-500/30 focus:outline-none'
 
+type TurnstileApi = {
+  render: (el: HTMLElement, opts: Record<string, unknown>) => string
+  reset: (id?: string) => void
+  remove: (id?: string) => void
+  getResponse: (id?: string) => string | undefined
+}
+
 declare global {
   interface Window {
     gtag?: (...args: unknown[]) => void
+    turnstile?: TurnstileApi
   }
 }
+
+/** How long a submit waits for a Turnstile token before posting anyway. */
+const TOKEN_WAIT_MS = 8000
 
 export function QuoteForm({
   defaultService,
@@ -44,6 +55,92 @@ export function QuoteForm({
   const pathname = usePathname()
   const [startedAt, setStartedAt] = useState(0)
   const trackedRef = useRef(false)
+  const formRef = useRef<HTMLFormElement>(null)
+  const widgetElRef = useRef<HTMLDivElement>(null)
+  const widgetIdRef = useRef<string | null>(null)
+  const tokenRef = useRef('')
+  const waitingRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const [waitingForToken, setWaitingForToken] = useState(false)
+  const skipWaitRef = useRef(false)
+
+  // Invisible Cloudflare Turnstile (explicit render). It only becomes visible
+  // if Cloudflare needs the visitor to interact; tokens auto-refresh before
+  // they expire. A submit made before the token is ready waits for it.
+  useEffect(() => {
+    if (!TURNSTILE_SITE_KEY) return
+    let cancelled = false
+    const flushPendingSubmit = () => {
+      if (!waitingRef.current) return
+      clearTimeout(waitingRef.current)
+      waitingRef.current = null
+      setWaitingForToken(false)
+      formRef.current?.requestSubmit()
+    }
+    const tryRender = () => {
+      if (cancelled) return
+      const ts = window.turnstile
+      const el = widgetElRef.current
+      if (!ts || !el) {
+        setTimeout(tryRender, 200)
+        return
+      }
+      if (widgetIdRef.current) return
+      widgetIdRef.current = ts.render(el, {
+        sitekey: TURNSTILE_SITE_KEY,
+        action: 'lead',
+        appearance: 'interaction-only',
+        theme: 'light',
+        'refresh-expired': 'auto',
+        'refresh-timeout': 'auto',
+        callback: (token: string) => {
+          tokenRef.current = token
+          flushPendingSubmit()
+        },
+        'expired-callback': () => {
+          tokenRef.current = ''
+        },
+        'error-callback': () => {
+          tokenRef.current = ''
+          return false // let Turnstile retry
+        },
+      })
+    }
+    tryRender()
+    return () => {
+      cancelled = true
+      if (waitingRef.current) clearTimeout(waitingRef.current)
+      if (widgetIdRef.current) window.turnstile?.remove(widgetIdRef.current)
+      widgetIdRef.current = null
+    }
+  }, [])
+
+  // Tokens are single-use: get a fresh one after any server response that
+  // keeps the form on screen (validation error, retry).
+  useEffect(() => {
+    if (state.status !== 'error' || !widgetIdRef.current) return
+    tokenRef.current = ''
+    window.turnstile?.reset(widgetIdRef.current)
+  }, [state])
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    if (!TURNSTILE_SITE_KEY) return
+    const token =
+      tokenRef.current ||
+      (widgetIdRef.current ? window.turnstile?.getResponse(widgetIdRef.current) : '') ||
+      ''
+    if (token) return
+    // No token yet (slow network / still running): hold the submit until the
+    // callback fires, then post anyway after TOKEN_WAIT_MS so nobody is stuck.
+    e.preventDefault()
+    if (waitingRef.current) return
+    setWaitingForToken(true)
+    waitingRef.current = setTimeout(() => {
+      waitingRef.current = null
+      setWaitingForToken(false)
+      skipWaitRef.current = true
+      formRef.current?.requestSubmit()
+    }, TOKEN_WAIT_MS)
+  }
 
   // Time-trap baseline — set on mount so bots that POST instantly are dropped
   useEffect(() => {
@@ -61,9 +158,7 @@ export function QuoteForm({
     return (
       <div className="rounded-lg border border-brand-200 bg-brand-50 p-5 text-center" role="status">
         <p className="text-lg font-semibold text-brand-800">Request received ✓</p>
-        <p className="mt-1 text-sm text-navy-900">
-          {state.message ?? 'We will call you shortly.'}
-        </p>
+        <p className="mt-1 text-sm text-navy-900">{state.message ?? 'We will call you shortly.'}</p>
       </div>
     )
   }
@@ -72,7 +167,18 @@ export function QuoteForm({
     typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : undefined
 
   return (
-    <form action={formAction} className="mt-4 space-y-3.5">
+    <form
+      action={formAction}
+      className="mt-4 space-y-3.5"
+      onSubmit={(e) => {
+        if (skipWaitRef.current) {
+          skipWaitRef.current = false
+          return
+        }
+        handleSubmit(e)
+      }}
+      ref={formRef}
+    >
       {/* Spam traps. The honeypot sits inside a display:none wrapper with a
           non-semantic name so browser/password-manager autofill (which filled
           the old off-screen "company_website" field for real customers) never
@@ -196,12 +302,18 @@ export function QuoteForm({
         </div>
       )}
 
-      {/* Cloudflare Turnstile — renders only when configured; auto-injects the
-          cf-turnstile-response field the server verifies. */}
+      {/* Cloudflare Turnstile (invisible unless Cloudflare needs interaction).
+          display:contents keeps the wrapper out of the form's spacing so the
+          layout is unchanged; it injects the cf-turnstile-response field. */}
       {TURNSTILE_SITE_KEY && (
         <>
-          <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" strategy="afterInteractive" />
-          <div className="cf-turnstile" data-sitekey={TURNSTILE_SITE_KEY} data-theme="light" />
+          <Script
+            src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
+            strategy="afterInteractive"
+          />
+          <div style={{ display: 'contents' }}>
+            <div ref={widgetElRef} />
+          </div>
         </>
       )}
 
@@ -213,11 +325,13 @@ export function QuoteForm({
 
       <button
         className="flex w-full items-center justify-center gap-2 rounded-lg bg-brand-600 px-4 py-3 font-semibold text-white shadow-sm transition hover:bg-brand-700 disabled:opacity-60"
-        disabled={pending || startedAt === 0}
+        disabled={pending || waitingForToken || startedAt === 0}
         type="submit"
       >
-        {pending && <LoaderCircle aria-hidden className="size-4 animate-spin" />}
-        {pending ? 'Sending…' : 'Get My Free Quote'}
+        {(pending || waitingForToken) && (
+          <LoaderCircle aria-hidden className="size-4 animate-spin" />
+        )}
+        {pending || waitingForToken ? 'Sending…' : 'Get My Free Quote'}
       </button>
       <p className="text-center text-xs text-muted-foreground">
         No spam, ever. We typically respond within 15 minutes.
