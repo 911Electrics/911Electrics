@@ -25,6 +25,13 @@ import { absoluteUrl } from '@/utilities/absoluteUrl'
 import { getServerSideURL } from '@/utilities/getURL'
 import { mergeOpenGraph } from '@/utilities/mergeOpenGraph'
 
+/** Guides featured on the homepage, in display order (filled with the latest if any are missing). */
+const FEATURED_GUIDE_SLUGS = [
+  'pasadena-electrical-permits-panel-ev-charger-rewire',
+  'pwp-vs-sce-pasadena-utility-rebates',
+  'pwp-battery-rebate-pasadena-2026',
+]
+
 export default async function HomePage() {
   const [homepage, siteSettings, services, testimonials, cities, recent] = await Promise.all([
     getHomepage(),
@@ -32,8 +39,13 @@ export default async function HomePage() {
     getServicesNav(),
     getFeaturedTestimonials(),
     getCitiesNav(),
-    getPublishedPosts({ limit: 3 }),
+    getPublishedPosts({ limit: 30 }),
   ])
+
+  const featured = FEATURED_GUIDE_SLUGS.map((slug) =>
+    recent.posts.find((p) => p.slug === slug),
+  ).filter((p) => p !== undefined)
+  const guides = [...featured, ...recent.posts.filter((p) => !featured.includes(p))].slice(0, 3)
 
   const json = jsonLdGraph(
     electricianSchema(siteSettings, { areaServed: cities.map((c) => c.cityName) }),
@@ -69,16 +81,16 @@ export default async function HomePage() {
         image={homepage.aboutImage}
       />
       <TestimonialCarousel heading={homepage.reviewsHeading} testimonials={testimonials} />
-      {/* Newest guides, so fresh articles get a link from the homepage instead
+      {/* Featured guides, so fresh articles get a link from the homepage instead
           of only from deep /blog/ pagination. Same card pattern as city pages. */}
-      {recent.posts.length > 0 && (
+      {guides.length > 0 && (
         <section className="py-16">
           <div className="container">
             <h2 className="text-2xl font-bold text-navy-950 md:text-3xl">
               Recent Guides from Our Electricians
             </h2>
             <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {recent.posts.map((p) => (
+              {guides.map((p) => (
                 <PostCard key={p.id} post={p} />
               ))}
             </div>
