@@ -28,6 +28,19 @@ import { getServerSideURL } from '@/utilities/getURL'
 const MAX_NEARBY = 9
 
 /**
+ * Hand-picked in-body links to an in-depth guide for specific service × city
+ * pages, keyed by the page path. Kept explicit (not generated
+ * for every combo) so each link is a deliberate editorial choice.
+ */
+const COMBO_GUIDE_LINKS: Record<string, { lead: string; href: string; label: string }> = {
+  '/electrical-panel-upgrades-pasadena-ca/': {
+    lead: 'Budgeting for a new panel? See our full',
+    href: '/electrical-panel-upgrade-cost-los-angeles/',
+    label: 'panel upgrade cost guide',
+  },
+}
+
+/**
  * Programmatic "{service} in {city}" landing page. It surfaces the full service
  * content (features, benefits, FAQs) under a city-specific frame and links out
  * to the standalone service/city pages and the same service in nearby cities.
@@ -45,6 +58,7 @@ export function ServiceCityPage({
 }) {
   const path = serviceCityPath(service.slug, city.slug)
   const heading = `${service.navLabel} in ${city.cityName}, CA`
+  const guideLink = COMBO_GUIDE_LINKS[path]
   const regionSuffix = city.region ? `, ${city.region}` : ''
   // Service names read naturally lowercased mid-sentence ("need panel upgrades in…"),
   // but the acronym must stay uppercase ("EV charger installation"), not "ev".
@@ -118,6 +132,15 @@ export function ServiceCityPage({
             surrounding area — with the permits, code compliance and clean workmanship every job
             deserves.
           </p>
+          {guideLink && (
+            <p className="mt-4 text-lg leading-relaxed text-navy-900">
+              {guideLink.lead}{' '}
+              <Link className="font-semibold text-brand-700 hover:underline" href={guideLink.href}>
+                {guideLink.label}
+              </Link>
+              .
+            </p>
+          )}
         </div>
       </section>
 
