@@ -299,7 +299,10 @@ export function CityPage({
             </h2>
             <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {[...posts]
-                .sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''))
+                .sort(
+                  (a, b) =>
+                    new Date(b.publishedAt ?? 0).getTime() - new Date(a.publishedAt ?? 0).getTime(),
+                )
                 .slice(0, 3)
                 .map((p) => (
                   <PostCard key={p.id} post={p} />
