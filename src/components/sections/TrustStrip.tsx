@@ -39,7 +39,7 @@ export function TrustStrip({
               target="_blank"
             >
               <Star aria-hidden className="size-4 fill-yellow-400 text-yellow-400" />
-              5.0 on Yelp (23 reviews)
+              5.0 on Google (77 reviews) · 5.0 on Yelp (46 reviews)
             </a>
           </li>
           {phone && tel && (

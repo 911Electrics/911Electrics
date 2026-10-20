@@ -23,7 +23,7 @@ export function ReviewsBlock({ heading, reviews }: { heading?: string; reviews: 
                   <Star aria-hidden className="size-4 fill-yellow-400 text-yellow-400" key={i} />
                 ))}
               </div>
-              <blockquote className="mt-3 flex-1 text-navy-900">&ldquo;{r.quote}&rdquo;</blockquote>
+              <blockquote className="mt-3 flex-1 whitespace-pre-line text-navy-900">&ldquo;{r.quote}&rdquo;</blockquote>
               <figcaption className="mt-4 text-sm font-semibold text-navy-950">
                 {r.name}, <span className="font-normal text-navy-800">{r.source}</span>
               </figcaption>
