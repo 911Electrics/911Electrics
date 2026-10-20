@@ -77,7 +77,8 @@ export function CityPage({
       faqSchema(
         preview.faqs.map((f) => ({
           question: f.question,
-          answerText: lexicalToPlainText(f.answer),
+          // Match visible text: no space before punctuation after inline links.
+          answerText: lexicalToPlainText(f.answer).replace(/\s+([.,;:!?])/g, '$1'),
         })),
       ),
       breadcrumbSchema(breadcrumbs),
