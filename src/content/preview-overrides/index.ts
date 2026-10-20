@@ -17,15 +17,21 @@ export type PreviewOverride = {
 }
 
 /**
- * Draft page content for review on Vercel PREVIEW deployments only.
- *
- * Preview and production share one database, so draft copy lives here in the
- * repo instead of in the cities/services rows. It is applied only when
- * VERCEL_ENV === 'preview' and never on the main branch, so merging this code
- * cannot change production pages. To go live, move the content into the DB rows.
+ * Code-managed page content for exactly these four paths (approved by Haik,
+ * 2026-10-20). Content lives in the repo rather than the shared cities/services
+ * rows so the change is versioned and rolls back with a deploy/revert, with no
+ * DB writes. Every other path returns null and keeps rendering from the DB.
+ * To update reviews/copy: edit 911-audit/build/reviews.py / v2.py, regenerate
+ * pages.json, open a PR.
  */
+export const LIVE_OVERRIDE_PATHS = [
+  '/electrician-pasadena-ca/',
+  '/electrician-burbank-ca/',
+  '/services/los-angeles-ca/',
+  '/emergency-electrician-los-angeles-ca/',
+] as const
+
 export function getPreviewOverride(path: string): PreviewOverride | null {
-  if (process.env.VERCEL_ENV !== 'preview') return null
-  if (process.env.VERCEL_GIT_COMMIT_REF === 'main') return null
+  if (!(LIVE_OVERRIDE_PATHS as readonly string[]).includes(path)) return null
   return (pages as unknown as Record<string, PreviewOverride>)[path] ?? null
 }
