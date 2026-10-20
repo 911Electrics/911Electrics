@@ -36,7 +36,7 @@ export function TrustStrip({
             <span>
               <a
                 className="hover:text-brand-700"
-                href="https://share.google/LPz2HwoGDHNgF9UCk"
+                href="https://www.google.com/maps/place/?q=place_id:ChIJF6lnmlDDwoARebR7r9k_oG0"
                 rel="noopener noreferrer"
                 target="_blank"
               >
