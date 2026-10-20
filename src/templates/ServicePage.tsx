@@ -47,9 +47,9 @@ export function ServicePage({
         json={jsonLdGraph(
           electricianSchema(siteSettings, { pagePath: `/${service.slug}/` }),
           serviceSchema(service, siteSettings),
-          // Keep the live structured data unchanged (SEO freeze, 2026-10-20).
+          // FAQPage mirrors the 6 FAQs shown on the page (approved 2026-10-20 4:04 PM PT).
           faqSchema(
-            (service.faqs ?? []).map((f) => ({
+            preview.faqs.map((f) => ({
               question: f.question,
               answerText: lexicalToPlainText(f.answer),
             })),
