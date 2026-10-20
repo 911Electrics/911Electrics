@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 import type { RichTextData, SerializedLexicalNode } from '@/db/types'
@@ -52,7 +53,13 @@ function renderNode(node: SerializedLexicalNode, key: React.Key): React.ReactNod
     }
 
     case 'heading': {
-      let tag = (typeof node.tag === 'string' ? node.tag : 'h2') as 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
+      let tag = (typeof node.tag === 'string' ? node.tag : 'h2') as
+        | 'h1'
+        | 'h2'
+        | 'h3'
+        | 'h4'
+        | 'h5'
+        | 'h6'
       // The page supplies the single <h1> (post/page title); clamp any authored
       // h1 in body copy down to h2 so each page keeps exactly one h1.
       if (tag === 'h1') tag = 'h2'
@@ -78,6 +85,33 @@ function renderNode(node: SerializedLexicalNode, key: React.Key): React.ReactNod
 
     case 'listitem':
       return <li key={key}>{renderChildren(node.children)}</li>
+
+    case 'upload': {
+      // Inline image. `value` is a media-like object; `fields.caption` is optional.
+      const v = (node.value ?? {}) as {
+        url?: string
+        alt?: string
+        width?: number
+        height?: number
+      }
+      const caption = (node.fields as { caption?: string } | undefined)?.caption
+      if (!v.url) return null
+      return (
+        <figure className="not-prose my-8" key={key}>
+          <Image
+            alt={v.alt || caption || ''}
+            className="mx-auto h-auto max-h-[640px] w-auto max-w-full rounded-xl shadow"
+            height={v.height || 1200}
+            sizes="(min-width: 896px) 896px, 100vw"
+            src={v.url}
+            width={v.width || 1600}
+          />
+          {caption && (
+            <figcaption className="mt-3 text-center text-sm text-navy-800">{caption}</figcaption>
+          )}
+        </figure>
+      )
+    }
 
     case 'quote':
       return <blockquote key={key}>{renderChildren(node.children)}</blockquote>

@@ -11,6 +11,7 @@ import { FAQAccordion } from '@/components/sections/FAQAccordion'
 import { FeatureBlocks } from '@/components/sections/FeatureBlocks'
 import { Hero } from '@/components/sections/Hero'
 import { JsonLd } from '@/components/seo/JsonLd'
+import { getPreviewOverride } from '@/content/preview-overrides'
 import {
   breadcrumbSchema,
   electricianSchema,
@@ -19,6 +20,7 @@ import {
   lexicalToPlainText,
   serviceSchema,
 } from '@/lib/schema-org'
+import { PreviewCompactPage } from '@/templates/PreviewCompactPage'
 
 export function ServicePage({
   service,
@@ -27,6 +29,40 @@ export function ServicePage({
   service: ServiceDetail
   siteSettings: SiteSettings
 }) {
+  // Preview-only compact draft (null on production; see content/preview-overrides).
+  const preview = getPreviewOverride(`/${service.slug}/`)
+  if (preview) {
+    const crumbs = [
+      { name: 'Home', path: '/' },
+      { name: 'Services', path: '/services/' },
+      { name: service.navLabel, path: `/${service.slug}/` },
+    ]
+    return (
+      <PreviewCompactPage
+        breadcrumbs={crumbs}
+        ctaHeading="Electrical emergency? Call 747-255-8595 now"
+        defaultService={service.navLabel}
+        faqHeading="Emergency electrician FAQs"
+        heroImage={service.heroImage}
+        json={jsonLdGraph(
+          electricianSchema(siteSettings, { pagePath: `/${service.slug}/` }),
+          serviceSchema(service, siteSettings),
+          faqSchema(
+            preview.faqs.map((f) => ({
+              question: f.question,
+              answerText: lexicalToPlainText(f.answer),
+            })),
+          ),
+          breadcrumbSchema(crumbs),
+        )}
+        localHeading="What to do right now"
+        preview={preview}
+        rating={service.showRatingBadge ? siteSettings.aggregateRating : null}
+        siteSettings={siteSettings}
+      />
+    )
+  }
+
   const json = jsonLdGraph(
     electricianSchema(siteSettings, { pagePath: `/${service.slug}/` }),
     serviceSchema(service, siteSettings),
@@ -69,13 +105,20 @@ export function ServicePage({
         </section>
       )}
 
-      <FeatureBlocks heading={`Why Choose Us for ${service.navLabel}`} items={service.features} tone="card" />
+      <FeatureBlocks
+        heading={`Why Choose Us for ${service.navLabel}`}
+        items={service.features}
+        tone="card"
+      />
 
       {!!service.gallery?.length && (
         <section className="py-16">
           <div className="container grid gap-6 sm:grid-cols-2">
             {service.gallery.map((item) => (
-              <div className="relative aspect-[4/3] overflow-hidden rounded-xl shadow" key={item.id}>
+              <div
+                className="relative aspect-[4/3] overflow-hidden rounded-xl shadow"
+                key={item.id}
+              >
                 <Image
                   alt={item.image.alt || service.navLabel}
                   className="object-cover"

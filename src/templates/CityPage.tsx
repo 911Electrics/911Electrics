@@ -22,7 +22,9 @@ import { ProcessSteps } from '@/components/sections/ProcessSteps'
 import { ServiceCards } from '@/components/sections/ServiceCards'
 import { TestimonialCarousel } from '@/components/sections/TestimonialCarousel'
 import { JsonLd } from '@/components/seo/JsonLd'
+import { getPreviewOverride } from '@/content/preview-overrides'
 import { interpolateDeep, interpolateString, type CityTokens } from '@/lib/interpolate'
+import { PreviewCompactPage } from '@/templates/PreviewCompactPage'
 import { isEligibleCity, isRetiredCombo, serviceCityPath } from '@/lib/service-city'
 import {
   breadcrumbSchema,
@@ -60,6 +62,105 @@ export function CityPage({
   const faqs = (city.faqsOverride?.length ? city.faqsOverride : t(template.faqs)) as FAQ[] | null
 
   const pagePath = city.pathOverride || `/${city.slug}/`
+  const breadcrumbs = [
+    { name: 'Home', path: '/' },
+    { name: 'Service Areas', path: '/service-areas/' },
+    { name: `Electrician in ${city.cityName}, CA`, path: pagePath },
+  ]
+
+  // Preview-only compact draft (null on production; see content/preview-overrides).
+  const preview = getPreviewOverride(pagePath)
+  if (preview) {
+    const previewJson = jsonLdGraph(
+      electricianSchema(siteSettings, { areaServed: [city.cityName], pagePath }),
+      faqSchema(
+        preview.faqs.map((f) => ({
+          question: f.question,
+          answerText: lexicalToPlainText(f.answer),
+        })),
+      ),
+      breadcrumbSchema(breadcrumbs),
+    )
+    return (
+      <PreviewCompactPage
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Service Areas', path: '/service-areas/' },
+          { name: city.cityName, path: pagePath },
+        ]}
+        ctaHeading={`Need an electrician in ${city.cityName}? Call us 24/7`}
+        faqHeading={`Electrician in ${city.cityName}: FAQs`}
+        heroImage={template.heroImage}
+        json={previewJson}
+        links={
+          <>
+            {isEligibleCity(city) && services.length > 0 && (
+              <section className="bg-card py-12">
+                <div className="container">
+                  <h2 className="text-2xl font-bold text-navy-950 md:text-3xl">
+                    Electrical Services in {city.cityName}
+                  </h2>
+                  <ul className="mt-5 flex flex-wrap gap-2.5">
+                    {services.map((s) => (
+                      <li key={s.id}>
+                        <Link
+                          className="inline-flex items-center gap-1.5 rounded-full bg-white px-3.5 py-1.5 text-sm font-medium text-navy-900 shadow-sm transition hover:text-brand-700"
+                          href={
+                            isRetiredCombo(s.slug, city.slug)
+                              ? `/${s.slug}/`
+                              : serviceCityPath(s.slug, city.slug)
+                          }
+                        >
+                          <MapPin aria-hidden className="size-3.5 text-brand-600" />
+                          {s.navLabel} in {city.cityName}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                  {!!city.neighborhoods?.length && (
+                    <>
+                      <h3 className="mt-8 text-lg font-bold text-navy-950">
+                        Neighborhoods we serve
+                      </h3>
+                      <ul className="mt-3 flex flex-wrap gap-2">
+                        {city.neighborhoods.map((n) => (
+                          <li
+                            className="rounded-full bg-white px-3 py-1 text-sm text-navy-900 shadow-sm"
+                            key={n.id}
+                          >
+                            {n.name}
+                          </li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
+                </div>
+              </section>
+            )}
+            {posts.length > 0 && (
+              <section className="py-12">
+                <div className="container">
+                  <h2 className="text-2xl font-bold text-navy-950 md:text-3xl">
+                    Electrical Guides for {city.cityName}
+                  </h2>
+                  <div className="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                    {posts.slice(0, 3).map((p) => (
+                      <PostCard key={p.id} post={p} />
+                    ))}
+                  </div>
+                </div>
+              </section>
+            )}
+          </>
+        }
+        localHeading={`Local guide: electrical work in ${city.cityName}`}
+        preview={preview}
+        rating={siteSettings.aggregateRating}
+        siteSettings={siteSettings}
+      />
+    )
+  }
+
   const json = jsonLdGraph(
     electricianSchema(siteSettings, { areaServed: [city.cityName], pagePath }),
     faqSchema(

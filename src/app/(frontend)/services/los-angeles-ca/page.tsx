@@ -11,6 +11,7 @@ import {
   getSiteSettings,
 } from '@/lib/queries'
 import { CityPage } from '@/templates/CityPage'
+import { getPreviewOverride } from '@/content/preview-overrides'
 import { buildMeta } from '@/utilities/buildMeta'
 
 /**
@@ -47,5 +48,11 @@ export default async function LosAngelesCityPage() {
 export async function generateMetadata(): Promise<Metadata> {
   const city = await getCityByPath(PATH)
   if (!city) return {}
-  return buildMeta({ ...city.meta, path: PATH, fallbackTitle: `Electrician in ${city.cityName}, CA` })
+  const pv = getPreviewOverride(PATH)
+  return buildMeta({
+    ...city.meta,
+    ...(pv ? { title: pv.metaTitle, description: pv.metaDescription } : {}),
+    path: PATH,
+    fallbackTitle: `Electrician in ${city.cityName}, CA`,
+  })
 }

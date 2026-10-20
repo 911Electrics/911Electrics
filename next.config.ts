@@ -25,6 +25,10 @@ const nextConfig: NextConfig = {
         // Bundled brand logo — the fallback when Site Settings has none set.
         pathname: '/logo.png',
       },
+      {
+        // Real job photos (EXIF/GPS stripped) bundled in /public/job-photos.
+        pathname: '/job-photos/**',
+      },
     ],
     qualities: [75, 100],
     remotePatterns: [
@@ -37,7 +41,11 @@ const nextConfig: NextConfig = {
         }
       }),
       // Studio/API media uploaded to the Supabase Storage `media` bucket.
-      { protocol: 'https' as const, hostname: '*.supabase.co', pathname: '/storage/v1/object/public/**' },
+      {
+        protocol: 'https' as const,
+        hostname: '*.supabase.co',
+        pathname: '/storage/v1/object/public/**',
+      },
     ],
   },
   webpack: (webpackConfig) => {
