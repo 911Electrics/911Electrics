@@ -20,7 +20,6 @@ import { BlogPostPage } from '@/templates/BlogPostPage'
 import { CityPage } from '@/templates/CityPage'
 import { ServiceCityPage } from '@/templates/ServiceCityPage'
 import { ServicePage } from '@/templates/ServicePage'
-import { getPreviewOverride } from '@/content/preview-overrides'
 import { buildMeta } from '@/utilities/buildMeta'
 
 /**
@@ -139,20 +138,12 @@ export async function generateMetadata({ params: paramsPromise }: Args): Promise
 
   if (resolved.type === 'service') {
     const s = resolved.doc
-    const pv = getPreviewOverride(`/${s.slug}/`)
-    return buildMeta({
-      ...s.meta,
-      ...(pv ? { title: pv.metaTitle, description: pv.metaDescription } : {}),
-      path: `/${s.slug}/`,
-      fallbackTitle: s.title,
-    })
+    return buildMeta({ ...s.meta, path: `/${s.slug}/`, fallbackTitle: s.title })
   }
   if (resolved.type === 'city') {
     const c = resolved.doc
-    const pv = getPreviewOverride(c.pathOverride || `/${c.slug}/`)
     return buildMeta({
       ...c.meta,
-      ...(pv ? { title: pv.metaTitle, description: pv.metaDescription } : {}),
       path: c.pathOverride || `/${c.slug}/`,
       fallbackTitle: `Electrician in ${c.cityName}, CA`,
     })
