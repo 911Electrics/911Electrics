@@ -31,15 +31,24 @@ export function TrustStrip({
               {t}
             </li>
           ))}
-          <li>
+          <li className="inline-flex items-center gap-1.5">
+            <Star aria-hidden className="size-4 fill-yellow-400 text-yellow-400" />
             <a
-              className="inline-flex items-center gap-1.5 hover:text-brand-700"
+              className="hover:text-brand-700"
+              href="https://share.google/LPz2HwoGDHNgF9UCk"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              5.0 on Google (77 reviews)
+            </a>
+            <span aria-hidden>·</span>
+            <a
+              className="hover:text-brand-700"
               href="https://www.yelp.com/biz/911-construction-and-electric-pasadena"
               rel="noopener noreferrer"
               target="_blank"
             >
-              <Star aria-hidden className="size-4 fill-yellow-400 text-yellow-400" />
-              5.0 on Google (77 reviews) · 5.0 on Yelp (46 reviews)
+              5.0 on Yelp (46 reviews)
             </a>
           </li>
           {phone && tel && (
