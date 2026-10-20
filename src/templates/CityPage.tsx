@@ -298,9 +298,12 @@ export function CityPage({
               Electrical Guides for {city.cityName}
             </h2>
             <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {posts.map((p) => (
-                <PostCard key={p.id} post={p} />
-              ))}
+              {[...posts]
+                .sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''))
+                .slice(0, 3)
+                .map((p) => (
+                  <PostCard key={p.id} post={p} />
+                ))}
             </div>
           </div>
         </section>
