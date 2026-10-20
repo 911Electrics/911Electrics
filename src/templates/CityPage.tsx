@@ -73,8 +73,9 @@ export function CityPage({
   if (preview) {
     const previewJson = jsonLdGraph(
       electricianSchema(siteSettings, { areaServed: [city.cityName], pagePath }),
+      // Keep the live structured data unchanged (SEO freeze, 2026-10-20).
       faqSchema(
-        preview.faqs.map((f) => ({
+        (faqs ?? []).map((f) => ({
           question: f.question,
           answerText: lexicalToPlainText(f.answer),
         })),
@@ -154,7 +155,7 @@ export function CityPage({
           </>
         }
         localHeading={`Local guide: electrical work in ${city.cityName}`}
-        preview={preview}
+        preview={{ ...preview, heroHeading }}
         rating={siteSettings.aggregateRating}
         siteSettings={siteSettings}
       />

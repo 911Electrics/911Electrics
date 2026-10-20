@@ -47,8 +47,9 @@ export function ServicePage({
         json={jsonLdGraph(
           electricianSchema(siteSettings, { pagePath: `/${service.slug}/` }),
           serviceSchema(service, siteSettings),
+          // Keep the live structured data unchanged (SEO freeze, 2026-10-20).
           faqSchema(
-            preview.faqs.map((f) => ({
+            (service.faqs ?? []).map((f) => ({
               question: f.question,
               answerText: lexicalToPlainText(f.answer),
             })),
@@ -56,7 +57,7 @@ export function ServicePage({
           breadcrumbSchema(crumbs),
         )}
         localHeading="What to do right now"
-        preview={preview}
+        preview={{ ...preview, heroHeading: service.title }}
         rating={service.showRatingBadge ? siteSettings.aggregateRating : null}
         siteSettings={siteSettings}
       />
