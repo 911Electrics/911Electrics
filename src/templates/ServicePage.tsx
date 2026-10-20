@@ -10,7 +10,10 @@ import { ContactSection } from '@/components/sections/ContactSection'
 import { FAQAccordion } from '@/components/sections/FAQAccordion'
 import { FeatureBlocks } from '@/components/sections/FeatureBlocks'
 import { Hero } from '@/components/sections/Hero'
+import { ReviewsBlock } from '@/components/sections/ReviewsBlock'
+import { TrustStrip } from '@/components/sections/TrustStrip'
 import { JsonLd } from '@/components/seo/JsonLd'
+import { getPreviewOverride } from '@/content/preview-overrides'
 import {
   breadcrumbSchema,
   electricianSchema,
@@ -27,11 +30,15 @@ export function ServicePage({
   service: ServiceDetail
   siteSettings: SiteSettings
 }) {
+  // Preview-only draft content (null on production; see content/preview-overrides).
+  const preview = getPreviewOverride(`/${service.slug}/`)
+  const intro = preview?.intro ?? service.intro
+  const faqs = preview?.faqs ?? service.faqs ?? null
   const json = jsonLdGraph(
     electricianSchema(siteSettings, { pagePath: `/${service.slug}/` }),
     serviceSchema(service, siteSettings),
     faqSchema(
-      (service.faqs ?? []).map((f) => ({
+      (faqs ?? []).map((f) => ({
         question: f.question,
         answerText: lexicalToPlainText(f.answer),
       })),
@@ -53,29 +60,44 @@ export function ServicePage({
           { name: service.navLabel, path: `/${service.slug}/` },
         ]}
         defaultService={service.navLabel}
-        heading={service.title}
+        heading={preview?.heroHeading || service.title}
         image={service.heroImage}
         licenseNumber={siteSettings.licenseNumber}
         phone={siteSettings.phone}
         rating={service.showRatingBadge ? siteSettings.aggregateRating : null}
-        subheading={service.heroSubheading}
+        subheading={preview?.heroSubheading ?? service.heroSubheading}
       />
 
-      {service.intro && (
+      {preview && (
+        <TrustStrip
+          licenseNumber={siteSettings.licenseNumber}
+          phone={siteSettings.phone}
+          promise={preview.trustPromise}
+        />
+      )}
+
+      {intro && (
         <section className="py-16">
           <div className="container max-w-4xl">
-            <RichText className="max-w-none" data={service.intro} enableGutter={false} />
+            <RichText className="max-w-none" data={intro} enableGutter={false} />
           </div>
         </section>
       )}
 
-      <FeatureBlocks heading={`Why Choose Us for ${service.navLabel}`} items={service.features} tone="card" />
+      <FeatureBlocks
+        heading={`Why Choose Us for ${service.navLabel}`}
+        items={service.features}
+        tone="card"
+      />
 
       {!!service.gallery?.length && (
         <section className="py-16">
           <div className="container grid gap-6 sm:grid-cols-2">
             {service.gallery.map((item) => (
-              <div className="relative aspect-[4/3] overflow-hidden rounded-xl shadow" key={item.id}>
+              <div
+                className="relative aspect-[4/3] overflow-hidden rounded-xl shadow"
+                key={item.id}
+              >
                 <Image
                   alt={item.image.alt || service.navLabel}
                   className="object-cover"
@@ -91,7 +113,9 @@ export function ServicePage({
 
       <FeatureBlocks eyebrow="The Benefits" heading="What You Get" items={service.benefits} />
 
-      <FAQAccordion faqs={service.faqs ?? null} heading={`${service.navLabel} FAQs`} />
+      {preview && <ReviewsBlock reviews={preview.reviews} />}
+
+      <FAQAccordion faqs={faqs} heading={`${service.navLabel} FAQs`} />
 
       <CTABanner
         heading={`Ready to schedule your ${service.navLabel.toLowerCase()}?`}

@@ -18,10 +18,13 @@ import { CTABanner } from '@/components/sections/CTABanner'
 import { ContactSection } from '@/components/sections/ContactSection'
 import { FAQAccordion, type FAQ } from '@/components/sections/FAQAccordion'
 import { Hero } from '@/components/sections/Hero'
+import { ReviewsBlock } from '@/components/sections/ReviewsBlock'
+import { TrustStrip } from '@/components/sections/TrustStrip'
 import { ProcessSteps } from '@/components/sections/ProcessSteps'
 import { ServiceCards } from '@/components/sections/ServiceCards'
 import { TestimonialCarousel } from '@/components/sections/TestimonialCarousel'
 import { JsonLd } from '@/components/seo/JsonLd'
+import { getPreviewOverride } from '@/content/preview-overrides'
 import { interpolateDeep, interpolateString, type CityTokens } from '@/lib/interpolate'
 import { isEligibleCity, isRetiredCombo, serviceCityPath } from '@/lib/service-city'
 import {
@@ -55,11 +58,17 @@ export function CityPage({
   const tokens: CityTokens = { city: city.cityName, region: city.region ?? undefined }
   const t = <V,>(value: V): V => interpolateDeep(value, tokens)
 
-  const heroHeading = city.heroHeadingOverride || interpolateString(template.heroHeading, tokens)
-  const intro = city.introOverride ?? (template.intro ? t(template.intro) : null)
-  const faqs = (city.faqsOverride?.length ? city.faqsOverride : t(template.faqs)) as FAQ[] | null
-
   const pagePath = city.pathOverride || `/${city.slug}/`
+  // Preview-only draft content (null on production; see content/preview-overrides).
+  const preview = getPreviewOverride(pagePath)
+
+  const heroHeading =
+    preview?.heroHeading ||
+    city.heroHeadingOverride ||
+    interpolateString(template.heroHeading, tokens)
+  const intro = preview?.intro ?? city.introOverride ?? (template.intro ? t(template.intro) : null)
+  const faqs = (preview?.faqs ??
+    (city.faqsOverride?.length ? city.faqsOverride : t(template.faqs))) as FAQ[] | null
   const json = jsonLdGraph(
     electricianSchema(siteSettings, { areaServed: [city.cityName], pagePath }),
     faqSchema(
@@ -90,9 +99,18 @@ export function CityPage({
         phone={siteSettings.phone}
         rating={siteSettings.aggregateRating}
         subheading={
-          template.heroSubheading ? interpolateString(template.heroSubheading, tokens) : null
+          preview?.heroSubheading ??
+          (template.heroSubheading ? interpolateString(template.heroSubheading, tokens) : null)
         }
       />
+
+      {preview && (
+        <TrustStrip
+          licenseNumber={siteSettings.licenseNumber}
+          phone={siteSettings.phone}
+          promise={preview.trustPromise}
+        />
+      )}
 
       {intro && (
         <section className="py-16">
@@ -182,6 +200,8 @@ export function CityPage({
           </div>
         </section>
       )}
+
+      {preview && <ReviewsBlock heading={`What Our Customers Say`} reviews={preview.reviews} />}
 
       <TestimonialCarousel testimonials={testimonials} />
 
