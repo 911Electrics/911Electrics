@@ -4,13 +4,15 @@ import pages from './pages.json'
 
 export type PreviewReview = { quote: string; name: string; source: string }
 export type PreviewOverride = {
+  layout: 'compact'
   metaTitle: string
   metaDescription: string
   heroHeading: string
-  heroSubheading: string | null
+  heroSubheading: string
   trustPromise: string | null
-  intro: RichTextData
+  photos: { url: string; caption: string; width: number; height: number }[]
   reviews: PreviewReview[]
+  blocks: { heading: string; body: RichTextData }[]
   faqs: { question: string; answer: RichTextData }[]
 }
 

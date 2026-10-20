@@ -10,8 +10,6 @@ import { ContactSection } from '@/components/sections/ContactSection'
 import { FAQAccordion } from '@/components/sections/FAQAccordion'
 import { FeatureBlocks } from '@/components/sections/FeatureBlocks'
 import { Hero } from '@/components/sections/Hero'
-import { ReviewsBlock } from '@/components/sections/ReviewsBlock'
-import { TrustStrip } from '@/components/sections/TrustStrip'
 import { JsonLd } from '@/components/seo/JsonLd'
 import { getPreviewOverride } from '@/content/preview-overrides'
 import {
@@ -22,6 +20,7 @@ import {
   lexicalToPlainText,
   serviceSchema,
 } from '@/lib/schema-org'
+import { PreviewCompactPage } from '@/templates/PreviewCompactPage'
 
 export function ServicePage({
   service,
@@ -30,15 +29,45 @@ export function ServicePage({
   service: ServiceDetail
   siteSettings: SiteSettings
 }) {
-  // Preview-only draft content (null on production; see content/preview-overrides).
+  // Preview-only compact draft (null on production; see content/preview-overrides).
   const preview = getPreviewOverride(`/${service.slug}/`)
-  const intro = preview?.intro ?? service.intro
-  const faqs = preview?.faqs ?? service.faqs ?? null
+  if (preview) {
+    const crumbs = [
+      { name: 'Home', path: '/' },
+      { name: 'Services', path: '/services/' },
+      { name: service.navLabel, path: `/${service.slug}/` },
+    ]
+    return (
+      <PreviewCompactPage
+        breadcrumbs={crumbs}
+        ctaHeading="Electrical emergency? Call 747-255-8595 now"
+        defaultService={service.navLabel}
+        faqHeading="Emergency electrician FAQs"
+        heroImage={service.heroImage}
+        json={jsonLdGraph(
+          electricianSchema(siteSettings, { pagePath: `/${service.slug}/` }),
+          serviceSchema(service, siteSettings),
+          faqSchema(
+            preview.faqs.map((f) => ({
+              question: f.question,
+              answerText: lexicalToPlainText(f.answer),
+            })),
+          ),
+          breadcrumbSchema(crumbs),
+        )}
+        localHeading="What to do right now"
+        preview={preview}
+        rating={service.showRatingBadge ? siteSettings.aggregateRating : null}
+        siteSettings={siteSettings}
+      />
+    )
+  }
+
   const json = jsonLdGraph(
     electricianSchema(siteSettings, { pagePath: `/${service.slug}/` }),
     serviceSchema(service, siteSettings),
     faqSchema(
-      (faqs ?? []).map((f) => ({
+      (service.faqs ?? []).map((f) => ({
         question: f.question,
         answerText: lexicalToPlainText(f.answer),
       })),
@@ -60,26 +89,18 @@ export function ServicePage({
           { name: service.navLabel, path: `/${service.slug}/` },
         ]}
         defaultService={service.navLabel}
-        heading={preview?.heroHeading || service.title}
+        heading={service.title}
         image={service.heroImage}
         licenseNumber={siteSettings.licenseNumber}
         phone={siteSettings.phone}
         rating={service.showRatingBadge ? siteSettings.aggregateRating : null}
-        subheading={preview?.heroSubheading ?? service.heroSubheading}
+        subheading={service.heroSubheading}
       />
 
-      {preview && (
-        <TrustStrip
-          licenseNumber={siteSettings.licenseNumber}
-          phone={siteSettings.phone}
-          promise={preview.trustPromise}
-        />
-      )}
-
-      {intro && (
+      {service.intro && (
         <section className="py-16">
           <div className="container max-w-4xl">
-            <RichText className="max-w-none" data={intro} enableGutter={false} />
+            <RichText className="max-w-none" data={service.intro} enableGutter={false} />
           </div>
         </section>
       )}
@@ -113,9 +134,7 @@ export function ServicePage({
 
       <FeatureBlocks eyebrow="The Benefits" heading="What You Get" items={service.benefits} />
 
-      {preview && <ReviewsBlock reviews={preview.reviews} />}
-
-      <FAQAccordion faqs={faqs} heading={`${service.navLabel} FAQs`} />
+      <FAQAccordion faqs={service.faqs ?? null} heading={`${service.navLabel} FAQs`} />
 
       <CTABanner
         heading={`Ready to schedule your ${service.navLabel.toLowerCase()}?`}
