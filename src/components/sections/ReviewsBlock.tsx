@@ -37,7 +37,7 @@ export function ReviewsBlock({ heading, reviews }: { heading?: string; reviews: 
             rel="noopener noreferrer"
             target="_blank"
           >
-            Read all 23 reviews on Yelp
+            Read all 46 reviews on Yelp
           </a>
         </p>
       </div>
