@@ -18,6 +18,7 @@ import { CTABanner } from '@/components/sections/CTABanner'
 import { ContactSection } from '@/components/sections/ContactSection'
 import { FAQAccordion, type FAQ } from '@/components/sections/FAQAccordion'
 import { Hero } from '@/components/sections/Hero'
+import { TrustStrip } from '@/components/sections/TrustStrip'
 import { ProcessSteps } from '@/components/sections/ProcessSteps'
 import { ServiceCards } from '@/components/sections/ServiceCards'
 import { TestimonialCarousel } from '@/components/sections/TestimonialCarousel'
@@ -196,6 +197,7 @@ export function CityPage({
           template.heroSubheading ? interpolateString(template.heroSubheading, tokens) : null
         }
       />
+      <TrustStrip licenseNumber={siteSettings.licenseNumber} phone={siteSettings.phone} />
 
       {intro && (
         <section className="py-16">
