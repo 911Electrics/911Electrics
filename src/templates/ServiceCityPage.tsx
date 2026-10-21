@@ -11,6 +11,7 @@ import { ContactSection } from '@/components/sections/ContactSection'
 import { FAQAccordion } from '@/components/sections/FAQAccordion'
 import { FeatureBlocks } from '@/components/sections/FeatureBlocks'
 import { Hero } from '@/components/sections/Hero'
+import { TrustStrip } from '@/components/sections/TrustStrip'
 import RichText from '@/components/RichText'
 import { JsonLd } from '@/components/seo/JsonLd'
 import { cityRegionLabel, nearbyCities } from '@/lib/city-regions'
@@ -122,6 +123,7 @@ export function ServiceCityPage({
         rating={service.showRatingBadge ? siteSettings.aggregateRating : null}
         subheading={service.heroSubheading}
       />
+      <TrustStrip licenseNumber={siteSettings.licenseNumber} phone={siteSettings.phone} />
 
       <section className="py-16">
         <div className="container max-w-4xl">

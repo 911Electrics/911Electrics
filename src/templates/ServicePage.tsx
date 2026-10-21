@@ -10,6 +10,7 @@ import { ContactSection } from '@/components/sections/ContactSection'
 import { FAQAccordion } from '@/components/sections/FAQAccordion'
 import { FeatureBlocks } from '@/components/sections/FeatureBlocks'
 import { Hero } from '@/components/sections/Hero'
+import { TrustStrip } from '@/components/sections/TrustStrip'
 import { JsonLd } from '@/components/seo/JsonLd'
 import { getPreviewOverride } from '@/content/preview-overrides'
 import {
@@ -98,6 +99,7 @@ export function ServicePage({
         rating={service.showRatingBadge ? siteSettings.aggregateRating : null}
         subheading={service.heroSubheading}
       />
+      <TrustStrip licenseNumber={siteSettings.licenseNumber} phone={siteSettings.phone} />
 
       {service.intro && (
         <section className="py-16">
