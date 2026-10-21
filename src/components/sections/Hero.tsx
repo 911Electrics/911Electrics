@@ -80,7 +80,7 @@ export function Hero({
               real and verifiable; a genuine rating badge renders above via
               `rating` once aggregate_rating_count is set from real reviews. */}
           <ul className="mt-10 flex flex-wrap items-center gap-x-3 gap-y-2 text-xs font-semibold tracking-wide text-white/75 uppercase">
-            {['EVITP Certified', 'Tesla Certified', 'SCE Certified', 'C-10 Licensed'].map(
+            {['EVITP Certified', 'Tesla Certified', 'SCE Charge Ready Home', 'C-10 Licensed'].map(
               (cred, i) => (
                 <React.Fragment key={cred}>
                   {i > 0 && <li aria-hidden className="text-white/30">•</li>}
