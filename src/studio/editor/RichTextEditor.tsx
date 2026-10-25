@@ -12,7 +12,10 @@ import { HeadingNode, QuoteNode } from '@lexical/rich-text'
 import type { EditorState } from 'lexical'
 import { memo, useState } from 'react'
 
+import type { MediaItem } from '@/studio/media'
+
 import { PayloadLinkNode } from './PayloadLinkNode'
+import { PayloadUploadNode } from './PayloadUploadNode'
 import { Toolbar } from './Toolbar'
 import { editorTheme } from './theme'
 
@@ -24,8 +27,19 @@ const EMPTY_STATE =
  * Visual rich-text editor for Studio. Emits Payload-compatible Lexical JSON
  * (verified to round-trip existing content, including links) into a hidden
  * input named `name`, so it submits with the surrounding form.
+ *
+ * When `mediaItems` is passed (post form), the toolbar can insert inline
+ * images that serialize as Payload `upload` nodes for the public renderer.
  */
-function RichTextEditorImpl({ name, initial }: { name: string; initial?: unknown }) {
+function RichTextEditorImpl({
+  name,
+  initial,
+  mediaItems = [],
+}: {
+  name: string
+  initial?: unknown
+  mediaItems?: MediaItem[]
+}) {
   const initialJSON =
     initial && typeof initial === 'object' ? JSON.stringify(initial) : EMPTY_STATE
   const [value, setValue] = useState(initialJSON)
@@ -38,14 +52,15 @@ function RichTextEditorImpl({ name, initial }: { name: string; initial?: unknown
           namespace: 'studio',
           theme: editorTheme,
           // Register PayloadLinkNode for the `link` type instead of the stock node.
-          nodes: [HeadingNode, QuoteNode, ListNode, ListItemNode, PayloadLinkNode],
+          // PayloadUploadNode owns the `upload` type for inline post photos.
+          nodes: [HeadingNode, QuoteNode, ListNode, ListItemNode, PayloadLinkNode, PayloadUploadNode],
           editorState: initialJSON,
           onError: (error) => {
             console.error('[studio editor]', error)
           },
         }}
       >
-        <Toolbar />
+        <Toolbar mediaItems={mediaItems} />
         <div className="relative px-3.5 py-3 text-sm text-slate-900">
           <RichTextPlugin
             ErrorBoundary={LexicalErrorBoundary}

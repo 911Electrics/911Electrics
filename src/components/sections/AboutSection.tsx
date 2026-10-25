@@ -30,8 +30,8 @@ const CREDENTIALS = [
   },
   {
     icon: Award,
-    title: 'SCE Certified',
-    text: 'Southern California Edison certified contractor — qualified installer for SCE rebate & incentive programs.',
+    title: 'SCE Charge Ready Home',
+    text: 'SCE Charge Ready Home installer — qualified for SCE rebate and incentive programs.',
   },
 ]
 

@@ -4,7 +4,7 @@ import { unstable_cache } from 'next/cache'
 
 import { query } from '@/db/client'
 import { getCitiesNav, getMediaByIds } from '@/db/queries'
-import type { MediaImage, RichTextData } from '@/db/types'
+import type { MediaImage, RichTextData, SerializedLexicalNode } from '@/db/types'
 import { citiesMentionedIn } from '@/lib/auto-link-cities'
 import { nodePlainText, readingTime } from '@/lib/blog'
 
@@ -44,6 +44,59 @@ function excerptOf(content: RichTextData | null): string {
   const root = content?.root as Parameters<typeof nodePlainText>[0]
   const text = nodePlainText(root)
   return text.length > 180 ? `${text.slice(0, 177).trimEnd()}…` : text
+}
+
+
+/** Collect bare media ids stored on Lexical `upload` nodes (Payload relation shape). */
+function collectUploadMediaIds(node: SerializedLexicalNode | null | undefined, out: number[]) {
+  if (!node || typeof node !== 'object') return
+  if (node.type === 'upload') {
+    const v = node.value
+    if (typeof v === 'number') out.push(v)
+    else if (v && typeof v === 'object' && typeof (v as { id?: unknown }).id === 'number' && !(v as { url?: unknown }).url) {
+      out.push((v as { id: number }).id)
+    }
+  }
+  for (const child of node.children ?? []) collectUploadMediaIds(child, out)
+}
+
+/**
+ * Replace upload `value` ids with populated media objects so RichText can render
+ * images without a second request. Studio already stores populated objects;
+ * this covers API/Blog inserts that only save the media id.
+ */
+async function hydrateUploadNodes(content: RichTextData | null): Promise<RichTextData | null> {
+  if (!content?.root) return content
+  const ids: number[] = []
+  collectUploadMediaIds(content.root, ids)
+  if (ids.length === 0) return content
+  const media = await getMediaByIds([...new Set(ids)])
+  const walk = (node: SerializedLexicalNode): SerializedLexicalNode => {
+    const next: SerializedLexicalNode = { ...node }
+    if (node.type === 'upload') {
+      const v = node.value
+      let id: number | null = null
+      if (typeof v === 'number') id = v
+      else if (v && typeof v === 'object' && typeof (v as { id?: unknown }).id === 'number' && !(v as { url?: unknown }).url) {
+        id = (v as { id: number }).id
+      }
+      if (id != null) {
+        const m = media.get(id)
+        if (m) {
+          next.value = {
+            id: m.id,
+            url: m.url,
+            alt: m.alt,
+            width: m.width,
+            height: m.height,
+          }
+        }
+      }
+    }
+    if (node.children) next.children = node.children.map(walk)
+    return next
+  }
+  return { ...content, root: walk(content.root) }
 }
 
 /** Map post rows to summaries: resolves hero media + first category in batch. */
@@ -138,11 +191,12 @@ export const getPostBySlug = unstable_cache(
     const media = await getMediaByIds(
       [p.hero_image_id, p.meta_image_id].filter((n): n is number => typeof n === 'number'),
     )
+    const content = await hydrateUploadNodes(p.content)
     return {
       id: p.id,
       title: p.title ?? '',
       slug: p.slug ?? '',
-      content: p.content,
+      content,
       heroImage: p.hero_image_id ? (media.get(p.hero_image_id) ?? null) : null,
       publishedAt: p.published_at,
       updatedAt: p.updated_at,
