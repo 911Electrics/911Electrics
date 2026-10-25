@@ -54,7 +54,7 @@ export function PostForm({
         </div>
         <div>
           <span className={labelCls}>Content</span>
-          <RichTextEditor initial={initial?.content} name="content" />
+          <RichTextEditor initial={initial?.content} mediaItems={mediaItems} name="content" />
         </div>
       </section>
 
