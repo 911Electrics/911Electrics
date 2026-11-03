@@ -29,6 +29,10 @@ export const LIVE_OVERRIDE_PATHS = [
   '/electrician-burbank-ca/',
   '/services/los-angeles-ca/',
   '/emergency-electrician-los-angeles-ca/',
+  // Round 2, go-live approved by Haik 2026-11-03 9:59 AM PT.
+  '/electrician-glendale-ca/',
+  '/electrician-altadena-ca/',
+  '/electrician-arcadia-ca/',
 ] as const
 
 export function getPreviewOverride(path: string): PreviewOverride | null {
