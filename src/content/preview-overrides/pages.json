@@ -6619,5 +6619,3406 @@
   ],
   "trustPromise": null,
   "layout": "compact"
+ },
+ "/electrician-glendale-ca/": {
+  "layout": "compact",
+  "metaTitle": "Electrician in Glendale, CA | 911 Electric",
+  "metaDescription": "Professional electrician in Glendale, CA offering reliable electrical services for homes and businesses. Get a free quote now.",
+  "heroHeading": "Electrician in Glendale, CA for Repairs, Panel Upgrades & EV Chargers",
+  "heroSubheading": "We install EV chargers, upgrade panels and fix electrical problems in Glendale, and we handle the Glendale Water & Power and Building & Safety steps for you. A licensed electrician answers 24/7.",
+  "trustPromise": null,
+  "photos": [
+   {
+    "url": "/job-photos/siemens-panel-install.webp",
+    "caption": "Panel upgrade by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/tesla-charger-panel.webp",
+    "caption": "A Tesla Wall Connector and panel installation by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/sub-panel-install.webp",
+    "caption": "A sub-panel installation by our team.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/panel-energy-monitor.webp",
+    "caption": "Panel interior with an energy monitor installed by our team.",
+    "width": 1200,
+    "height": 1600
+   }
+  ],
+  "reviews": [
+   {
+    "quote": "My backyard outlet was not working and I searched on Google near me in Glendale and called 911 Construction & Electric and I'm very pleased with their service. The technician quickly identified the issue and replaced the faulty GFCI plug with a new one. The work was done efficiently, and the plug now works perfectly. The team was professional, prompt, and reasonably priced. I'd definitely recommend 911 Construction & Electric for any electrical needs.",
+    "name": "Arpi M.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "I called 911 Construction & Electric Inc. for my house in Glendale when my Tesla EV charger wasn’t working. Since they are Tesla Certified, I trusted them to handle it—and they did not disappoint! They quickly diagnosed the issue, made the repairs, and got my charger working perfectly. Their knowledge of Tesla systems and professional service really sets them apart. I’m grateful for their expertise and highly recommend them for any Tesla EV or electrical needs!",
+    "name": "ARASIAN INC",
+    "source": "Google"
+   },
+   {
+    "quote": "911 Construction & Electric helped me yesterday night, when I had an emergency issue with my panel. They came out at night and fixed it. Thank you again.",
+    "name": "Anaïs D.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "My husband and I are very happy with the services this guys provided. This was our second time using them and as usual they didn't disappoint. They did our entire house recessed lights in a very short amount of time. Super fast and Clean work. We highly recommend them to everyone for all their electrical needs. Definitely will use them again!!!",
+    "name": "Sona N.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "I have a new fan and wanted to install it and I called 911 Construction & Electric. The installation was done quickly, the work was very clean, and they made sure everything was working perfectly before leaving. I really appreciated their professionalism and attention to detail. Highly recommend them for any electrical work.",
+    "name": "Oksana R.",
+    "source": "Yelp"
+   }
+  ],
+  "blocks": [
+   {
+    "heading": "GWP, not SCE",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Glendale homes get power from Glendale Water & Power (GWP), the city's own utility. Permits come from the City of Glendale Building & Safety Division. That changes two things:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "SCE programs such as SCE Charge Ready Home don't apply inside Glendale. GWP has its own rebates",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A new or upgraded electrical service needs GWP Electrical Engineering approval ((818) 548-3921) before the permit is filed",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We set up both from the first visit.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Looking for EV charger rebates after the federal tax credit ended? Our Glendale guide to ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/ev-charger-tax-credit-2026-pasadena-los-angeles-rebates/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "EV charger tax credits and rebates still open",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " covers PWP, SCE, LADWP and BWP programs.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "GWP EV charger & panel rebates",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Per GWP's Residential EV Charging Station Rebate Program:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Standard: ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$200",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " non-networked charger or ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$599",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " networked/Wi-Fi charger, plus ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$800",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " if the install needs a panel upgrade",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Glendale Care participants: ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$300",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " / ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$700",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": ", plus ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$1,000",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " with a panel upgrade",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A finaled electrical permit is required",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Check GWP's current terms (GWPrebates@GlendaleCA.gov, 818-551-3080) before buying.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Do you need a panel upgrade?",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Often not. After a load calculation we'll recommend one of these:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A new 240V circuit only",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Load management or a smart charger",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A sub-panel for a garage, ADU or workshop",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A main-panel upgrade, only when the service is truly too small or unsafe",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "How a Glendale panel upgrade goes",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "number",
+        "tag": "ol",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Site visit and load calculation",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "GWP Electrical Engineering reviews the new service before we apply",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We file the \"New/Upgrade Service\" electrical permit on the GlendalePermits portal",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We swap the panel and label every breaker",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Building & Safety inspects, then GWP reconnects",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 6,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "You get the finaled permit for your files and any GWP rebate",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Glendale permits",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Applications go through the GlendalePermits portal. There are separate permit types for general electrical, EV charging stations, new/upgraded service and temporary service",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Simple jobs like outlets, lighting fixtures and branch circuits can be online permits, checked by the inspector in the field",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Condos need an HOA letter at submittal",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Permit Services Center: 633 E. Broadway, Room 101. Building permits 818-548-3200, inspections 818-548-4836",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We pull the permit, book the inspection and meet the inspector.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Glendale homes we work on",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Glendale mixes older homes in the hillside and historic neighborhoods with condos and newer infill. We regularly:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Replace full or outdated panels that have no room for new breakers",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Add GFCI protection to kitchen, bath and outdoor outlets",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Install recessed lighting and ceiling fans",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Wire EV chargers in garages, carports and condo parking",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Track down tripping breakers, dead outlets and flickering lights",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Why Glendale customers call us",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Licensed C-10 and Class B contractor, CSLB #1027421, bonded and insured",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "24/7: a licensed electrician answers ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "tel:+17472558595",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "747-255-8595",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We know the GWP approval and Glendale permit steps",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Tesla Energy Certified (Powerwall installer) and EVITP certified for EV chargers",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Office at 1308 E Colorado Blvd in Pasadena, next door to Glendale",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Is Glendale on SCE or GWP?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "City of Glendale homes are served by Glendale Water & Power, so rebates and service steps differ from SCE areas.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "How much is GWP's EV charger rebate?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "GWP lists $200 (non-networked) or $599 (networked) per charger, plus $800 with a needed panel upgrade. Glendale Care participants get $300/$700 plus $1,000.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Do I need a permit for an EV charger in Glendale?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. It has its own permit type on the GlendalePermits portal. We file it and schedule the inspection.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Does GWP need to approve a panel upgrade?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes, for a new or upgraded service. GWP Electrical Engineering signs off before the permit is filed.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Do I need a 200-amp panel for an EV charger?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Not always. A load calculation often shows a new circuit or load management is enough.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Are you licensed and available after hours?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. CSLB License #1027421 (C-10 and Class B), bonded and insured, and open 24/7 at ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "tel:+17472558595",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "747-255-8595",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ]
+ },
+ "/electrician-altadena-ca/": {
+  "layout": "compact",
+  "metaTitle": "Electrician in Altadena, CA | 911 Electric",
+  "metaDescription": "For reliable electrical services in Altadena, CA, trust 911 Construction & Electric Inc. for all your needs.",
+  "heroHeading": "Electrician in Altadena, CA for Repairs, Panel Upgrades & EV Chargers",
+  "heroSubheading": "We help Altadena homeowners with Eaton Fire repairs and rebuilds, panel upgrades, EV chargers and older-home wiring, and we handle the SCE and LA County steps for you. A licensed electrician answers 24/7.",
+  "trustPromise": null,
+  "photos": [
+   {
+    "url": "/job-photos/damaged-wires.webp",
+    "caption": "Damaged service wiring before our repair.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/roof-service-entrance-damage.webp",
+    "caption": "A damaged rooftop service entrance our crew was called out to repair.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/siemens-labeled-breakers.webp",
+    "caption": "A new Siemens panel installed by our crew, with every breaker labeled.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/emporia-ev-charger.webp",
+    "caption": "Emporia EV charger installation by our crew.",
+    "width": 1200,
+    "height": 1600
+   }
+  ],
+  "reviews": [
+   {
+    "quote": "I highly recommend this company! They came out to help with some electrical work after the Eaton Canyon Fire, and I couldn't have been happier with their service. They were fast, prompt, professional, and very informative throughout the entire process. They took the time to explain what needed to be done and made sure everything was handled properly. Especially after everything we've been dealing with following the fire, it was a huge relief to have a company that was reliable and responsive. Great communication, great service, and very professional from start to finish. I would definitely recommend them to anyone who needs electrical work!",
+    "name": "Michael F.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "We needed an EV charger installed at my home in Altadena to take advantage of a city rebate, which required an EVITP-certified installer. After searching online, I found 911 Construction & Electric, who are fully certified. They did an outstanding job installing the charger, working efficiently and professionally. The process was smooth, and their expertise ensured everything met the city's standards, allowing me to successfully claim the rebate. The pricing was fair, and the service was top-notch. Thank you, 911 Construction & Electric, for the great work! I highly recommend them to anyone needing EV charger installation.",
+    "name": "Ani G.",
+    "source": "Google"
+   },
+   {
+    "quote": "I had an electrical issue at my home in Altadena, and I called 911 Construction & Electric for help. They responded quickly, arriving on time with a professional and friendly technician. The electrician diagnosed the problem efficiently and explained the issue in a way that was easy to understand. They fixed the electrical problem promptly, ensuring everything was safe and up to code. The service was reliable, the pricing was fair, and I was impressed with their attention to detail. I’d highly recommend 911 Construction & Electric to anyone in Altadena needing electrical work done!",
+    "name": "Linda K.",
+    "source": "Google"
+   },
+   {
+    "quote": "I called 911 Construction & Electric for a full property inspection before buying. The house was in Altadena, so I wanted to make sure everything was inspected. They checked wiring, structure and did an amazing report for me. Professional and will use them again when I start construction.",
+    "name": "Aram G.",
+    "source": "Google"
+   },
+   {
+    "quote": "I had some light fixtures to be replaced in my house in Altadena. I called 911 Construction & Electric. They came out, they replaced and finished the job in the same day. What a great service",
+    "name": "William L.",
+    "source": "Google"
+   }
+  ],
+  "blocks": [
+   {
+    "heading": "Altadena is on SCE",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Altadena is unincorporated LA County. Power comes from Southern California Edison (SCE), and permits come from LA County Public Works Building & Safety, not the City of Pasadena. SCE rebates apply here; PWP rebates don't.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Ready for the next Santa Ana wind shutoff? Our Altadena guide to ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/altadena-sce-switch-rebates-heat-pump-induction-wiring/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "backup power for foothill homes",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " covers SCE power shutoffs, safe generator hookups and SCE backup rebates.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Eaton Fire repairs & rebuilds",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We help Altadena homeowners whose homes survived the fire and those rebuilding:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Checking smoke- and heat-exposed panels, meters and wiring before power is relied on again",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Temporary power for rebuild sites",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "New service and panels for rebuilt homes and ADUs",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "If your home made it through the Eaton Fire, see our guide to ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/smoke-damaged-wiring-eaton-fire-altadena-pasadena/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "smoke-damaged wiring after the Eaton Fire",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Rebuild permits & SCE steps",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Rebuild permits go through the County's Unified Permit, online on EPIC-LA or at the Altadena One-Stop Permit Center, 464 W. Woodbury Rd., Suite 210 ((626) 424-6743, walk-ins Mon–Fri 8:00 AM–4:30 PM)",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "An SCE Application ID number is required for all rebuilds, new ADUs, new panels and temporary power",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Temporary power: County permit first, then the SCE application, then we set the pole or pedestal and panel, the County inspects and releases it to SCE",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Permanent service is a separate SCE application (1-800-250-7339)",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "The County lists waived permit fees for qualifying owners who lived in the home before Jan 7, 2025",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We file the electrical side and coordinate with SCE's planner.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "SCE Charge Ready Home rebate",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We're an SCE Charge Ready Home contractor. For qualifying SCE customers (income-qualified or in a designated disadvantaged community), SCE lists:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Up to ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$4,200",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " to upgrade a panel under 200 amps and add a 240V EV outlet",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Up to ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$1,000",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " for the EV outlet alone if the panel is already 200 amps or more",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Permits and inspection records are required. The rebate doesn't cover the charger itself",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Check SCE's current terms before you start.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Older foothill homes",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Many Altadena homes are older and some still have original panels or knob-and-tube wiring. We regularly:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Replace fuse boxes and full panels",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Rewire older rooms and add grounded outlets",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Add circuits for heat pumps, induction ranges and EV chargers",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Inspect wiring for buyers before closing",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Why Altadena customers call us",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Licensed C-10 and Class B contractor, CSLB #1027421, bonded and insured",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "24/7: a licensed electrician answers ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "tel:+17472558595",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "747-255-8595",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Office minutes away at 1308 E Colorado Blvd, Pasadena",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Tesla Energy Certified (Powerwall installer) and EVITP certified for EV chargers",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Is Altadena on SCE or PWP?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Altadena is on SCE. Pasadena Water & Power serves the City of Pasadena, not Altadena.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Who issues electrical permits in Altadena?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "LA County Public Works Building & Safety. Eaton Fire rebuilds go through the County Unified Permit on EPIC-LA or the Altadena One-Stop Permit Center.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Can you set up temporary power for a rebuild?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. We pull the County permit, apply with SCE, install the pole or pedestal and panel, and meet the County inspector.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "My house survived the Eaton Fire. Should the wiring be checked?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes, if smoke or heat reached the panel, meter or attic. Our ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/smoke-damaged-wiring-eaton-fire-altadena-pasadena/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "smoke-damaged wiring guide",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " explains what we look for.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Do you do SCE Charge Ready Home work?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. We are an SCE Charge Ready Home contractor and can tell you whether your home may qualify.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Are you licensed and available after hours?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. CSLB License #1027421 (C-10 and Class B), bonded and insured, and open 24/7 at ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "tel:+17472558595",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "747-255-8595",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ]
+ },
+ "/electrician-arcadia-ca/": {
+  "layout": "compact",
+  "metaTitle": "Electrician in Arcadia, CA | 911 Electric",
+  "metaDescription": "24/7 licensed electricians serving Arcadia, CA — repairs, panel upgrades, EV chargers, rewiring and emergency service. Call 747-255-8595.",
+  "heroHeading": "Electrician in Arcadia, CA for Repairs, Panel Upgrades & EV Chargers",
+  "heroSubheading": "We upgrade panels, install EV chargers and rewire homes in Arcadia, and we handle the SCE and City of Arcadia permit steps for you. A licensed electrician answers 24/7.",
+  "trustPromise": null,
+  "photos": [
+   {
+    "url": "/job-photos/siemens-panel-install.webp",
+    "caption": "Panel upgrade by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/la-fairfax-panel.webp",
+    "caption": "A panel installed by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/emporia-ev-charger.webp",
+    "caption": "Emporia EV charger installation by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/sub-panel-install.webp",
+    "caption": "A sub-panel installation by our team.",
+    "width": 1200,
+    "height": 1600
+   }
+  ],
+  "reviews": [
+   {
+    "quote": "I recently had my entire house rewired, including a full upgrade of the main electrical panel, and I couldn’t be happier with the results. From start to finish, they were very professional, knowledgeable, and incredibly thorough. They took the time to explain every step of the process, answered all my questions, and made sure the work was done safely and up to code. The quality of the workmanship is excellent, and the improvement in my home’s electrical system is night and day. They were punctual, respectful of my home, and kept everything clean throughout the project. It’s rare to find someone who takes such pride in their craft, and I’m extremely grateful for the care and expertise they brought to this job. I highly recommend 911 Construction and Electric to anyone needing electrical work—big or small. Truly top-notch service!",
+    "name": "Ed K.",
+    "source": "Google"
+   },
+   {
+    "quote": "I live in Sierra Madre and recently called 911 Construction & Electric Inc. to install a light in my laundry area. From start to finish, their service was excellent! They responded quickly, arrived on time, and got the job done efficiently. The quality of their work was top-notch, and they left everything neat and clean. I really appreciated how professional and friendly the team was. Amazing work and fast response—I’ll definitely be calling them again for any electrical work.",
+    "name": "Stepan K.",
+    "source": "Google"
+   },
+   {
+    "quote": "911 Construction & Electric handled the complete electrical rewiring of my home, and I couldn’t be more impressed with their work. From start to finish, they delivered an amazing job. The team was professional, efficient, and made the entire process seamless for us. Passed all permits and inspections without any issues. Their attention to detail and commitment to quality gave us complete peace of mind. I highly recommend them.",
+    "name": "edmonjanjan",
+    "source": "Google"
+   },
+   {
+    "quote": "I have a house in Pasadena and wanted to install a Tesla wall charger. I search on Tesla website and found 911 Construction & Electric. They came out and gave me an estimate. Next they pulled the permits and did the job. Thank you, I recommend them.",
+    "name": "Nelli H.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "I had an electrical service that was in middle of night and they came out and did n emergency service call. Fixed the issue and next day came and resolved the problem overall. Thank you 911 Construction & Electric for the service call.",
+    "name": "Margo K.",
+    "source": "Google"
+   }
+  ],
+  "blocks": [
+   {
+    "heading": "Arcadia is on SCE",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Arcadia homes get power from Southern California Edison (SCE). Permits come from the City of Arcadia Building Services Division. SCE rebates apply here, and a main-panel change needs SCE's meter and service sign-off, which we schedule.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "SCE Charge Ready Home rebate",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We're an SCE Charge Ready Home contractor. For qualifying SCE customers (income-qualified or in a designated disadvantaged community), SCE lists:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Up to ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$4,200",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " to upgrade a panel under 200 amps and add a 240V EV outlet",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Up to ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$1,000",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " for the EV outlet alone if the panel is already 200 amps or more",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Permits and inspection records are required. The rebate doesn't cover the charger itself",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Check SCE's current terms before you start. More rebates: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/panel-upgrade-rebates-pasadena-los-angeles/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "panel upgrade rebates in Pasadena & LA",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Arcadia permits",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Arcadia takes permit applications and plans online only, through the EDGE portal (arcadiaca.gov/EDGE). Inspections are booked there too",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "EV chargers: a complete Electric Vehicle Charging Checklist makes the permit eligible for expedited review",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "The checklist includes a load estimate. If the existing service is too small for the charger, a panel upgrade is required",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Building Services: 240 W. Huntington Drive, (626) 574-5416. Permits issued until 4:30 PM Mon–Thu, 3:30 PM Fri (closed alternate Fridays)",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We prepare the checklist and load calculation, pull the permit and meet the inspector.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Do you need a panel upgrade?",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Often not. After a load calculation we'll recommend one of these:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A new 240V circuit only",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Load management or a smart charger",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A sub-panel for a garage, ADU or workshop",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A main-panel upgrade, only when the service is truly too small or unsafe",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Arcadia homes we work on",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "From the established neighborhoods around Santa Anita to newer custom homes, we regularly:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Upgrade panels and service for remodels, additions and ADUs",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Rewire older homes and replace two-prong outlets",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Install EV chargers and Tesla Wall Connectors",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Wire kitchens, outdoor lighting, spas and pools",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Track down tripping breakers and dead circuits, day or night",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Why Arcadia customers call us",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Licensed C-10 and Class B contractor, CSLB #1027421, bonded and insured",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "24/7: a licensed electrician answers ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "tel:+17472558595",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "747-255-8595",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Office nearby at 1308 E Colorado Blvd, Pasadena",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Tesla Energy Certified (Powerwall installer) and EVITP certified for EV chargers",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Is Arcadia on SCE?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. Arcadia homes are on Southern California Edison, so SCE rebates and service rules apply.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Do I need a permit for an EV charger in Arcadia?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. It's filed online on Arcadia's EDGE portal, and a complete EV charging checklist qualifies for expedited review. We handle it.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Do I qualify for SCE Charge Ready Home?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "It depends on household income or living in a designated disadvantaged community. We're an SCE Charge Ready Home contractor and can help you check.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Do I need a 200-amp panel for an EV charger?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Not always. A load calculation often shows a new circuit or load management is enough.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Can you rewire an older Arcadia home?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. We rewire whole homes or single rooms, with permits and inspection.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Are you licensed and available after hours?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. CSLB License #1027421 (C-10 and Class B), bonded and insured, and open 24/7 at ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "tel:+17472558595",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "747-255-8595",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ]
  }
 }
