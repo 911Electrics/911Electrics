@@ -29,24 +29,14 @@ export const LIVE_OVERRIDE_PATHS = [
   '/electrician-burbank-ca/',
   '/services/los-angeles-ca/',
   '/emergency-electrician-los-angeles-ca/',
-] as const
-
-/**
- * Round 2 (Glendale, Altadena, Arcadia; Haik OK'd building previews 2026-11-03).
- * PREVIEW ONLY: these render from pages.json only on Vercel preview deployments,
- * never on production, until Haik approves go-live.
- */
-export const PREVIEW_ONLY_OVERRIDE_PATHS = [
+  // Round 2, go-live approved by Haik 2026-11-03 9:59 AM PT.
   '/electrician-glendale-ca/',
   '/electrician-altadena-ca/',
   '/electrician-arcadia-ca/',
 ] as const
 
+
 export function getPreviewOverride(path: string): PreviewOverride | null {
-  const isLive = (LIVE_OVERRIDE_PATHS as readonly string[]).includes(path)
-  const isPreview =
-    process.env.VERCEL_ENV === 'preview' &&
-    (PREVIEW_ONLY_OVERRIDE_PATHS as readonly string[]).includes(path)
-  if (!isLive && !isPreview) return null
+  if (!(LIVE_OVERRIDE_PATHS as readonly string[]).includes(path)) return null
   return (pages as unknown as Record<string, PreviewOverride>)[path] ?? null
 }
