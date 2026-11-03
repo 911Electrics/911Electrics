@@ -35,7 +35,6 @@ export const LIVE_OVERRIDE_PATHS = [
   '/electrician-arcadia-ca/',
 ] as const
 
-
 export function getPreviewOverride(path: string): PreviewOverride | null {
   if (!(LIVE_OVERRIDE_PATHS as readonly string[]).includes(path)) return null
   return (pages as unknown as Record<string, PreviewOverride>)[path] ?? null
