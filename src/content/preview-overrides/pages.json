@@ -7575,6 +7575,137 @@
     }
    },
    {
+    "heading": "Condos, HOAs & after-hours calls",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Condo EV chargers and panel work need an HOA letter with the permit application. We help you get the details your HOA asks for",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "The permit also needs the property owner's information, so renters should loop in their landlord early",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Panel trouble at night, a burning smell or a dead circuit: call ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "tel:+17472558595",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "747-255-8595",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           },
+           {
+            "type": "text",
+            "text": ". A licensed electrician answers 24/7 and we come out the same night when it's unsafe",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Simple jobs like a GFCI outlet or a ceiling fan are usually done in one visit",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
     "heading": "Why Glendale customers call us",
     "body": {
      "root": {
@@ -9522,6 +9653,193 @@
           "format": "",
           "indent": 0,
           "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "How an Arcadia panel upgrade goes",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "number",
+        "tag": "ol",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Site visit and load calculation (the same estimate Arcadia's EV checklist uses)",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We submit the permit and plans on EDGE",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We coordinate the SCE meter disconnect and reconnect",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We swap the panel and label every breaker",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Building Services inspects. We book it through EDGE",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 6,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "You get the finaled permit for your files and any SCE rebate",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Arcadia has adopted the 2025 California Electrical Code. Our guide to ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/2025-california-electrical-code-changes-pasadena-la/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "what changed in the 2025 California Electrical Code",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " explains what it means for homeowners.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
          }
         ],
         "format": "",
