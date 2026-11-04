@@ -7427,6 +7427,53 @@
         "format": "",
         "indent": 0,
         "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Planning a panel or service upgrade? Our step-by-step guide to ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/glendale-electrical-permits-gwp-service-upgrade/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "Glendale electrical permits and the GWP service upgrade steps",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " walks through the meter spot, the permit and the inspections.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
        }
       ],
       "format": "",
