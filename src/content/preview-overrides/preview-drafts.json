@@ -1,0 +1,73 @@
+{
+  "/emergency-electrician-los-angeles-ca/": {
+    "blocks": [
+      {
+        "keep": "Burning smell or scorch marks"
+      },
+      {
+        "keep": "Part of the house lost power"
+      },
+      {
+        "heading": "Whole house dark",
+        "md": "- Neighbors dark too? It's probably a utility outage. City of LA customers can report it to LADWP at **1-800-DIAL-DWP (1-800-342-5397)**, 24/7. Outside the City of LA, report it to your own utility (SCE, Pasadena Water & Power, Glendale Water & Power or Burbank Water and Power).\n- Only your home? Check the main breaker. If it's on and you still have no power, call [747-255-8595](tel:+17472558595).\n- Stay away from downed or sagging lines, and report them to **911** and your utility."
+      },
+      {
+        "heading": "Water near electrical",
+        "md": "- Don't walk through standing water near outlets, cords or the panel.\n- If you can reach the main breaker from a dry spot, turn it off. If you can't, stay out and call.\n- Keep people and pets away until it's checked."
+      },
+      {
+        "heading": "What we handle 24/7",
+        "md": "- Burning smells, sparking or warm outlets and switches\n- Breakers that won't reset, partial outages, buzzing panels\n- Damaged service entrances: weatherheads, masts and drop wires\n- Water near electrical, and fire- and smoke-damaged wiring\n- EV charger or battery-system faults that trip the main or the charger circuit\n- Commercial outages affecting lighting, equipment or opening hours"
+      },
+      {
+        "keep": "What to tell us when you call"
+      },
+      {
+        "keep": "Why it can't wait"
+      },
+      {
+        "heading": "Storm, tree and fire damage",
+        "md": "- Damaged weatherheads, masts and drop wires repaired or replaced\n- Smoke- and heat-exposed panels and wiring inspected before power is restored\n- Temporary make-safe first, so the hazard is isolated while parts or permits are lined up\n- LADBS (or local) permit handled, and utility reconnection coordinated when service equipment is replaced\n- Commercial service restored so a business can open\n\nAfter a wildfire, smoke and heat can damage wiring and panels even in homes that didn't burn. → [Smoke-damaged wiring after the Eaton Fire: what to check](/smoke-damaged-wiring-eaton-fire-altadena-pasadena/) · [Electrical services for restoration companies](/electrical-services-restoration-companies-los-angeles/)"
+      },
+      {
+        "heading": "What happens when you call",
+        "md": "1. **A licensed electrician answers** and helps you make it safe over the phone: what to shut off, what not to touch, and whether to call 911 or the utility first.\n2. **We dispatch a licensed electrician** and give you an arrival window. We stay on the line until the situation is safe.\n3. **On arrival, we isolate the hazard.** We shut off and lock out the affected circuit or equipment so the rest of the house can stay powered when possible.\n4. **We find the cause** by checking connections, the panel, the circuit and the service equipment, and explain what we found.\n5. **You get options and a price before any repair starts.** That might be a permanent fix now, or a temporary make-safe now with the permanent repair scheduled once parts or a permit are lined up.\n6. **We handle the permit and utility coordination** when panel or service equipment has to be replaced: LADBS and LADWP in the City of LA, or your local building department and utility elsewhere.\n\nQuote requests by form typically get a response within 15 minutes."
+      },
+      {
+        "heading": "Planned outages and backup power",
+        "md": "During red-flag wind events, SCE may shut off power to reduce wildfire risk (Public Safety Power Shutoffs). If you have a generator, **never backfeed the house with a cord plugged into an outlet.** It can electrocute utility crews and damage your equipment. The safe way is a permitted interlock kit or transfer switch. For quiet backup without fuel, a home battery is the other option.\n\n→ [Generators & transfer switches](/generators-transfer-switches-los-angeles-ca/) · [Home battery backup & Tesla Powerwall](/home-battery-backup-los-angeles-ca/) · [Santa Ana winds, PSPS and backup power](/santa-ana-winds-psps-backup-power-foothill-homes/)"
+      },
+      {
+        "heading": "After the emergency",
+        "md": "Many emergencies have a deeper cause:\n\n- An overloaded or failing panel, or a Zinsco or Federal Pacific panel\n- Loose service connections or aluminum branch wiring\n- Old wiring that can't handle today's loads\n\nOnce you're safe, we explain what we found and whether a longer-term fix makes sense, such as a [panel upgrade](/electrical-panel-upgrades-los-angeles-ca/), a dedicated circuit or a [phased rewire](/house-rewiring-los-angeles-ca/). No pressure. For non-urgent problems, see [electrical repairs](/electrical-repairs-los-angeles-ca/). For budgeting a bigger fix, see [panel upgrade costs](/electrical-panel-upgrade-cost-los-angeles/)."
+      }
+    ],
+    "faqs": [
+      {
+        "keep": "How fast can you get here?"
+      },
+      {
+        "question": "Should I call 911 or an electrician?",
+        "md": "Call 911 first for flames, ongoing smoke, downed lines or anyone shocked. Call us for burning smells, sparking, hot outlets, tripping breakers and outages that aren't the utility's."
+      },
+      {
+        "keep": "My breaker keeps tripping. Can I reset it?"
+      },
+      {
+        "question": "Is the outage my utility's problem or mine?",
+        "md": "If neighbors are dark too, it's likely the utility. Report it to LADWP at 1-800-DIAL-DWP (City of LA) or to your local utility. If only your home is out and the main is on, call us."
+      },
+      {
+        "question": "Do you fix damaged service entrances?",
+        "md": "Yes. We repair weatherheads, masts and service wiring, handle the permit, and coordinate with the utility."
+      },
+      {
+        "question": "Will you give me a price before you start?",
+        "md": "Yes. We make it safe first, then explain the options and price before any repair work."
+      },
+      {
+        "keep": "Are you licensed?"
+      }
+    ]
+  }
+}
