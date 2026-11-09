@@ -1,5 +1,6 @@
 'use server'
 
+import * as Sentry from '@sentry/nextjs'
 import { headers } from 'next/headers'
 import { Resend } from 'resend'
 import { z } from 'zod'
@@ -99,6 +100,21 @@ async function verifyTurnstile(
 }
 
 export async function submitLead(_prev: LeadFormState, formData: FormData): Promise<LeadFormState> {
+  try {
+    return await submitLeadImpl(_prev, formData)
+  } catch (err) {
+    // Unexpected failure (anything that escapes the known handled paths below).
+    // Still show the visitor a reachable phone number, and keep the error in Sentry.
+    console.error('Unexpected lead form failure', err)
+    Sentry.captureException(err)
+    return {
+      status: 'error',
+      message: 'Something went wrong — please call 747-255-8595.',
+    }
+  }
+}
+
+async function submitLeadImpl(_prev: LeadFormState, formData: FormData): Promise<LeadFormState> {
   const headerList = await headers()
   const ip =
     headerList.get('x-forwarded-for')?.split(',')[0]?.trim() ||
