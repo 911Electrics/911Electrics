@@ -7,8 +7,7 @@
     "ev-charger-installation-los-angeles-ca": "Level 2 chargers for homes, condos and businesses by EVITP-certified electricians. Panel capacity checked first; permit and inspection included.",
     "lighting-installation-upgrades-los-angeles-ca": "Recessed lights, fixtures, ceiling fans, under-cabinet, outdoor and security lighting. We check the circuit, box and switching, then install and test.",
     "new-construction-electrical-los-angeles-ca": "Electrical for new homes, ADUs, additions, rebuilds and commercial builds: plan review, temporary power, rough-in, inspections, service and final trim.",
-    "home-battery-backup-los-angeles-ca": "Tesla Energy Certified installer for Powerwall and other home batteries, plus the backup panel and any panel work. Batteries only; we don't install solar panels.",
-    "generators-transfer-switches-los-angeles-ca": "Interlock kits and transfer switches for portable generators, or an automatic transfer switch for standby units. Permitted and inspected.",
+    "backup-power-los-angeles-ca": "Tesla Powerwall and home batteries, plus generator interlocks and transfer switches. Sized to your loads, permitted and inspected. We don't install solar.",
     "house-rewiring-los-angeles-ca": "Whole-house, partial and phased rewiring for older LA homes with knob-and-tube, cloth or aluminum wiring. Planned room by room and inspected in stages."
   },
   "services": {
@@ -362,68 +361,72 @@
         }
       ]
     },
-    "home-battery-backup-los-angeles-ca": {
+    "backup-power-los-angeles-ca": {
       "new": true,
       "id": -101,
       "displayOrder": 2.1,
       "heroImageId": 45,
       "cardImageId": 45,
       "showRatingBadge": true,
-      "title": "Home Battery Backup & Tesla Powerwall Installation in Los Angeles, CA",
-      "navLabel": "Home Battery Backup & Tesla Powerwall",
-      "metaTitle": "Home Battery & Tesla Powerwall Installation in Los Angeles, CA | 911 Electric",
-      "metaDescription": "Tesla Energy Certified installer for Powerwall and home battery backup in Los Angeles. Load calc, backup panel, permits and inspection. Batteries only. Call 747-255-8595.",
-      "heroSubheading": "911 Construction & Electric Inc. is a Tesla Energy Certified installer of Tesla Powerwall and other home battery backup systems in Los Angeles, CA. We handle the load calculation, backup panel, any panel upgrade, the permit and the inspection. We install batteries only; we don't install solar panels.",
-      "shortDescription": "Tesla Energy Certified installer for Powerwall and other home batteries, plus the backup panel and any panel work. Batteries only; we don't install solar panels.",
-      "intro": "911 Construction & Electric Inc. is a **Tesla Energy Certified installer**. We install Tesla Powerwall and other home battery backup systems across Los Angeles, Pasadena, Glendale, Burbank and the San Gabriel and San Fernando Valleys. We're electricians first, so we handle the parts that decide whether a battery actually carries your house through an outage: the load calculation, the backup panel, any panel upgrade, the permit and the inspection.\n\n**We install batteries. We don't install solar panels.**\n\n## What a home battery does\n\nWhen the grid goes down in a heat wave, a windstorm or a Public Safety Power Shutoff, the battery's backup controls disconnect your house from the utility and keep your chosen circuits running. On normal days, depending on your rate plan and settings, it can also run the house during peak hours on stored grid power. A system includes the battery unit(s) (your quote lists the model and how many), backup controls that keep power from flowing back onto utility lines, a backup panel or whole-home wiring, and app monitoring.\n\n## Backed-up circuits or the whole house?\n\n- **Backed-up circuits (critical-load panel):** the fridge, some lighting, Wi-Fi, bedroom outlets, a furnace blower or mini-split, medical equipment. Common in older LA homes, and it stretches one battery much further.\n- **Whole-home backup:** every circuit stays live, including central air. That usually takes more than one battery and often a service or panel upgrade.\n\n## How a battery installation works\n\n1. **Phone call and photos** of your main panel, meter and the spot you're thinking of for the battery.\n2. **Site visit and load calculation.** Code limits how much battery current a panel's busbar can accept, so this is where we find out if your panel can take a battery as is.\n3. **Location.** Garage walls are most common; the spot has to meet the manufacturer's clearances, temperature range and vehicle protection, and local code.\n4. **Written scope and price:** battery model and count, which circuits stay on, panel work, permit, utility paperwork and timeline.\n5. **Permit and utility approval.** We pull the electrical permit under our C-10 license and submit the paperwork to SCE, LADWP, Pasadena Water & Power, Glendale Water & Power or Burbank Water and Power.\n6. **Install day(s).** Battery and backup controls mounted, backup panel set up and circuits moved (or whole-home wiring). Any panel upgrade usually comes first.\n7. **Inspection, commissioning and walkthrough.** We test a simulated outage, set up the app, and show you what stays on. The system runs normally once the utility gives permission to operate.\n\n## Already have solar?\n\nA battery can be added to many homes that already have solar. We look at how the battery ties into your existing electrical system. **We don't install, move or service solar panels**, so any work on the panels themselves stays with your solar company.\n\nMore background: [Tesla Powerwall installation guide](/tesla-powerwall-installation-los-angeles/) · [Home battery backup guide](/home-battery-backup-installation-los-angeles/) · [Santa Ana winds, PSPS and backup power](/santa-ana-winds-psps-backup-power-foothill-homes/)",
+      "title": "Home Battery, Tesla Powerwall & Generator Backup in Los Angeles, CA",
+      "navLabel": "Home Battery & Generator Backup",
+      "metaTitle": "Home Battery, Tesla Powerwall & Generator Backup in Los Angeles, CA | 911 Electric",
+      "metaDescription": "Tesla Energy Certified installer for Powerwall and home batteries, plus generator interlocks and transfer switches in Los Angeles. Batteries only — we don't install solar. Call 747-255-8595.",
+      "heroSubheading": "911 Construction & Electric Inc. is a Tesla Energy Certified installer of Tesla Powerwall and other home batteries, and connects portable and standby generators with permitted interlock kits and transfer switches in Los Angeles, CA. We handle the load calculation, panel work, permit and inspection. We install batteries only; we don't install solar panels.",
+      "shortDescription": "Tesla Powerwall and home batteries, plus generator interlocks and transfer switches. Sized to your loads, permitted and inspected. We don't install solar.",
+      "intro": "911 Construction & Electric Inc. keeps Los Angeles homes and businesses powered through heat waves, windstorms and Public Safety Power Shutoffs. We're a **Tesla Energy Certified installer** for Tesla Powerwall and other home batteries, and we connect portable and standby generators safely with permitted interlock kits and transfer switches. We're electricians first, so we handle the parts that decide whether backup power actually works: the load calculation, the panel, the permit and the inspection.\n\n**We install batteries. We don't install solar panels.**\n\n## Battery or generator?\n\n- **Home battery:** silent, no fuel, switches over automatically, usually without you noticing. On normal days it can run the house during peak hours on stored grid power, depending on your rate plan and settings. It runs until it's drained, then recharges from the grid. Big loads like central AC need enough battery output sized for them. Mostly hands-off.\n- **Portable generator with an interlock or transfer switch:** usually the lowest-cost way to power hardwired circuits like the fridge, lights, internet and furnace fan. You start it and switch over by hand, and it runs as long as you have fuel.\n- **Standby generator with an automatic transfer switch:** natural gas or propane, starts and switches over within seconds with nobody home, runs as long as fuel lasts and handles big loads like central air more easily. Needs periodic service and runs its own exercise cycle.\n\nSome homes choose one, some both. We'll ask what needs to keep running at 2 a.m. during a red-flag outage, then size the system to that, not to a brochure.\n\n## Home batteries and Tesla Powerwall\n\nA battery system includes the battery unit(s) (your quote lists the model and how many), backup controls that disconnect the house from the grid so power can't flow back onto utility lines, and app monitoring. The first decision is what it backs up:\n\n- **Backed-up circuits (critical-load panel):** the fridge, some lighting, Wi-Fi, bedroom outlets, a furnace blower or mini-split, medical equipment. Common in older LA homes, and it stretches one battery much further.\n- **Whole-home backup:** every circuit stays live, including central air. That usually takes more than one battery and often a service or panel upgrade.\n\n**Already have solar?** A battery can be added to many homes that already have solar. We look at how the battery ties into your existing electrical system. **We don't install, move or service solar panels**, so any work on the panels themselves stays with your solar company.\n\n## Generators and transfer switches\n\n**Never plug a generator into a wall or dryer outlet to power the house.** That \"suicide cord\" backfeeds the utility lines and can electrocute line crews. Every option below prevents it:\n\n- **Generator interlock kit:** a listed sliding plate on your panel makes it impossible to have the main and the generator breaker on at the same time. We add a 2-pole generator breaker and an outdoor inlet box, and you can run any circuit. Needs a listed kit for your panel. → [Generator interlock kits](/generator-interlock-kit-installation-los-angeles/)\n- **Manual transfer switch:** a separate switch panel with pre-selected circuits. Simpler under stress, and a good fit when the panel has no listed interlock kit.\n- **Automatic transfer switch (ATS)** for a standby generator: senses the outage, starts the generator and switches back when utility power returns. → [Whole-house generators](/whole-house-generator-installation-los-angeles/)\n\nCompare the options: [Generator transfer switch guide](/generator-transfer-switch-installation-los-angeles/)\n\n## How a backup power job works\n\n1. **Call and photos.** Why you want backup (outages, medical equipment, peak rates), what must stay on, your generator's wattage and outlet type if you have one, and photos of your main panel, its label, the meter, and where the battery or generator would go.\n2. **Site visit and load calculation.** We check service size, panel brand and condition, open breaker space, grounding, and whether a listed interlock kit exists. Code limits how much battery current a panel's busbar can accept, so this is where we find out if your panel can take a battery or generator connection as is.\n3. **Location.** Batteries usually go on a garage wall and must meet the manufacturer's clearances, temperature range and vehicle protection. Generators run outdoors only, well away from doors, windows and vents.\n4. **Written scope and price:** equipment, which circuits stay on, any panel work, the permit, utility paperwork and the timeline.\n5. **Permit and utility paperwork.** We pull the electrical permit under our C-10 license with LADBS or your local building department. Batteries also need utility approval (SCE, LADWP, Pasadena Water & Power, Glendale Water & Power or Burbank Water and Power), which we prepare and submit. Standby generators also need the fuel connection permitted; we coordinate it so inspections line up.\n6. **Install.** Interlock or manual switch: usually a few hours. Battery: usually one to a few days, depending on panel work. Standby generator and ATS: usually one to two days of electrical work once the unit is set on its pad and the fuel connection is ready. Any panel upgrade usually comes first.\n7. **Inspection, testing and walkthrough.** For batteries, we commission the system, test a simulated outage and set up the app; it runs normally once the utility gives permission to operate. For portable generators, we walk you through the outage routine: generator outside, main off, generator breaker on, loads on one at a time. For standby units, the exercise cycle and status readout.\n\nMore: [Tesla Powerwall installation guide](/tesla-powerwall-installation-los-angeles/) · [Home battery backup guide](/home-battery-backup-installation-los-angeles/) · [Santa Ana winds, PSPS and backup power](/santa-ana-winds-psps-backup-power-foothill-homes/)",
       "features": [
         {
           "title": "Tesla Energy Certified Installer",
           "text": "We install Tesla Powerwall and other home batteries, plus the backup controls, backup panel and electrical work around them. Batteries only: we don't install solar panels."
         },
         {
+          "title": "Battery, Generator or Both",
+          "text": "We explain the trade-offs between a battery, an interlock kit, a manual transfer switch and a standby generator with an automatic switch, then recommend what fits your home, panel and budget."
+        },
+        {
           "title": "Sized to What Must Stay On",
-          "text": "We ask what needs to keep running at 2 a.m. during a red-flag outage, then size the battery and backup panel to that, not to a brochure."
+          "text": "A load calculation matches the battery, generator and switch to the circuits you actually need, so the system isn't overloaded the first time the AC and the fridge kick on together."
         },
         {
           "title": "Panel Readiness Checked First",
-          "text": "Homes with 100-amp service, a full panel, or a Zinsco or Federal Pacific panel often need an upgrade before a battery. If so, we do it as part of the project under one permit."
+          "text": "Homes with 100-amp service, a full panel, or a Zinsco or Federal Pacific panel often need an upgrade first; Zinsco and Federal Pacific Stab-Lok panels generally have no listed interlock kit. If needed, we do the upgrade under the same permit."
         },
         {
-          "title": "Permit & Utility Approval Handled",
-          "text": "Energy storage is permitted work, and the utility has to approve the system before it operates. We pull the permit and prepare and submit the utility paperwork as part of the job."
+          "title": "Permit & Utility Paperwork Handled",
+          "text": "We pull the electrical permit, prepare and submit the utility paperwork batteries need before they can operate, and coordinate the fuel-connection permit for standby generators so inspections line up."
         },
         {
           "title": "Honest About Incentives",
           "text": "As of November 2026, the federal 25D credit doesn't apply to systems installed after Dec 31, 2025 (per the IRS), and SCE lists its SGIP ratepayer budgets as closed. We'll check what's open for your address, such as the PWP battery rebate."
-        },
-        {
-          "title": "Planned With Your EV & Generator",
-          "text": "If an EV charger or generator is in your plans, we put it on the same load calculation so everything works together."
         }
       ],
       "benefits": [
         {
-          "title": "Quiet, Automatic Backup",
-          "text": "When the grid drops, your chosen circuits keep running, usually without you noticing the switch. No fuel, no engine noise."
+          "title": "Power Through Outages",
+          "text": "Your chosen circuits keep running during heat waves, windstorms and Public Safety Power Shutoffs, from a silent battery, a generator, or both."
         },
         {
-          "title": "A Clear Plan for Outages",
-          "text": "You know exactly which circuits stay on, roughly how long they'll last, and how to check your charge level in the app."
+          "title": "No Backfeed, No Suicide Cord",
+          "text": "Every setup keeps backup power off the utility lines, protecting line crews, your equipment and your home."
         },
         {
-          "title": "Permitted, Inspected & Approved",
-          "text": "A finaled permit and utility permission to operate, with the system commissioned and tested before we leave."
+          "title": "Permitted, Inspected & Tested",
+          "text": "A finaled permit, utility permission to operate for batteries, and a tested switchover before we leave, plus a clear outage routine you can follow in the dark."
         }
       ],
       "faqs": [
         {
           "question": "Do you install solar panels?",
-          "answer": "No. We install home batteries, the backup panel and the electrical work around them. We don't install solar."
+          "answer": "No. We install home batteries, the backup panel and the electrical work around them, plus generator connections. We don't install solar."
         },
         {
           "question": "Do I need solar to get a battery?",
           "answer": "No. A battery can charge from the grid and still give you backup power. Solar just lets it recharge during long outages."
+        },
+        {
+          "question": "Should I get a battery or a generator?",
+          "answer": "A battery is silent, needs no fuel and can shift usage off peak, but runs down if it can't recharge. A standby generator runs as long as fuel lasts and handles big loads like central air more easily. A portable generator with an interlock or transfer switch is usually the lowest-cost option. Some homes choose one, some both. We'll walk you through it for your home."
         },
         {
           "question": "How long will a battery run my house?",
@@ -434,75 +437,6 @@
           "answer": "That depends on the battery's output, not just its capacity. Large AC compressors draw a big surge at startup. We'll tell you whether your AC can be backed up and what it takes."
         },
         {
-          "question": "Do I need a permit?",
-          "answer": "Yes. Battery installs need an electrical permit, inspection and utility approval. We handle all three."
-        },
-        {
-          "question": "How long does it take?",
-          "answer": "The install itself is usually one to a few days, depending on panel work. The permit and utility steps add time before and after, and we give you the realistic timeline in your estimate."
-        },
-        {
-          "question": "Battery or generator?",
-          "answer": "A battery is silent, needs no fuel and can shift usage off peak, but runs down if it can't recharge. A standby generator runs as long as fuel lasts and handles big loads like central air more easily. Some homes choose one, some both. → [Generators & transfer switches](/generators-transfer-switches-los-angeles-ca/)"
-        }
-      ]
-    },
-    "generators-transfer-switches-los-angeles-ca": {
-      "new": true,
-      "id": -102,
-      "displayOrder": 2.2,
-      "heroImageId": 48,
-      "cardImageId": 44,
-      "showRatingBadge": true,
-      "title": "Generator & Transfer Switch Installation in Los Angeles, CA",
-      "navLabel": "Generators & Transfer Switches",
-      "metaTitle": "Generator & Transfer Switch Installation in Los Angeles, CA | 911 Electric",
-      "metaDescription": "Licensed C-10 electricians for generator interlock kits, manual and automatic transfer switches and standby generator wiring in Los Angeles. Permitted. Call 747-255-8595.",
-      "heroSubheading": "911 Construction & Electric Inc. connects backup generators to Los Angeles homes and businesses safely and to code, with permitted interlock kits, manual transfer switches, and automatic transfer switches for standby generators. Every setup keeps generator power off the utility lines and is sized to the circuits you need.",
-      "shortDescription": "Interlock kits and transfer switches for portable generators, or an automatic transfer switch for standby units. Permitted and inspected.",
-      "intro": "911 Construction & Electric Inc. connects backup generators to Los Angeles homes and businesses safely and to code. Every setup keeps generator power off the utility lines, gets permitted and inspected, and is sized to the circuits you actually need during an outage.\n\n**Never plug a generator into a wall or dryer outlet to power the house.** That \"suicide cord\" backfeeds the utility lines and can electrocute line crews, and it can wreck your generator when the grid comes back. Every option below fixes that.\n\n## Your three options\n\n- **Generator interlock kit (portable generator).** A listed sliding plate on your panel makes it impossible to have the main and the generator breaker on at the same time. We add a 2-pole generator breaker and an outdoor inlet box. You can run any circuit and manage the load by switching breakers. Usually the lowest-cost option, if your panel has a listed kit. → [Generator interlock kits](/generator-interlock-kit-installation-los-angeles/)\n- **Manual transfer switch (portable generator).** A separate switch panel holds pre-selected circuits like the fridge, lights, internet and furnace fan. Simpler to run under stress, and a good fit when the panel has no listed interlock kit.\n- **Automatic transfer switch (standby generator).** A permanently installed natural gas or propane generator with an ATS that senses the outage, starts the generator and switches over within seconds, then switches back. Nobody has to be home. → [Whole-house generators](/whole-house-generator-installation-los-angeles/)\n\nCompare all three: [Generator transfer switch guide](/generator-transfer-switch-installation-los-angeles/)\n\n## How a generator connection job works\n\n1. **Call and photos.** Your generator's wattage and outlet type, what you need running, and photos of your panel label, the open panel and where the generator would sit.\n2. **Site visit and load calculation.** We check the panel brand and open spaces, whether a listed interlock kit exists, and the inlet location and wire route, then match the switch and circuits to the generator.\n3. **Pick circuits and equipment.** The circuits you'll run (interlock), the circuits on the switch (manual), or the generator and ATS size for the loads you want covered (standby).\n4. **Written scope, price and permit.** We pull the electrical permit under our C-10 license with LADBS or your local building department. Standby generators also need the fuel connection permitted; we coordinate it so inspections line up.\n5. **Install day.** Interlock or manual switch: usually a few hours. Standby generator and ATS: usually one to two days of electrical work once the unit is set on its pad and the fuel connection is ready.\n6. **Inspection and walkthrough.** For portable setups, the exact outage routine: generator outside, main off, generator breaker on, loads on one at a time. For standby units, the exercise cycle and status readout.",
-      "features": [
-        {
-          "title": "Three Safe Options, Explained",
-          "text": "Interlock kit, manual transfer switch or automatic transfer switch. We explain the trade-offs in cost, convenience and which circuits you can run, then recommend the one that fits your generator and panel."
-        },
-        {
-          "title": "Load Calculation for Your Generator",
-          "text": "We match the switch and circuits to your generator's output so it isn't overloaded the first time the AC and the fridge kick on together."
-        },
-        {
-          "title": "Panel Readiness Checked",
-          "text": "Many modern panels have a listed interlock kit. Zinsco and Federal Pacific Stab-Lok panels generally don't, and we usually recommend a generator-ready panel on the same permit."
-        },
-        {
-          "title": "Permitted & Inspected",
-          "text": "Generator connections, interlocks and transfer switches are permitted work. We pull the electrical permit and coordinate the fuel-connection permit for standby units so inspections line up."
-        },
-        {
-          "title": "Planned Around Solar & Batteries",
-          "text": "Battery and solar systems use their own backup controls. Tell us what you have, and we'll plan the generator connection around it before anything is wired."
-        },
-        {
-          "title": "Homes & Businesses",
-          "text": "Portable and standby setups for homes, and standby power for refrigeration, servers, security or life-safety loads."
-        }
-      ],
-      "benefits": [
-        {
-          "title": "No Backfeed, No Suicide Cord",
-          "text": "Every setup physically prevents generator power from reaching the utility lines, protecting line crews, your generator and your home."
-        },
-        {
-          "title": "Power to Hardwired Circuits",
-          "text": "Run the furnace fan, ceiling lights, well pump, fridge and internet from your panel instead of a tangle of extension cords."
-        },
-        {
-          "title": "A Routine You Can Follow in the Dark",
-          "text": "Labeled breakers and a walkthrough of the exact outage steps, or an automatic switchover with nobody home."
-        }
-      ],
-      "faqs": [
-        {
           "question": "Do I need a transfer switch or interlock for a portable generator?",
           "answer": "Yes, if you want to power hardwired circuits like the furnace fan, ceiling lights or well pump. Extension cords only reach plug-in devices, and plugging into a wall outlet to backfeed the house is illegal and dangerous."
         },
@@ -512,23 +446,15 @@
         },
         {
           "question": "Do I need a permit?",
-          "answer": "Yes. Generator connections, interlocks and transfer switches need an electrical permit and inspection. Standby generators also need the fuel connection permitted. We handle the electrical permit and coordinate the rest."
+          "answer": "Yes. Batteries need an electrical permit, inspection and utility approval. Generator connections, interlocks and transfer switches need an electrical permit and inspection, and standby generators also need the fuel connection permitted. We handle the electrical permit and paperwork and coordinate the rest."
         },
         {
           "question": "How long does installation take?",
-          "answer": "Interlock and manual switch installs usually take a few hours. Standby generator electrical work is usually one to two days once the unit is set and fuel is ready, plus permit and inspection time."
+          "answer": "Interlock and manual switch installs usually take a few hours. Batteries usually take one to a few days depending on panel work, and standby generator electrical work is usually one to two days once the unit is set and fuel is ready. Permit and utility steps add time, and we give you a realistic timeline in your estimate."
         },
         {
-          "question": "What size generator or switch do I need?",
-          "answer": "That depends on which circuits you want running. We do a load calculation so the switch and generator match and you don't overload it during an outage."
-        },
-        {
-          "question": "Will it work with my solar or battery?",
-          "answer": "Standard transfer switches are designed for generators. Battery and solar systems use their own backup controls, so tell us what you have and we'll plan the connection safely."
-        },
-        {
-          "question": "Any generator safety tips?",
-          "answer": "Run it outdoors only, well away from doors, windows and vents, because carbon monoxide is the biggest generator hazard. Turn the main off before the generator on, bring loads up one at a time, and test before outage season. → [CO detector installation](/carbon-monoxide-detector-installation-los-angeles/)"
+          "question": "Will a generator work with my solar or battery?",
+          "answer": "Standard transfer switches are designed for generators. Battery and solar systems use their own backup controls, so tell us what you have and we'll plan the connection safely before anything is wired."
         }
       ]
     },
@@ -545,7 +471,7 @@
       "metaDescription": "Whole-house and partial rewiring in Los Angeles by licensed C-10 electricians. Knob-and-tube, cloth and aluminum wiring replaced, permitted and inspected. Call 747-255-8595.",
       "heroSubheading": "911 Construction & Electric Inc. rewires older homes across Los Angeles, replacing knob-and-tube, cloth-insulated, ungrounded and problem aluminum branch wiring with modern grounded circuits, all at once or in planned phases. Every job is permitted and inspected under our C-10 license.",
       "shortDescription": "Whole-house, partial and phased rewiring for older LA homes with knob-and-tube, cloth or aluminum wiring. Planned room by room and inspected in stages.",
-      "intro": "911 Construction & Electric Inc. rewires older homes across Los Angeles, Pasadena, Altadena, Glendale and the San Gabriel and San Fernando Valleys. LA has a huge stock of pre-war Craftsman bungalows, Spanish-style homes and mid-century houses, and many still have their original wiring behind the walls.\n\n## Does your house need rewiring?\n\n- **Knob-and-tube wiring:** ceramic knobs and tubes with single insulated wires in the attic or crawlspace\n- **Cloth-insulated or brittle wiring** at outlets and fixtures, or **two-prong, ungrounded outlets** throughout\n- **Aluminum branch wiring**, common in some 1960s–70s homes → [Aluminum wiring repair](/aluminum-wiring-repair-los-angeles/)\n- **Frequent trips or blown fuses**, lights that dim when appliances start, power strips everywhere\n- **Warm, discolored or buzzing outlets**, or a burning smell (call now: [emergency electrician](/emergency-electrician-los-angeles-ca/))\n- **Insurance or a buyer's inspector** flagged the wiring → [Knob-and-tube and insurance](/knob-and-tube-insurance-los-angeles/)\n\nNone of this means your house is about to burn down. It does mean the wiring should be evaluated by a licensed electrician. More: [7 warning signs your LA home needs rewiring](/7-warning-signs-your-los-angeles-home-needs-rewiring/) · [Knob-and-tube replacement](/knob-and-tube-wiring-replacement-los-angeles/)\n\n## How a rewire works, step by step\n\n1. **Evaluation.** We check the panel, open a sample of outlets, switches and fixtures, and look in the attic and crawlspace for knob-and-tube, cloth or aluminum wiring and amateur splices.\n2. **Plan and written estimate.** New circuits room by room, kitchen and bath circuits, dedicated appliance lines, lighting, and smoke and CO alarms, plus room for an [EV charger](/ev-charger-installation-los-angeles-ca/), heat pump or [home battery](/home-battery-backup-los-angeles-ca/). The estimate spells out the circuits, panel work, permit, how wall and ceiling openings will be handled, and the schedule. For typical ranges, see [cost to rewire a house](/cost-to-rewire-a-house-los-angeles/).\n3. **Permit.** Pulled under our C-10 license with LADBS, Pasadena, Glendale, LA County (for Altadena) or your local department. → [Pasadena](/pasadena-electrical-permits-panel-ev-charger-rewire/) · [South Pasadena](/south-pasadena-electrical-permits-panels-ev-rewires/) permit guides\n4. **Rough-in.** New cable fished through the attic, crawlspace and walls, using existing paths wherever we can, with openings in plaster or drywall kept as small as practical.\n5. **Rough-in inspection** before walls are closed. → [What to expect](/electrical-rough-in-inspection-los-angeles/)\n6. **Panel and connections.** Often a new 200-amp panel if the old one was undersized or a Zinsco or Federal Pacific, with AFCI and GFCI protection where code requires it.\n7. **Trim, final inspection and walkthrough.** New devices and fixtures, every circuit tested, the panel directory labeled, and a closed-out permit.\n\n**Timeline:** most single-family rewires take three to ten working days, depending on size, access and whether walls are open. Permit and inspection scheduling add time.",
+      "intro": "911 Construction & Electric Inc. rewires older homes across Los Angeles, Pasadena, Altadena, Glendale and the San Gabriel and San Fernando Valleys. LA has a huge stock of pre-war Craftsman bungalows, Spanish-style homes and mid-century houses, and many still have their original wiring behind the walls.\n\n## Does your house need rewiring?\n\n- **Knob-and-tube wiring:** ceramic knobs and tubes with single insulated wires in the attic or crawlspace\n- **Cloth-insulated or brittle wiring** at outlets and fixtures, or **two-prong, ungrounded outlets** throughout\n- **Aluminum branch wiring**, common in some 1960s–70s homes → [Aluminum wiring repair](/aluminum-wiring-repair-los-angeles/)\n- **Frequent trips or blown fuses**, lights that dim when appliances start, power strips everywhere\n- **Warm, discolored or buzzing outlets**, or a burning smell (call now: [emergency electrician](/emergency-electrician-los-angeles-ca/))\n- **Insurance or a buyer's inspector** flagged the wiring → [Knob-and-tube and insurance](/knob-and-tube-insurance-los-angeles/)\n\nNone of this means your house is about to burn down. It does mean the wiring should be evaluated by a licensed electrician. More: [7 warning signs your LA home needs rewiring](/7-warning-signs-your-los-angeles-home-needs-rewiring/) · [Knob-and-tube replacement](/knob-and-tube-wiring-replacement-los-angeles/)\n\n## How a rewire works, step by step\n\n1. **Evaluation.** We check the panel, open a sample of outlets, switches and fixtures, and look in the attic and crawlspace for knob-and-tube, cloth or aluminum wiring and amateur splices.\n2. **Plan and written estimate.** New circuits room by room, kitchen and bath circuits, dedicated appliance lines, lighting, and smoke and CO alarms, plus room for an [EV charger](/ev-charger-installation-los-angeles-ca/), heat pump or [home battery](/backup-power-los-angeles-ca/). The estimate spells out the circuits, panel work, permit, how wall and ceiling openings will be handled, and the schedule. For typical ranges, see [cost to rewire a house](/cost-to-rewire-a-house-los-angeles/).\n3. **Permit.** Pulled under our C-10 license with LADBS, Pasadena, Glendale, LA County (for Altadena) or your local department. → [Pasadena](/pasadena-electrical-permits-panel-ev-charger-rewire/) · [South Pasadena](/south-pasadena-electrical-permits-panels-ev-rewires/) permit guides\n4. **Rough-in.** New cable fished through the attic, crawlspace and walls, using existing paths wherever we can, with openings in plaster or drywall kept as small as practical.\n5. **Rough-in inspection** before walls are closed. → [What to expect](/electrical-rough-in-inspection-los-angeles/)\n6. **Panel and connections.** Often a new 200-amp panel if the old one was undersized or a Zinsco or Federal Pacific, with AFCI and GFCI protection where code requires it.\n7. **Trim, final inspection and walkthrough.** New devices and fixtures, every circuit tested, the panel directory labeled, and a closed-out permit.\n\n**Timeline:** most single-family rewires take three to ten working days, depending on size, access and whether walls are open. Permit and inspection scheduling add time.",
       "features": [
         {
           "title": "Whole-House, Partial or Phased",
