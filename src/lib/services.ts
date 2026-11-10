@@ -3,6 +3,7 @@ import 'server-only'
 import { unstable_cache } from 'next/cache'
 
 import { query } from '@/db/client'
+import { applyServiceHeroOverride } from '@/content/preview-overrides/photo-caption-fixes'
 import { getMediaByIds } from '@/db/queries'
 import type { MediaImage, RichTextData } from '@/db/types'
 
@@ -78,7 +79,10 @@ export const getServiceBySlug = unstable_cache(
       slug: s.slug ?? '',
       shortDescription: s.short_description,
       heroSubheading: s.hero_subheading,
-      heroImage: s.hero_image_id ? (media.get(s.hero_image_id) ?? null) : null,
+      heroImage: applyServiceHeroOverride(
+        s.slug ?? '',
+        s.hero_image_id ? (media.get(s.hero_image_id) ?? null) : null,
+      ),
       showRatingBadge: Boolean(s.show_rating_badge),
       intro: s.intro,
       meta: {
