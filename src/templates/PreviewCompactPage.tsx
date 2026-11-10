@@ -15,7 +15,7 @@ import { JsonLd } from '@/components/seo/JsonLd'
 /**
  * Compact layout used ONLY for preview-override pages (see content/preview-overrides):
  * hero (+ quote form + call CTA) → trust strip → local blocks →
- * internal links (`links`) → photos → reviews → FAQ → final CTA.
+ * internal links (`links`) → photos → reviews → [optional late blocks] → FAQ → final CTA.
  */
 export function PreviewCompactPage({
   preview,
@@ -65,6 +65,9 @@ export function PreviewCompactPage({
       {links}
       <PhotoGrid heading="Recent work by our crew" photos={preview.photos} />
       <ReviewsBlock reviews={preview.reviews} />
+      {preview.lateBlocks?.length ? (
+        <LocalBlocks blocks={preview.lateBlocks} heading={preview.lateHeading} />
+      ) : null}
       <FAQAccordion faqs={preview.faqs} heading={faqHeading} />
       <CTABanner heading={ctaHeading} phone={siteSettings.phone} />
     </>

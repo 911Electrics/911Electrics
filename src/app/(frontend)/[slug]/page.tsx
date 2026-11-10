@@ -18,6 +18,8 @@ import { retiredComboTarget, serviceCityPath } from '@/lib/service-city'
 import { getServiceCity } from '@/lib/service-city.server'
 import { getServiceBySlug, type ServiceDetail } from '@/lib/services'
 import { BlogPostPage } from '@/templates/BlogPostPage'
+import { CityPanelMergePage } from '@/templates/CityPanelMergePage'
+import { getCityPanelMerge } from '@/content/city-panel-merge'
 import { CityPage } from '@/templates/CityPage'
 import { ServiceCityPage } from '@/templates/ServiceCityPage'
 import { ServicePage } from '@/templates/ServicePage'
@@ -104,6 +106,10 @@ export default async function RootSlugPage({ params: paramsPromise }: Args) {
         siteSettings={siteSettings}
       />
     )
+  }
+  // Preview-only merged city panel page (null on production; see content/city-panel-merge).
+  if (getCityPanelMerge(`/${resolved.doc.slug}/`)) {
+    return <CityPanelMergePage post={resolved.doc} siteSettings={siteSettings} />
   }
   return <BlogPostPage post={resolved.doc} siteSettings={siteSettings} />
 }
