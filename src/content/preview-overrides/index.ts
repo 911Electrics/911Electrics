@@ -43,13 +43,12 @@ type DraftSpec = {
 }
 
 /**
- * PREVIEW ONLY (service-page drafts for Haik's review, 2026-11-08): on Vercel preview
- * deployments, a path listed in preview-drafts.json gets its block/FAQ list rebuilt from
- * that spec ("keep" = reuse the live block/FAQ verbatim, otherwise Markdown copy). Same
- * PreviewCompactPage structure, photos, reviews, meta and hero. Production is unchanged.
+ * Service-page copy (drafted 2026-11-08, go-live approved by Haik 2026-11-09 "Publish"):
+ * a path listed in preview-drafts.json gets its block/FAQ list rebuilt from that spec
+ * ("keep" = reuse the block/FAQ from pages.json verbatim, otherwise Markdown copy). Same
+ * PreviewCompactPage structure, photos, reviews, meta and hero.
  */
 function applyPreviewDraft(path: string, live: PreviewOverride): PreviewOverride {
-  if (process.env.VERCEL_ENV !== 'preview') return live
   const spec = (previewDrafts as unknown as Record<string, DraftSpec>)[path]
   if (!spec) return live
   const blocks = spec.blocks.map((b) => {

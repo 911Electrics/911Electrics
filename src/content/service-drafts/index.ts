@@ -8,19 +8,17 @@ import type { ServiceDetail } from '@/lib/services'
 import drafts from './drafts.json'
 
 /**
- * PREVIEW ONLY (Haik asked for reviewable drafts, Website chat 2026-11-08 t198u/t199u).
+ * Code-managed service page copy (drafted 2026-11-08 for Haik's review; go-live
+ * approved by Haik 2026-11-09 9:02 PM PT, "Publish").
  *
- * Code-managed draft copy for the service pages, mapped into the SAME ServicePage
- * template slots the DB feeds today (intro, "Why Choose Us" features, "What You Get"
- * benefits, FAQs, hub card text), plus 3 new service pages. Title, H1, hero subheading,
- * hero image, meta title/description and URL of the existing pages are NOT overridden.
- *
- * Gated to Vercel preview deployments: on production (VERCEL_ENV=production) and in
- * local dev every function here is a no-op, so 911electrics.com keeps rendering the
- * published `services` rows unchanged. No DB writes. Go-live requires a separate,
- * approved change.
+ * Mapped into the SAME ServicePage template slots the DB feeds (intro, "Why Choose Us"
+ * features, "What You Get" benefits, FAQs, hub card text), plus 2 new service pages
+ * (/backup-power-los-angeles-ca/, /house-rewiring-los-angeles-ca/). Title, H1, hero
+ * subheading, hero image, meta title/description and URL of the existing pages are NOT
+ * overridden. New pages appear as hub cards only (not header nav, footer or sitemap).
+ * No DB writes; rolls back with a deploy/revert.
  */
-export const SERVICE_DRAFTS_ENABLED = process.env.VERCEL_ENV === 'preview'
+export const SERVICE_DRAFTS_ENABLED = true
 
 type DraftService = {
   new?: boolean
@@ -49,7 +47,7 @@ const DATA = drafts as unknown as {
 
 const toRich = (md: string): RichTextData => markdownToLexical(md)
 
-/** Swap draft copy into a service (preview only). Returns `base` untouched otherwise. */
+/** Swap draft copy into a service. Returns `base` untouched otherwise. */
 export async function applyServiceDraft(
   slug: string,
   base: ServiceDetail | null,
@@ -85,12 +83,12 @@ export async function applyServiceDraft(
   }
 }
 
-/** Hub (/services/) header paragraph override (preview only). */
+/** Hub (/services/) header paragraph override. */
 export function getServicesHubHeader(fallback: string): string {
   return SERVICE_DRAFTS_ENABLED ? DATA.hubHeader : fallback
 }
 
-/** Hub cards: richer card text + the 3 new services (preview only). */
+/** Hub cards: richer card text + the 2 new services. */
 export async function applyServicesHubDrafts(services: ServiceNav[]): Promise<ServiceNav[]> {
   if (!SERVICE_DRAFTS_ENABLED) return services
   const existing = services.map((s) =>

@@ -13,7 +13,7 @@ export default async function ServicesIndexPage() {
     getServicesNav(),
     getSiteSettings(),
   ])
-  // Preview deployments only: richer card text + 3 new service cards (no-op on production).
+  // Code-managed hub card text + the 2 new service cards (src/content/service-drafts).
   const services = await applyServicesHubDrafts(publishedServices)
 
   return (

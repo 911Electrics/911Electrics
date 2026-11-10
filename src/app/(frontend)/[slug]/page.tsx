@@ -50,7 +50,7 @@ const querySlug = cache(async (slug: string): Promise<Resolved | null> => {
     getCityBySlug(slug),
     getPostBySlug(slug),
   ])
-  // Preview deployments only: draft service copy in the same template slots (no-op on production).
+  // Code-managed service copy in the same template slots (src/content/service-drafts).
   const service = await applyServiceDraft(slug, publishedService)
 
   if (service) return { type: 'service', doc: service }
