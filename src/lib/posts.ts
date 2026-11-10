@@ -5,6 +5,7 @@ import { unstable_cache } from 'next/cache'
 import { query } from '@/db/client'
 import { getCitiesNav, getMediaByIds } from '@/db/queries'
 import type { MediaImage, RichTextData, SerializedLexicalNode } from '@/db/types'
+import { applyPostHeroOverride } from '@/content/preview-overrides/photo-caption-fixes'
 import { citiesMentionedIn } from '@/lib/auto-link-cities'
 import { nodePlainText, readingTime } from '@/lib/blog'
 
@@ -119,7 +120,10 @@ async function toSummaries(rows: PostRow[]): Promise<PostSummary[]> {
     id: r.id,
     title: r.title ?? '',
     slug: r.slug ?? '',
-    heroImage: r.hero_image_id ? (media.get(r.hero_image_id) ?? null) : null,
+    heroImage: applyPostHeroOverride(
+      r.slug ?? '',
+      r.hero_image_id ? (media.get(r.hero_image_id) ?? null) : null,
+    ).hero,
     categoryTitle: firstCat.get(r.id) ?? null,
     publishedAt: r.published_at,
     readingMinutes: readingTime(r.content),
@@ -192,19 +196,24 @@ export const getPostBySlug = unstable_cache(
       [p.hero_image_id, p.meta_image_id].filter((n): n is number => typeof n === 'number'),
     )
     const content = await hydrateUploadNodes(p.content)
+    const heroes = applyPostHeroOverride(
+      p.slug ?? '',
+      p.hero_image_id ? (media.get(p.hero_image_id) ?? null) : null,
+      p.meta_image_id ? (media.get(p.meta_image_id) ?? null) : null,
+    )
     return {
       id: p.id,
       title: p.title ?? '',
       slug: p.slug ?? '',
       content,
-      heroImage: p.hero_image_id ? (media.get(p.hero_image_id) ?? null) : null,
+      heroImage: heroes.hero,
       publishedAt: p.published_at,
       updatedAt: p.updated_at,
       categories: cats.map((c) => ({ id: c.id, title: c.title ?? '', slug: c.slug ?? '' })),
       meta: {
         title: p.meta_title,
         description: p.meta_description,
-        image: p.meta_image_id ? (media.get(p.meta_image_id) ?? null) : null,
+        image: heroes.metaImage,
       },
     }
   },

@@ -2,6 +2,8 @@ import 'server-only'
 
 import { unstable_cache } from 'next/cache'
 
+import { applyMediaAltOverride } from '@/content/preview-overrides/photo-caption-fixes'
+
 import { query } from './client'
 import type {
   Category,
@@ -98,7 +100,7 @@ export async function getMediaByIds(ids: number[]): Promise<Map<number, MediaIma
     `SELECT ${MEDIA_COLUMNS} FROM media WHERE id = ANY($1)`,
     [unique],
   )
-  return new Map(rows.map((r) => [r.id, mapMedia(r)]))
+  return new Map(rows.map((r) => [r.id, applyMediaAltOverride(mapMedia(r))]))
 }
 
 export const getAllCategories = unstable_cache(
