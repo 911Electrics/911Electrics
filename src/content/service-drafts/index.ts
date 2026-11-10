@@ -15,7 +15,7 @@ import drafts from './drafts.json'
  * features, "What You Get" benefits, FAQs, hub card text), plus 2 new service pages
  * (/backup-power-los-angeles-ca/, /house-rewiring-los-angeles-ca/). Title, H1, hero
  * subheading, hero image, meta title/description and URL of the existing pages are NOT
- * overridden. New pages appear as hub cards only (not header nav, footer or sitemap).
+ * overridden. New pages appear as hub cards and in the sitemap (not header nav or footer).
  * No DB writes; rolls back with a deploy/revert.
  */
 export const SERVICE_DRAFTS_ENABLED = true
@@ -111,4 +111,12 @@ export async function applyServicesHubDrafts(services: ServiceNav[]): Promise<Se
   return [...existing, ...added].sort(
     (a, b) => (a.displayOrder ?? Number.MAX_SAFE_INTEGER) - (b.displayOrder ?? Number.MAX_SAFE_INTEGER),
   )
+}
+
+/** Slugs of code-managed service pages that have no DB row (for the sitemap). */
+export function listNewDraftServiceSlugs(): string[] {
+  if (!SERVICE_DRAFTS_ENABLED) return []
+  return Object.entries(DATA.services)
+    .filter(([, d]) => d.new)
+    .map(([slug]) => slug)
 }

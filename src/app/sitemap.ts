@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next'
 
+import { listNewDraftServiceSlugs } from '@/content/service-drafts'
 import { query } from '@/db/client'
 import { getCategoriesWithCounts } from '@/lib/posts'
 import { listServiceCityCombos } from '@/lib/service-city.server'
@@ -56,6 +57,14 @@ async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: doc.collection === 'posts' ? 'monthly' : 'weekly',
       priority: doc.collection === 'posts' ? 0.6 : 0.9,
     })
+  }
+
+  // Code-managed service pages with no DB row (e.g. /backup-power-los-angeles-ca/).
+  const seen = new Set(entries.map((e) => e.url))
+  for (const slug of listNewDraftServiceSlugs()) {
+    const url = `${base}/${slug}/`
+    if (seen.has(url)) continue
+    entries.push({ url, changeFrequency: 'weekly', priority: 0.9 })
   }
 
   // Programmatic service × city landing pages.
