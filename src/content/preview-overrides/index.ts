@@ -39,6 +39,10 @@ export const LIVE_OVERRIDE_PATHS = [
   '/electrician-glendale-ca/',
   '/electrician-altadena-ca/',
   '/electrician-arcadia-ca/',
+  // Round 3, go-live approved by Haik 2026-11-09 10:20 PM PT ("Yes"). Content lives in
+  // city-rewrites-encino-eagle-rock.json.
+  '/electrician-encino-ca/',
+  '/electrician-eagle-rock-ca/',
 ] as const
 
 type DraftSpec = {
@@ -75,20 +79,19 @@ function applyPreviewDraft(path: string, live: PreviewOverride): PreviewOverride
 }
 
 /**
- * PREVIEW ONLY: Encino + Eagle Rock city page rewrites (Haik OK'd building previews
- * 2026-11-09 10:09 PM PT). Rendered only on Vercel preview deployments, never on
- * production, until Haik approves go-live. Kept in its own JSON file so it merges
- * cleanly with other preview branches.
+ * Encino + Eagle Rock city page rewrites (previews built 2026-11-09; go-live approved by
+ * Haik 2026-11-09 10:20 PM PT). Kept in their own JSON file so they merge cleanly with
+ * other branches. Served only for paths listed in LIVE_OVERRIDE_PATHS.
+ * Title/meta for these pages still come from the cities table (buildMeta).
  */
-const PREVIEW_ONLY_CITY_REWRITES_ENCINO_EAGLE_ROCK =
+const CITY_REWRITES_ENCINO_EAGLE_ROCK =
   cityRewritesEncinoEagleRock as unknown as Record<string, PreviewOverride>
 
 export function getPreviewOverride(path: string): PreviewOverride | null {
-  if (process.env.VERCEL_ENV === 'preview') {
-    const draft = PREVIEW_ONLY_CITY_REWRITES_ENCINO_EAGLE_ROCK[path]
-    if (draft) return draft
-  }
   if (!(LIVE_OVERRIDE_PATHS as readonly string[]).includes(path)) return null
-  const live = (pages as unknown as Record<string, PreviewOverride>)[path] ?? null
+  const live =
+    (pages as unknown as Record<string, PreviewOverride>)[path] ??
+    CITY_REWRITES_ENCINO_EAGLE_ROCK[path] ??
+    null
   return live ? applyPreviewDraft(path, live) : null
 }
