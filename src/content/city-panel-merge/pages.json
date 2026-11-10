@@ -1,0 +1,5112 @@
+{
+ "/electrician-pasadena-ca-panel-upgrades/": {
+  "heroSubheading": "Panel upgrades and rewiring for Pasadena Craftsman, Spanish revival and post-war homes. We pull the City of Pasadena permit, coordinate the PWP disconnect and reconnect, and set up the paperwork for PWP’s panel rebate. A licensed electrician answers 24/7.",
+  "photos": [
+   {
+    "url": "/job-photos/siemens-labeled-breakers.webp",
+    "caption": "A new Siemens panel installed by our crew, with every breaker labeled.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/la-north-hollywood-main-panel.webp",
+    "caption": "A new main panel installed by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/sub-panel-install.webp",
+    "caption": "A sub-panel installation by our team.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/tesla-charger-panel.webp",
+    "caption": "A Tesla Wall Connector and panel installation by our crew.",
+    "width": 1200,
+    "height": 1600
+   }
+  ],
+  "reviews": [
+   {
+    "quote": "I needed work to be done at my parents house in Pasadena, The Panel needed to be upgraded and they also had knob and Tube Wiring. I called 911 Construction & Electric to get it done. They came out, gave me a clear price, pulled the permits, completed the job, met with the inspector,  Amazing work from start to finish. The crew was professional, on time, and careful with the house. Haik explained the process, updated me with the permit process. The new panel and wiring look solid, and it was a relief not having to chase permits or the inspection myself. They handled the whole thing and amazing work. I would absolutely call them again and recommend them to anyone in Pasadena who needs electrical work done right.",
+    "name": "Levon A.",
+    "source": "Google"
+   },
+   {
+    "quote": "I recently bought a house and during the inspection I was told that I would need to upgrade my panel. I called several companies off yelp to get an idea of what it would cost me.\nThe best deal I got was with 911 Electric. I can just say so many good stuff about this company. The guys came out the first day and explained to me that before anything to be done I would need to contact my utility company. They explained to me step by step of what I would need to do. They gave me a time frame of how long it would take and I can say they were right on point. They pulled the permits for me and on the day of inspection made sure everything went smooth.\nI recommend 911 Electric to any person that needs any electrical work, they also told me to install security system, which I told them I would call in the next couple of months!\nThank you guys for the great service!!!",
+    "name": "Edward S.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "I recently had my entire house rewired, including a full upgrade of the main electrical panel, and I couldn’t be happier with the results. From start to finish, they were very professional, knowledgeable, and incredibly thorough.\nThey took the time to explain every step of the process, answered all my questions, and made sure the work was done safely and up to code. The quality of the workmanship is excellent, and the improvement in my home’s electrical system is night and day. They were punctual, respectful of my home, and kept everything clean throughout the project.\nIt’s rare to find someone who takes such pride in their craft, and I’m extremely grateful for the care and expertise they brought to this job. I highly recommend 911 Construction and Electric to anyone needing electrical work—big or small. Truly top-notch service!",
+    "name": "Ed K.",
+    "source": "Google"
+   },
+   {
+    "quote": "I have a house in Pasadena and wanted to install a Tesla wall charger. I search on Tesla website and found 911 Construction & Electric. They came out and gave me an estimate. Next they pulled the permits and did the job. Thank you, I recommend them.",
+    "name": "Nelli H.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "I called 911 Construction & Electric and they did an amazing job. I live in pasadena and The team was on time, professional, and made sure the installation was done safely and perfectly. They cleaned up after the work and everything looks beautiful. I highly recommend them if you need any electrical work done!",
+    "name": "Lilit N.",
+    "source": "Google"
+   }
+  ],
+  "blocks": [
+   {
+    "heading": "Pasadena runs on PWP, not SCE",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Pasadena is served by Pasadena Water and Power (PWP), the city's own utility. Service upgrades, meter releases and rebates run through PWP's process, and the City of Pasadena issues the electrical permit. We coordinate both for you.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Altadena next door is unincorporated LA County on SCE, and some edge addresses are too. Your bill shows which utility you have. More: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/pwp-vs-sce-pasadena-utility-rebates/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "PWP vs SCE in Pasadena",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Older homes, older panels",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Pasadena's homes skew old: Craftsman bungalows, Spanish revivals and post-war tracts wired long before EVs and heat pumps. We work in Bungalow Heaven, Madison Heights, Hastings Ranch, San Rafael, Linda Vista, Garfield Heights, Daisy-Villa and the rest of the city, and we regularly find:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "60-amp and 100-amp services, and fuse boxes",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Zinsco and Federal Pacific Stab-Lok panels with known breaker problems",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Full panels with no room for a new circuit",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "In landmark and historic districts, exterior meter and conduit placement gets more scrutiny, so we route the service to avoid street-facing walls where we can.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Signs your panel needs an upgrade",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Breakers trip when the AC, microwave and dryer run together",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "The panel is full, or you still have fuses",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A Zinsco or Federal Pacific label on the door",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "The panel buzzes, feels warm, or shows rust or scorch marks. Call the same day",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "You're adding an EV charger, heat pump, induction range or ADU",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Do you need a full upgrade?",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Often not. After a load calculation we'll recommend one of these:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A new 240V circuit only",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Load management or a smart charger that shares capacity",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A sub-panel for a garage, ADU or workshop",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A main-panel upgrade, only when the service is truly too small or unsafe",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Most full upgrades end at 200 amps. For planning numbers, see our ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/electrical-panel-upgrade-cost-los-angeles/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "panel upgrade cost guide",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ". We quote after we've seen your panel.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Full scope: our ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/electrical-panel-upgrades-los-angeles-ca/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "electrical panel upgrade service",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Knob-and-tube and cloth wiring",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Under the plaster in a 1920s bungalow there is often knob-and-tube wiring: ungrounded, brittle and unsafe under attic insulation. 1940s–50s homes often have cloth-insulated wire, and some late-1960s and 70s houses have aluminum branch circuits.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Many owners phase a rewire, often alongside the panel: kitchen and baths first, then bedrooms. Insurance is usually what forces the decision. See ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/house-rewiring-los-angeles-ca/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "house rewiring",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "EV chargers, heat pumps & batteries",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "A Level 2 charger usually needs a dedicated 240V circuit on a 40–60 amp breaker. We run the load calculation first, then install Tesla Wall Connectors and universal J1772/NACS chargers. Our installers are EVITP certified.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We're Tesla Energy Certified for Tesla Powerwall and other home batteries, and we plan panel space for them during an upgrade.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ],
+  "lateHeading": "Pasadena permits & PWP rebates",
+  "lateBlocks": [
+   {
+    "heading": "Pasadena permit steps",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "number",
+        "tag": "ol",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Site visit and load calculation",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "PWP coordination if the service or meter changes",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We pull the City of Pasadena electrical permit",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We swap the panel and label every breaker",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "City inspection, then PWP reconnects",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 6,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "You get the finaled permit, which PWP's rebate also needs",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "The panel swap is usually one day. Permit, PWP scheduling and inspection usually stretch it to one to three weeks. Details: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/pasadena-electrical-permits-panel-ev-charger-rewire/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "Pasadena electrical permits",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "PWP panel upgrade rebate",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "PWP lists ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "text",
+          "text": "$1,000",
+          "format": 1,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "text",
+          "text": " (plus ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "text",
+          "text": "$500",
+          "format": 1,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "text",
+          "text": " for customers in its income-qualified bill assistance program) for upgrading to a 200-amp or larger panel. It requires:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Dedicated 240V/30A circuits for both a Level 2 EV charger and an electric water heater",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A newly installed Level 2 charger or electric water heater",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A C-10 electrician and a final, signed City permit",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "An application within 180 days of permit final, with an itemized paid invoice and photos",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We set up the invoice and photos to match. Terms can change, so confirm with PWP. Guide: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/pasadena-panel-upgrade-rebate-2026-requirements-documents-timeline/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "Pasadena panel rebate 2026",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Do I need a permit for a panel upgrade in Pasadena?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. Panel and service upgrades, new circuits, EV chargers and rewiring need a City of Pasadena permit and inspection, and service changes also involve PWP. We pull the permit.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Is my Pasadena home on PWP or SCE?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Most homes inside Pasadena city limits are on PWP. Altadena and some nearby unincorporated addresses are on SCE. Your bill shows which.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "How long does a panel upgrade take?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "The swap itself is usually one day, with power off for part of it. With the permit, PWP scheduling and the final inspection, plan on one to three weeks.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Is knob-and-tube wiring illegal?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Existing knob-and-tube isn’t automatically illegal, but it can’t be extended or buried in insulation, and it has no ground. Insurance is usually what pushes owners to replace it.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Can I add an EV charger without upgrading my panel?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Often yes. If a load calculation shows spare capacity, or load management can share it, a full upgrade may not be needed. A 60-amp or full 100-amp panel usually does need one.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Are you licensed and available 24/7?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. CSLB License #1027421 (C-10), bonded and insured. A licensed electrician answers 24/7 at ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "tel:+17472558595",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "747-255-8595",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ]
+ },
+ "/electrician-altadena-ca-panel-upgrades/": {
+  "heroSubheading": "Panel upgrades for standing Altadena homes and full electrical for Eaton Fire rebuilds: temporary power, SCE service, rough-in, panel and final. We handle the LA County permit and the SCE steps. A licensed electrician answers 24/7.",
+  "photos": [
+   {
+    "url": "/job-photos/siemens-panel-install.webp",
+    "caption": "Panel upgrade by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/damaged-wires.webp",
+    "caption": "Damaged service wiring before our repair.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/la-north-hollywood-dual-meter-panel.webp",
+    "caption": "A two-meter service installed by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/la-north-hills-panel-ev.webp",
+    "caption": "Panel work for a new EV charger circuit by our crew.",
+    "width": 1200,
+    "height": 1600
+   }
+  ],
+  "reviews": [
+   {
+    "quote": "I highly recommend this company! They came out to help with some electrical work after the Eaton Canyon Fire, and I couldn't have been happier with their service. They were fast, prompt, professional, and very informative throughout the entire process. They took the time to explain what needed to be done and made sure everything was handled properly. Especially after everything we've been dealing with following the fire, it was a huge relief to have a company that was reliable and responsive. Great communication, great service, and very professional from start to finish. I would definitely recommend them to anyone who needs electrical work!",
+    "name": "Michael F.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "I recently had my entire house rewired, including a full upgrade of the main electrical panel, and I couldn’t be happier with the results. From start to finish, they were very professional, knowledgeable, and incredibly thorough.\nThey took the time to explain every step of the process, answered all my questions, and made sure the work was done safely and up to code. The quality of the workmanship is excellent, and the improvement in my home’s electrical system is night and day. They were punctual, respectful of my home, and kept everything clean throughout the project.\nIt’s rare to find someone who takes such pride in their craft, and I’m extremely grateful for the care and expertise they brought to this job. I highly recommend 911 Construction and Electric to anyone needing electrical work—big or small. Truly top-notch service!",
+    "name": "Ed K.",
+    "source": "Google"
+   },
+   {
+    "quote": "We needed an EV charger installed at my home in Altadena to take advantage of a city rebate, which required an EVITP-certified installer. After searching online, I found 911 Construction & Electric, who are fully certified. They did an outstanding job installing the charger, working efficiently and professionally. The process was smooth, and their expertise ensured everything met the city's standards, allowing me to successfully claim the rebate. The pricing was fair, and the service was top-notch. Thank you, 911 Construction & Electric, for the great work! I highly recommend them to anyone needing EV charger installation.",
+    "name": "Ani G.",
+    "source": "Google"
+   },
+   {
+    "quote": "I had an electrical issue at my home in Altadena, and I called 911 Construction & Electric for help. They responded quickly, arriving on time with a professional and friendly technician. The electrician diagnosed the problem efficiently and explained the issue in a way that was easy to understand. They fixed the electrical problem promptly, ensuring everything was safe and up to code. The service was reliable, the pricing was fair, and I was impressed with their attention to detail. I’d highly recommend 911 Construction & Electric to anyone in Altadena needing electrical work done!",
+    "name": "Linda K.",
+    "source": "Google"
+   },
+   {
+    "quote": "I live in Altadena and got Great Service and Price. Came installed an Tesla charger for my car. Thanks Harry",
+    "name": "John A.",
+    "source": "Google"
+   }
+  ],
+  "blocks": [
+   {
+    "heading": "Altadena is SCE and LA County",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Altadena is unincorporated Los Angeles County. Power comes from Southern California Edison (SCE), and electrical permits come from LA County Public Works Building & Safety, not the City of Pasadena. SCE rebates apply here; PWP rebates don't.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We work across Altadena, from Janes Village, Country Club and The Meadows to La Viña, West Altadena and Christmas Tree Lane. Our office is minutes away on East Colorado Blvd in Pasadena.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Panel upgrades for standing homes",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Many Altadena homes are older foothill houses. Signs a panel or rewire is due:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A fuse box, or a Zinsco or Federal Pacific panel",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Two-prong outlets throughout, with no equipment ground",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Cloth-insulated wiring, knob-and-tube or aluminum branch circuits",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Breakers that trip when the microwave and AC run together",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Warm cover plates, scorch marks or a burning smell. Call the same day",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "A 200-amp upgrade is the usual fix, often with grounding and bonding corrections. The County wants an SCE Application ID for a new panel.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Do you need a full upgrade?",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Often not. After a load calculation we'll recommend one of these:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A new 240V circuit only",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Load management or a smart charger that shares capacity",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A sub-panel for a garage, ADU or workshop",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A main-panel upgrade, only when the service is truly too small or unsafe",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Most full upgrades end at 200 amps. For planning numbers, see our ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/electrical-panel-upgrade-cost-los-angeles/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "panel upgrade cost guide",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ". We quote after we've seen your panel.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Eaton Fire rebuild sequence",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "For rebuilds we handle the electrical side, working to your general contractor's schedule:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "number",
+        "tag": "ol",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Temporary power so the trades have safe, metered power. See our ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/temporary-power-pole-installation-los-angeles/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "temporary power pole guide",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "SCE service and meter coordination, overhead or underground, and where the meter and panel will sit",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Rough-in wiring, boxes and grounding, then the County rough inspection",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Panel, sub-panels and dedicated circuits for kitchen, laundry, HVAC, EV and heat pump appliances",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Trim-out, smoke and CO alarms, final inspection and SCE reconnect",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "If the walls are open, plan now for a 200-amp service, spare breaker spaces and a conduit stub for a future EV charger or battery.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Smoke-exposed homes & SWITCH appliances",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "If your home made it through the fire, have smoke- or heat-exposed panels, meters and attic wiring checked. See ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/smoke-damaged-wiring-eaton-fire-altadena-pasadena/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "smoke-damaged wiring after the Eaton Fire",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "SCE's SWITCH program helps qualifying Eaton Fire homes pay for heat pumps and induction ranges, but not for wiring nobody planned. Size those circuits early: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/altadena-sce-switch-rebates-heat-pump-induction-wiring/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "Altadena SWITCH rebates",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "EV chargers & batteries",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We install Tesla Wall Connectors and universal J1772/NACS chargers after a load calculation. Our installers are EVITP certified. We're Tesla Energy Certified for Tesla Powerwall and other home batteries. 911 does not install, move or service solar panels.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ],
+  "lateHeading": "Altadena permits & SCE rebates",
+  "lateBlocks": [
+   {
+    "heading": "LA County permits & the SCE Application ID",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Electrical permits go through LA County Building & Safety, online on EPIC-LA or at the Altadena One-Stop Permit Center, 464 W. Woodbury Rd., Suite 210",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "An SCE Application ID is required for rebuilds, new ADUs, new panels and temporary power. Start it early",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Rebuilds: County solar-ready rules still list a 200-amp minimum service with a two-pole breaker space reserved. We size the panel for it",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "The County lists fee deferrals or refunds for qualifying owner-occupants rebuilding after the fire who owned and lived in the home before Jan 7, 2025",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We file the electrical permit and meet the inspector.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "SCE Charge Ready Home rebate",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We're an SCE Charge Ready Home contractor. For qualifying SCE customers (income-qualified or in a designated disadvantaged community), SCE lists:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Up to ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$4,200",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " to upgrade a panel under 200 amps and add a 240V EV outlet",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Up to ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$1,000",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " for the EV outlet alone if the panel is already 200 amps or more",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Permits and inspection records are required. The rebate doesn't cover the charger itself",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Check SCE's current terms before you start.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Is Altadena on SCE or PWP?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Altadena is on SCE. Pasadena Water and Power serves the City of Pasadena, not Altadena.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Who issues electrical permits in Altadena?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "LA County Public Works Building & Safety, through EPIC-LA or the Altadena One-Stop Permit Center.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Do I need an SCE Application ID before the County permit?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "For rebuilds, new ADUs, new panels and temporary power, yes. The County lists it as required, so start it early.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Do you handle rebuild electrical in Altadena?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. Temporary power, SCE coordination, rough-in, panel and circuits, trim-out and final inspection, working to your general contractor’s schedule.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Do I need a 200-amp panel for an EV charger?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Not always. A load calculation often shows a new circuit or load management is enough.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Are you licensed and available 24/7?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. CSLB License #1027421 (C-10), bonded and insured. A licensed electrician answers 24/7 at ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "tel:+17472558595",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "747-255-8595",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ]
+ },
+ "/electrician-glendale-ca-panel-upgrades-ev-chargers/": {
+  "heroSubheading": "Panel upgrades and EV chargers for Glendale homes, condos and duplexes. We handle GWP’s service approval, the City of Glendale permit and the inspection, and set up the paperwork for GWP rebates. A licensed electrician answers 24/7.",
+  "photos": [
+   {
+    "url": "/job-photos/siemens-panel-install.webp",
+    "caption": "Panel upgrade by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/tesla-charger-panel.webp",
+    "caption": "A Tesla Wall Connector and panel installation by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/la-fairfax-panel.webp",
+    "caption": "A panel installed by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/sub-panel-install.webp",
+    "caption": "A sub-panel installation by our team.",
+    "width": 1200,
+    "height": 1600
+   }
+  ],
+  "reviews": [
+   {
+    "quote": "911 Construction & Electric helped me yesterday night, when I had an emergency issue with my panel. They came out at night and fixed it. Thank you again.",
+    "name": "Anaïs D.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "I recently bought a house and during the inspection I was told that I would need to upgrade my panel. I called several companies off yelp to get an idea of what it would cost me.\nThe best deal I got was with 911 Electric. I can just say so many good stuff about this company. The guys came out the first day and explained to me that before anything to be done I would need to contact my utility company. They explained to me step by step of what I would need to do. They gave me a time frame of how long it would take and I can say they were right on point. They pulled the permits for me and on the day of inspection made sure everything went smooth.\nI recommend 911 Electric to any person that needs any electrical work, they also told me to install security system, which I told them I would call in the next couple of months!\nThank you guys for the great service!!!",
+    "name": "Edward S.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "I recently had my entire house rewired, including a full upgrade of the main electrical panel, and I couldn’t be happier with the results. From start to finish, they were very professional, knowledgeable, and incredibly thorough.\nThey took the time to explain every step of the process, answered all my questions, and made sure the work was done safely and up to code. The quality of the workmanship is excellent, and the improvement in my home’s electrical system is night and day. They were punctual, respectful of my home, and kept everything clean throughout the project.\nIt’s rare to find someone who takes such pride in their craft, and I’m extremely grateful for the care and expertise they brought to this job. I highly recommend 911 Construction and Electric to anyone needing electrical work—big or small. Truly top-notch service!",
+    "name": "Ed K.",
+    "source": "Google"
+   },
+   {
+    "quote": "I called 911 Construction & Electric Inc. for my house in Glendale when my Tesla EV charger wasn’t working. Since they are Tesla Certified, I trusted them to handle it—and they did not disappoint! They quickly diagnosed the issue, made the repairs, and got my charger working perfectly. Their knowledge of Tesla systems and professional service really sets them apart. I’m grateful for their expertise and highly recommend them for any Tesla EV or electrical needs!",
+    "name": "ARASIAN INC",
+    "source": "Google"
+   },
+   {
+    "quote": "My backyard outlet was not working and I searched on Google near me in Glendale and called 911 Construction & Electric and I'm very pleased with their service. The technician quickly identified the issue and replaced the faulty GFCI plug with a new one. The work was done efficiently, and the plug now works perfectly. The team was professional, prompt, and reasonably priced. I'd definitely recommend 911 Construction & Electric for any electrical needs.",
+    "name": "Arpi M.",
+    "source": "Yelp"
+   }
+  ],
+  "blocks": [
+   {
+    "heading": "Glendale runs on GWP, not SCE",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Glendale homes get power from Glendale Water & Power (GWP), the city's own utility, and permits come from the City of Glendale Building & Safety Division, not LADBS. So:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "SCE programs such as SCE Charge Ready Home don't apply inside Glendale. GWP has its own rebates",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A new or upgraded service needs GWP Electrical Engineering approval before the permit is filed",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We set up both from the first visit.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Glendale homes and what they need",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Your home's age predicts the job:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Pre-1950s homes around Adams Hill, Rossmoyne and Vine Street often have 60- or 100-amp service, cloth-insulated circuits or knob-and-tube",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Post-war homes in Northwest Glendale and Sparr Heights usually have 100-amp panels that were fine until central air, induction and EVs",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Newer homes in Verdugo Woodlands, Glenoaks Canyon and the foothills often just need added circuits or a second charger",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We also work in Montrose and the Crescenta Highlands.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Signs your panel is undersized or unsafe",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Breakers trip when the AC and microwave run together",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A Zinsco or Federal Pacific label on the door",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Fuses, or no room for a new double-pole breaker",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Warmth, buzzing or a burnt smell at the panel. Call the same day",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Your insurer or a home inspector flagged it during a sale",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Do you need a full upgrade?",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Often not. After a load calculation we'll recommend one of these:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A new 240V circuit only",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Load management or a smart charger that shares capacity",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A sub-panel for a garage, ADU or workshop",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A main-panel upgrade, only when the service is truly too small or unsafe",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Most full upgrades end at 200 amps. For planning numbers, see our ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/electrical-panel-upgrade-cost-los-angeles/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "panel upgrade cost guide",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ". We quote after we've seen your panel.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "EV chargers in Glendale",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "A Level 2 charger usually wants a dedicated 40–60 amp 240V circuit, which many 100-amp Glendale panels can't spare. The options are a panel upgrade, load management or a garage sub-panel.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "We install Tesla Wall Connectors and universal J1772/NACS chargers. Our installers are EVITP certified and Tesla Energy Certified.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Condos: California law gives owners rights to install charging in their space, subject to HOA conditions. The permit needs an HOA letter at submittal, and renters need the owner's sign-off.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ],
+  "lateHeading": "Glendale permits & GWP rebates",
+  "lateBlocks": [
+   {
+    "heading": "How a Glendale panel upgrade goes",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "number",
+        "tag": "ol",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Site visit and load calculation",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "GWP Electrical Engineering reviews the new service before we apply ((818) 548-3921)",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We file the \"New/Upgrade Service\" permit on the GlendalePermits portal",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We swap the panel and label every breaker",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Building & Safety inspects, then GWP reconnects",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 6,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "You get the finaled permit for your files and any GWP rebate",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "The swap is usually one day. Approval, permit and inspection usually take one to three weeks. More: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/glendale-electrical-permits-gwp-service-upgrade/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "Glendale electrical permits",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "GWP EV charger & panel rebates",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Per GWP's Residential EV Charging Station Rebate Program:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Standard: ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$200",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " non-networked charger or ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$599",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " networked/Wi-Fi charger, plus ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$800",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " if the install needs a panel upgrade",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Glendale Care participants: ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$300",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " / ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$700",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": ", plus ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$1,000",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " with a panel upgrade",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A finaled electrical permit is required",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Check GWP's current terms (GWPrebates@GlendaleCA.gov, 818-551-3080) before buying.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Is Glendale on SCE or its own utility?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Glendale has its own utility, Glendale Water & Power. Service upgrades, meter work and rebates go through GWP, not Edison.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Do I need a permit for a panel upgrade or EV charger in Glendale?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. New circuits, panel or service upgrades, EV chargers and rewiring need a City of Glendale permit and inspection. We file it.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Does GWP need to approve a panel upgrade?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes, for a new or upgraded service. GWP Electrical Engineering signs off before the permit is filed.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "How much is GWP's EV charger rebate?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "GWP lists $200 (non-networked) or $599 (networked) per charger, plus $800 with a needed panel upgrade. Glendale Care participants get $300/$700 plus $1,000.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Can you install an EV charger in a Glendale condo?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Often yes. It depends on where the meters and panels are and your HOA’s conditions. We check capacity and help with the HOA letter the permit needs.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Are you licensed and available 24/7?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. CSLB License #1027421 (C-10), bonded and insured. A licensed electrician answers 24/7 at ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "tel:+17472558595",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "747-255-8595",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ]
+ },
+ "/electrician-burbank-ca-panel-upgrades-ev-chargers/": {
+  "heroSubheading": "Panel upgrades and EV chargers for Burbank bungalows, Rancho ranch homes and ADUs. We handle BWP Service Planning, the City of Burbank permit and the inspection, and set up the paperwork for BWP rebates. A licensed electrician answers 24/7.",
+  "photos": [
+   {
+    "url": "/job-photos/siemens-panel-install.webp",
+    "caption": "Panel upgrade by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/la-north-hollywood-main-panel.webp",
+    "caption": "A new main panel installed by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/la-north-hills-panel-ev.webp",
+    "caption": "Panel work for a new EV charger circuit by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/sub-panel-install.webp",
+    "caption": "A sub-panel installation by our team.",
+    "width": 1200,
+    "height": 1600
+   }
+  ],
+  "reviews": [
+   {
+    "quote": "I recently had my entire house rewired, including a full upgrade of the main electrical panel, and I couldn’t be happier with the results. From start to finish, they were very professional, knowledgeable, and incredibly thorough.\nThey took the time to explain every step of the process, answered all my questions, and made sure the work was done safely and up to code. The quality of the workmanship is excellent, and the improvement in my home’s electrical system is night and day. They were punctual, respectful of my home, and kept everything clean throughout the project.\nIt’s rare to find someone who takes such pride in their craft, and I’m extremely grateful for the care and expertise they brought to this job. I highly recommend 911 Construction and Electric to anyone needing electrical work—big or small. Truly top-notch service!",
+    "name": "Ed K.",
+    "source": "Google"
+   },
+   {
+    "quote": "I live in Burbank and recently called 911 Construction & Electric Inc. to help with a basement light that had a short and caused electrical damage. Their team showed up quickly, diagnosed the problem, and fixed everything thoroughly. Now all my power is working perfectly again. They were professional, knowledgeable, and reliable—exactly what you want in an electrician. I highly recommend them for anyone in the area who needs trustworthy electrical work!",
+    "name": "Edward S.",
+    "source": "Google"
+   },
+   {
+    "quote": "911 construction and electric was highly recommended to me by a friend for many years that we mutually worked on. It was a major project and can't tell you enough about this crew. I'm completely satisfied with their professionalism and dedication, and I'm glad to have been introduced to them.I will confidently recommend them without a doubt, try them for yourself and see, I guarantee that you'll be pleased with your choice.",
+    "name": "John K.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "I had an electrical service that was in middle of night and they came out and did n emergency service call. Fixed the issue and next day came and resolved the problem overall. Thank you 911 Construction & Electric for the service call.",
+    "name": "Margo K.",
+    "source": "Google"
+   },
+   {
+    "quote": "911 Construction & Electric helped me yesterday night, when I had an emergency issue with my panel. They came out at night and fixed it. Thank you again.",
+    "name": "Anaïs D.",
+    "source": "Yelp"
+   }
+  ],
+  "blocks": [
+   {
+    "heading": "Burbank runs on BWP, not SCE",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Burbank is served by Burbank Water and Power (BWP), the city's own utility, not SCE or LADWP. Anything that touches your service, like a panel upgrade, meter move or going underground, is coordinated with BWP. Permits and inspections go through the City of Burbank Building & Safety Division, not LADBS.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Knowing the sequence is what keeps you from losing power over a weekend: when to book the meter visits, how the inspector wants the work, and when BWP relocks the meter.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "The calls we get most in Burbank",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Across Magnolia Park, the Rancho District, Burbank Hills, Toluca Lake and the hillside streets, the same problems come up:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "60- or 100-amp panels that trip when the AC and a second big appliance run",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Zinsco and Federal Pacific panels that insurers and inspectors flag",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Two-prong outlets and cloth or knob-and-tube branch wiring",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Garages, home offices and ADUs on one undersized circuit",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "EV chargers that need a new 240V circuit and room in the panel",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Signs you have outgrown your panel",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Breakers trip when two large appliances run, or extension cords are permanent",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A fuse box, or a brand with a known failure history",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "No open slots, and the panel is already full of tandem breakers",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Lights dim when the AC compressor kicks on",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "You're planning an EV charger, heat pump, induction range or ADU",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Do you need a full upgrade?",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "BWP notes many homes can electrify even on a 100-amp panel. Often not. After a load calculation we'll recommend one of these:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A new 240V circuit only",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Load management or a smart charger that shares capacity",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A sub-panel for a garage, ADU or workshop",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A main-panel upgrade, only when the service is truly too small or unsafe",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Most full upgrades end at 200 amps. For planning numbers, see our ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/electrical-panel-upgrade-cost-los-angeles/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "panel upgrade cost guide",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ". We quote after we've seen your panel.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "EV chargers in Burbank",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Most installs are a dedicated 240V circuit, a load calculation, a permit and a hardwired charger or NEMA 14-50 outlet. We install Tesla Wall Connectors and universal J1772/NACS chargers. Our installers are EVITP certified and Tesla Energy Certified.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Condo and HOA installs: ask your HOA early. Building owners adding chargers for tenants use BWP's commercial program.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ],
+  "lateHeading": "Burbank permits & BWP rebates",
+  "lateBlocks": [
+   {
+    "heading": "How a Burbank panel upgrade goes",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "number",
+        "tag": "ol",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Load calculation to confirm the upgrade is really needed",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "BWP Service Planning checks the utility side and issues a Confirmation of Electric Service",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We pull the Tier 1 electric service upgrade permit (online or at 150 N. Third Street)",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A BWP field agent unlocks the meter, we replace the panel and label every breaker",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Building & Safety inspects, then BWP relocks the meter",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 6,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "You get the finaled permit for your files and any BWP rebate",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "The swap is usually one day, with power off for most of it. Start to finish is typically one to three weeks.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "BWP EV charger & panel rebates",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Per charge port, per BWP:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Residential: ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$200",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " standard / ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$500",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " smart charger, plus ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$750",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " with a panel upgrade (max ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$1,250",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": ")",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Disadvantaged-community (DAC): ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$300",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " / ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$600",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": ", plus ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$900",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " panel (max ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$1,500",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": ")",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "The panel rebate only comes with a charger rebate; up to two chargers per home",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "A finaled permit is required, and BWP requires 12 months on its EV time-of-use rate",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Check BWP's current terms before buying.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Is Burbank on SCE or BWP?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "City of Burbank homes are served by Burbank Water and Power, so rebates and service steps differ from SCE areas.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Do I need a permit for a panel upgrade in Burbank?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. Panel and service upgrades, new circuits, EV chargers and rewiring need a City of Burbank permit and inspection. Most are Tier 1 permits with no plan check.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Will BWP need to visit?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Only if the main panel changes: Service Planning first, then field visits to unlock and relock the meter.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Is 100 amps enough for a Burbank home?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "It can be for a small home with gas heat and cooking and no EV. A load calculation gives the real answer, and the permit needs one anyway.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "How much is BWP's EV charger rebate?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "BWP lists $200 standard or $500 smart charger, plus $750 with a needed panel upgrade (up to $1,250; DAC up to $1,500).",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Are you licensed and available 24/7?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. CSLB License #1027421 (C-10), bonded and insured. A licensed electrician answers 24/7 at ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "tel:+17472558595",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "747-255-8595",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ]
+ }
+}

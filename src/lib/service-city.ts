@@ -73,7 +73,19 @@ export function isRetiredCombo(serviceSlug: string, citySlug: string): boolean {
   return isRetiredComboPath(serviceCityPath(serviceSlug, citySlug))
 }
 
-/** City hub a retired combo slug redirects to, or null if the slug is not retired. */
+/**
+ * Link target for a service on a city hub: the live combo page, or for a retired combo its
+ * redirect target (a merged kept post), falling back to the main service page when the combo
+ * 301s to this very hub.
+ */
+export function hubServiceHref(serviceSlug: string, citySlug: string): string {
+  const path = serviceCityPath(serviceSlug, citySlug)
+  const target = RETIRED_COMBOS[path]
+  if (!target) return path
+  return target === `/${citySlug}/` ? `/${serviceSlug}/` : target
+}
+
+/** Redirect target of a retired combo slug, or null if the slug is not retired. */
 export function retiredComboTarget(slug: string): string | null {
   return RETIRED_COMBOS[`/${slug}/`] ?? null
 }
