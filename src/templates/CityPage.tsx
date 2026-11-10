@@ -26,7 +26,7 @@ import { JsonLd } from '@/components/seo/JsonLd'
 import { getPreviewOverride } from '@/content/preview-overrides'
 import { interpolateDeep, interpolateString, type CityTokens } from '@/lib/interpolate'
 import { PreviewCompactPage } from '@/templates/PreviewCompactPage'
-import { isEligibleCity, isRetiredCombo, serviceCityPath } from '@/lib/service-city'
+import { hubServiceHref, isEligibleCity } from '@/lib/service-city'
 import {
   breadcrumbSchema,
   electricianSchema,
@@ -108,11 +108,7 @@ export function CityPage({
                       <li key={s.id}>
                         <Link
                           className="inline-flex items-center gap-1.5 rounded-full bg-white px-3.5 py-1.5 text-sm font-medium text-navy-900 shadow-sm transition hover:text-brand-700"
-                          href={
-                            isRetiredCombo(s.slug, city.slug)
-                              ? `/${s.slug}/`
-                              : serviceCityPath(s.slug, city.slug)
-                          }
+                          href={hubServiceHref(s.slug, city.slug)}
                         >
                           <MapPin aria-hidden className="size-3.5 text-brand-600" />
                           {s.navLabel} in {city.cityName}
@@ -239,12 +235,9 @@ export function CityPage({
                 <li key={s.id}>
                   <Link
                     className="inline-flex items-center gap-1.5 rounded-full bg-white px-3.5 py-1.5 text-sm font-medium text-navy-900 shadow-sm transition hover:text-brand-700"
-                    href={
-                      // Retired combos 301 to this very hub; link the main service page instead.
-                      isRetiredCombo(s.slug, city.slug)
-                        ? `/${s.slug}/`
-                        : serviceCityPath(s.slug, city.slug)
-                    }
+                    // Retired combos: link their redirect target (merged post), or the main
+                    // service page when the combo 301s to this very hub.
+                    href={hubServiceHref(s.slug, city.slug)}
                   >
                     <MapPin aria-hidden className="size-3.5 text-brand-600" />
                     {s.navLabel} in {city.cityName}

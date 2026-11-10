@@ -4,17 +4,16 @@ import type { PreviewOverride } from '@/content/preview-overrides'
 import pages from './pages.json'
 
 /**
- * PREVIEW ONLY (drafted 2026-11-10 for Haik's review; he asked to "take them both and make
- * it better"). Merged city panel-upgrade pages: each kept URL (an existing post) renders
- * in the same compact layout as the live city pages, with content merged from the retired
- * template combo page. Title, meta description, H1, URL and hero image of the kept post are
- * NOT changed (generateMetadata still reads the post row).
+ * Merged city panel-upgrade pages (drafted 2026-11-10; Haik asked to "take them both and make
+ * it better", and approved go-live 2026-11-09 10:27 PM PT: "Yes"). Each kept URL (an existing
+ * post) renders in the same compact layout as the live city pages, with content merged from
+ * the retired template combo page. Title, meta description, H1, URL and hero image of the kept
+ * post are NOT changed (generateMetadata still reads the post row).
  *
- * Gated to Vercel preview deployments: on production (VERCEL_ENV=production) and in local
- * dev this returns null, so 911electrics.com keeps rendering the published posts unchanged.
- * No DB writes. No redirects are added here; the 301s are a separate, approval-gated change.
+ * Live on production for exactly the four paths below. The retired combos 301 to these
+ * pages via src/lib/seo-cleanup.ts (CITY_PANEL_MERGE_RETIRED). No DB writes.
  */
-export const CITY_PANEL_MERGE_ENABLED = process.env.VERCEL_ENV === 'preview'
+export const CITY_PANEL_MERGE_ENABLED = true
 
 export const CITY_PANEL_MERGE_PATHS: Record<string, { city: string; hubPath: string }> = {
   '/electrician-pasadena-ca-panel-upgrades/': {

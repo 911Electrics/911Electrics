@@ -14,8 +14,8 @@
 
 type Redirect301 = { source: string; destination: string }
 
-/** Retired combo path -> city hub path. Round 1: SGV only. Other combos are untouched. */
-export const RETIRED_COMBOS: Readonly<Record<string, string>> = {
+/** Retired combo path -> city hub path. Round 1: SGV only. */
+export const SGV_RETIRED_COMBOS: Readonly<Record<string, string>> = {
   '/electrical-panel-upgrades-baldwin-park-ca/': '/electrician-baldwin-park-ca/',
   '/electrical-panel-upgrades-monrovia-ca/': '/electrician-monrovia-ca/',
   '/electrical-panel-upgrades-montebello-ca/': '/electrician-montebello-ca/',
@@ -84,6 +84,25 @@ export const RETIRED_COMBOS: Readonly<Record<string, string>> = {
   '/new-construction-electrical-sierra-madre-ca/': '/electrician-sierra-madre-ca/',
   '/new-construction-electrical-south-pasadena-ca/': '/electrician-south-pasadena-ca/',
   '/new-construction-electrical-temple-city-ca/': '/electrician-temple-city-ca/',
+}
+
+/**
+ * City panel-page merge (approved by Haik 2026-11-09 10:27 PM PT: "Yes" to publishing the four
+ * merged pages and pointing each city's weaker duplicate panel page at them). The template
+ * combo page 301s to the kept, merged post (src/content/city-panel-merge), is dropped from the
+ * sitemap, and the city hub's "Panel Upgrades in [city]" link points straight at the kept post.
+ */
+export const CITY_PANEL_MERGE_RETIRED: Readonly<Record<string, string>> = {
+  '/electrical-panel-upgrades-pasadena-ca/': '/electrician-pasadena-ca-panel-upgrades/',
+  '/electrical-panel-upgrades-altadena-ca/': '/electrician-altadena-ca-panel-upgrades/',
+  '/electrical-panel-upgrades-glendale-ca/': '/electrician-glendale-ca-panel-upgrades-ev-chargers/',
+  '/electrical-panel-upgrades-burbank-ca/': '/electrician-burbank-ca-panel-upgrades-ev-chargers/',
+}
+
+/** Every retired combo path -> its 301 destination (city hub, or merged kept post). */
+export const RETIRED_COMBOS: Readonly<Record<string, string>> = {
+  ...SGV_RETIRED_COMBOS,
+  ...CITY_PANEL_MERGE_RETIRED,
 }
 
 export function isRetiredComboPath(path: string): boolean {

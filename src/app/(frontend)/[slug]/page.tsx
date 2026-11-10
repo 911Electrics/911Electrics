@@ -107,7 +107,7 @@ export default async function RootSlugPage({ params: paramsPromise }: Args) {
       />
     )
   }
-  // Preview-only merged city panel page (null on production; see content/city-panel-merge).
+  // Merged city panel-upgrade pages (4 kept posts; see content/city-panel-merge).
   if (getCityPanelMerge(`/${resolved.doc.slug}/`)) {
     return <CityPanelMergePage post={resolved.doc} siteSettings={siteSettings} />
   }

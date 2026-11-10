@@ -14,7 +14,7 @@ import {
 import { PreviewCompactPage } from '@/templates/PreviewCompactPage'
 
 /**
- * PREVIEW ONLY: merged city panel-upgrade page in the compact city layout
+ * Merged city panel-upgrade page in the compact city layout
  * (see content/city-panel-merge). Returns null when no draft applies.
  */
 export function CityPanelMergePage({

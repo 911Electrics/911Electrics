@@ -3,14 +3,24 @@ import { describe, expect, it } from 'vitest'
 import { redirects } from '../../redirects'
 import {
   BLOG_CONFIRMED_POST_DESTINATIONS,
+  CITY_PANEL_MERGE_RETIRED,
   cleanupRedirects,
   KNOWN_PAGE_DESTINATIONS,
   LEGACY_REDIRECTS,
   PROTECTED_POST_PATHS,
   RETIRED_COMBOS,
   REVIEWED_POST_DESTINATIONS,
+  SGV_RETIRED_COMBOS,
 } from '@/lib/seo-cleanup'
-import { isRetiredCombo, retiredComboTarget, serviceCityPath } from '@/lib/service-city'
+import {
+  hubServiceHref,
+  isRetiredCombo,
+  retiredComboTarget,
+  serviceCityPath,
+} from '@/lib/service-city'
+
+// Kept posts of the city panel-page merge (Haik approved 2026-11-09 10:27 PM PT).
+const MERGE_KEPT_POSTS = new Set<string>(Object.values(CITY_PANEL_MERGE_RETIRED))
 
 const SERVICE_TOKENS = [
   'electrical-panel-upgrades',
@@ -56,7 +66,7 @@ const all = cleanupRedirects()
 const sources = new Set(all.flatMap((r) => [slash(r.source), r.source.replace(/\/$/, '')]))
 
 describe('retired service×city combos (round 1)', () => {
-  const entries = Object.entries(RETIRED_COMBOS)
+  const entries = Object.entries(SGV_RETIRED_COMBOS)
 
   it('retires exactly 68 SGV combos, none from the round-3 list', () => {
     expect(entries).toHaveLength(68)
@@ -97,6 +107,39 @@ describe('retired service×city combos (round 1)', () => {
   })
 })
 
+describe('city panel-page merge (2026-11-10)', () => {
+  it('retires exactly the 4 duplicate panel combos, each to its kept post', () => {
+    expect(CITY_PANEL_MERGE_RETIRED).toEqual({
+      '/electrical-panel-upgrades-pasadena-ca/': '/electrician-pasadena-ca-panel-upgrades/',
+      '/electrical-panel-upgrades-altadena-ca/': '/electrician-altadena-ca-panel-upgrades/',
+      '/electrical-panel-upgrades-glendale-ca/':
+        '/electrician-glendale-ca-panel-upgrades-ev-chargers/',
+      '/electrical-panel-upgrades-burbank-ca/':
+        '/electrician-burbank-ca-panel-upgrades-ev-chargers/',
+    })
+    expect(Object.keys(RETIRED_COMBOS)).toHaveLength(72)
+    for (const [source, destination] of Object.entries(CITY_PANEL_MERGE_RETIRED)) {
+      expect(RETIRED_COMBOS[source]).toBe(destination)
+      expect(cleanupRedirects()).toContainEqual({ source, destination, statusCode: 301 })
+    }
+  })
+
+  it('hub links go straight to the kept post (or main service page for SGV hubs)', () => {
+    const panel = 'electrical-panel-upgrades-los-angeles-ca'
+    expect(hubServiceHref(panel, 'electrician-pasadena-ca')).toBe(
+      '/electrician-pasadena-ca-panel-upgrades/',
+    )
+    expect(hubServiceHref(panel, 'electrician-burbank-ca')).toBe(
+      '/electrician-burbank-ca-panel-upgrades-ev-chargers/',
+    )
+    expect(hubServiceHref(panel, 'electrician-baldwin-park-ca')).toBe(`/${panel}/`)
+    expect(hubServiceHref('electrical-repairs-los-angeles-ca', 'electrician-pasadena-ca')).toBe(
+      '/electrical-repairs-pasadena-ca/',
+    )
+    expect(isRetiredCombo(panel, 'electrician-glendale-ca')).toBe(true)
+  })
+})
+
 describe('legacy redirects', () => {
   it('has the 38 approved + 2 Blog-confirmed old URLs', () => {
     expect(LEGACY_REDIRECTS).toHaveLength(40)
@@ -128,7 +171,10 @@ describe('all cleanup redirects', () => {
     const known = new Set<string>(KNOWN_PAGE_DESTINATIONS)
     for (const r of all) {
       const ok =
-        known.has(r.destination) || CITY_HUB.test(r.destination) || posts.has(r.destination)
+        known.has(r.destination) ||
+        CITY_HUB.test(r.destination) ||
+        posts.has(r.destination) ||
+        MERGE_KEPT_POSTS.has(r.destination)
       expect(ok, `${r.source} -> ${r.destination}`).toBe(true)
     }
   })
@@ -146,7 +192,10 @@ describe('all cleanup redirects', () => {
     const protectedPaths = new Set<string>(PROTECTED_POST_PATHS)
     for (const r of all) {
       expect(protectedPaths.has(slash(r.source)), r.source).toBe(false)
-      expect(protectedPaths.has(r.destination), r.destination).toBe(false)
+      // Exception: the 4 kept posts of the city panel-page merge (approved by Haik).
+      if (!MERGE_KEPT_POSTS.has(r.destination)) {
+        expect(protectedPaths.has(r.destination), r.destination).toBe(false)
+      }
     }
   })
 })
