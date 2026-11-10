@@ -1,18 +1,15 @@
 import type { MediaImage } from '@/db/types'
 
 /**
- * Photo / caption fixes for the 2026-11-10 audit. PREVIEW ONLY.
+ * Photo / caption fixes for the 2026-11-10 audit.
  *
- * Active solely when VERCEL_ENV === 'preview'. Production deploys (and local
- * `next start` / development) keep reading the live DB and live JSON captions.
- * No Supabase writes. Title, meta, URL, footer and the 5.0 Google badge are
- * not changed here.
- *
- * Haik approved a private preview (own words, 2026-11-10): fix captions so they
- * describe exactly what's in each photo; where the photo doesn't fit the page,
- * swap in a real job photo.
+ * Enabled for production after Haik approved go-live in his own words
+ * ("Okay fix it", 6:20 AM PT Nov 10) and OK'd the Zinsco main-panel photo
+ * with the PV sticker ("It's okay"). No Supabase writes. Title, meta, URL,
+ * footer, the 5.0 Google badge, and url_redirects are not changed here.
+ * The holiday-lighting post hero is intentionally not overridden.
  */
-export const PHOTO_CAPTION_FIXES_ENABLED = process.env.VERCEL_ENV === 'preview'
+export const PHOTO_CAPTION_FIXES_ENABLED = true
 
 function jobPhoto(
   id: number,
