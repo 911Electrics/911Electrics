@@ -5,13 +5,16 @@ import React from 'react'
 import { CTABanner } from '@/components/sections/CTABanner'
 import { ContactSection } from '@/components/sections/ContactSection'
 import { ServiceCards } from '@/components/sections/ServiceCards'
+import { applyServicesHubDrafts, getServicesHubHeader } from '@/content/service-drafts'
 import { getServicesNav, getSiteSettings } from '@/lib/queries'
 
 export default async function ServicesIndexPage() {
-  const [services, siteSettings] = await Promise.all([
+  const [publishedServices, siteSettings] = await Promise.all([
     getServicesNav(),
     getSiteSettings(),
   ])
+  // Code-managed hub card text + the 2 new service cards (src/content/service-drafts).
+  const services = await applyServicesHubDrafts(publishedServices)
 
   return (
     <>
@@ -24,8 +27,9 @@ export default async function ServicesIndexPage() {
             Professional Services in Los Angeles, CA
           </h1>
           <p className="mt-3 max-w-2xl text-white/80">
-            Residential and commercial electrical work — from urgent repairs to complete new
-            construction wiring. Licensed, bonded and insured.
+            {getServicesHubHeader(
+              'Residential and commercial electrical work — from urgent repairs to complete new construction wiring. Licensed, bonded and insured.',
+            )}
           </p>
         </div>
       </header>

@@ -13,6 +13,7 @@ import {
   getSiteSettings,
   getCityPageTemplate,
 } from '@/lib/queries'
+import { applyServiceDraft } from '@/content/service-drafts'
 import { retiredComboTarget, serviceCityPath } from '@/lib/service-city'
 import { getServiceCity } from '@/lib/service-city.server'
 import { getServiceBySlug, type ServiceDetail } from '@/lib/services'
@@ -44,11 +45,13 @@ export async function generateStaticParams() {
 }
 
 const querySlug = cache(async (slug: string): Promise<Resolved | null> => {
-  const [service, city, post] = await Promise.all([
+  const [publishedService, city, post] = await Promise.all([
     getServiceBySlug(slug),
     getCityBySlug(slug),
     getPostBySlug(slug),
   ])
+  // Code-managed service copy in the same template slots (src/content/service-drafts).
+  const service = await applyServiceDraft(slug, publishedService)
 
   if (service) return { type: 'service', doc: service }
   if (city) {

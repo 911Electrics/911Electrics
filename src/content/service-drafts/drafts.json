@@ -1,0 +1,547 @@
+{
+  "hubHeader": "Licensed C-10 electrical contractor for homes and businesses across Los Angeles, Pasadena, Glendale, Burbank and the San Gabriel and San Fernando Valleys: urgent repairs, panel upgrades, EV chargers, home battery backup, generator hookups, rewiring and new construction wiring. Licensed, bonded and insured.",
+  "cards": {
+    "electrical-repairs-los-angeles-ca": "Dead outlets, tripping breakers, flickering lights and partial outages. We find the real cause, explain it, and give you a price before we fix it.",
+    "emergency-electrician-los-angeles-ca": "Burning smells, sparking outlets, breakers that won't reset and storm damage. A licensed electrician answers 747-255-8595 around the clock.",
+    "electrical-panel-upgrades-los-angeles-ca": "Replace outdated, Zinsco or Federal Pacific panels and upgrade to 200-amp service. Load calculation, permit, utility coordination and inspection included.",
+    "ev-charger-installation-los-angeles-ca": "Level 2 chargers for homes, condos and businesses by EVITP-certified electricians. Panel capacity checked first; permit and inspection included.",
+    "lighting-installation-upgrades-los-angeles-ca": "Recessed lights, fixtures, ceiling fans, under-cabinet, outdoor and security lighting. We check the circuit, box and switching, then install and test.",
+    "new-construction-electrical-los-angeles-ca": "Electrical for new homes, ADUs, additions, rebuilds and commercial builds: plan review, temporary power, rough-in, inspections, service and final trim.",
+    "backup-power-los-angeles-ca": "Tesla Powerwall and other home batteries, plus generator interlocks and transfer switches. Sized to your loads and permitted. We don't install solar.",
+    "house-rewiring-los-angeles-ca": "Whole-house, partial and phased rewiring for older LA homes with knob-and-tube, cloth or aluminum wiring. Planned room by room and inspected in stages."
+  },
+  "services": {
+    "electrical-panel-upgrades-los-angeles-ca": {
+      "shortDescription": "Replace outdated, Zinsco or Federal Pacific panels and upgrade to 200-amp service. Load calculation, permit, utility coordination and inspection included.",
+      "intro": "Need an **electrical panel upgrade near you** in Los Angeles? 911 Construction & Electric replaces outdated, undersized and unsafe panels across the LA area and upgrades homes to modern 200-amp service. If you're adding an EV charger, a heat pump, a home battery or a remodel, or you just trip breakers too often, the panel is usually the bottleneck.\n\n## When a panel upgrade makes sense\n\n- **You're adding a big load:** a Level 2 EV charger, heat pump or mini-split, induction range, electric water heater, home battery, ADU or addition.\n- **Breakers trip often**, lights dim when the AC or dryer starts, or you're running power strips because there aren't enough circuits.\n- **The panel is warm, buzzing, rusted or scorched**, or breakers feel loose.\n- **You have a Zinsco or Federal Pacific (Stab-Lok) panel.** Many electricians consider these a fire risk because their breakers may not trip when they should. More: [Zinsco & Federal Pacific panel dangers](/zinsco-federal-pacific-panel-replacement-los-angeles/).\n- **You still have fuses**, or the panel is full of tandem breakers it wasn't designed for.\n\nNot sure? Read [signs you need a panel upgrade](/signs-you-need-an-electrical-panel-upgrade-in-los-angeles/) or [100-amp vs 200-amp service](/100-amp-vs-200-amp-panel-upgrade-los-angeles/).\n\n## How a panel upgrade works\n\n1. **Site visit and load calculation.** We check your panel, meter, service entrance and grounding, and list what you want to add. The load calculation tells us whether you need a new panel, a service upgrade, a [subpanel](/subpanel-installation-los-angeles/) or just a few circuit changes.\n2. **Written scope and price.** Panel rating, any meter or service work the utility requires, grounding updates, the permit and the timeline, all in writing. For typical ranges, see our [panel upgrade cost guide](/electrical-panel-upgrade-cost-los-angeles/).\n3. **Permit and utility coordination.** We pull the permit under our C-10 license (LADBS in the City of LA, or your local building department) and work with your utility: SCE, LADWP, Pasadena Water & Power, Glendale Water & Power or Burbank Water and Power. This paperwork is why a one-day swap can take a few weeks from first call to permanent power. See our [Pasadena](/pasadena-electrical-permits-panel-ev-charger-rewire/) and [Glendale](/glendale-electrical-permits-gwp-service-upgrade/) permit guides.\n4. **Installation day.** Most panel replacements take one working day, with the power off for most of it. We land every circuit on a new breaker, label as we go, and bring grounding and bonding up to current code.\n5. **Inspection and re-energizing.** The city inspects, the utility releases the service, and you get a labeled panel directory and a finaled permit for insurance, resale and any rebate claim.\n\nAs a licensed, bonded and insured electrical contractor (CA Lic. #1027421), we handle all of it, start to finish.",
+      "features": [
+        {
+          "title": "Load Calculation, Not Guesswork",
+          "text": "We size the upgrade from your actual square footage, appliances and planned additions, then recommend the smallest upgrade that safely covers what you have and what's coming. Sometimes that's a subpanel, not a new service."
+        },
+        {
+          "title": "Zinsco & Federal Pacific Replacement",
+          "text": "We replace Zinsco, Sylvania-Zinsco and Federal Pacific Stab-Lok panels, fuse boxes and split-bus panels, plus 100-amp services that can't take an EV charger, heat pump or battery."
+        },
+        {
+          "title": "Permit & Utility Paperwork Handled",
+          "text": "We pull the permit under our C-10 license and coordinate the disconnect, meter and reconnect with SCE, LADWP, PWP, GWP or BWP, so you're not stuck in the middle."
+        },
+        {
+          "title": "A Realistic Timeline Up Front",
+          "text": "Install day is usually one day. Permits and utility steps can add days or weeks before and after. We tell you which applies to your city and utility before you commit."
+        },
+        {
+          "title": "Planned for What's Next",
+          "text": "Adding an EV charger circuit, battery-ready space, a generator interlock-ready panel or a whole-house surge protector? We put it on the same scope and permit, which usually costs less than doing it later."
+        },
+        {
+          "title": "SCE Charge Ready Home Contractor",
+          "text": "If SCE is your utility, you may qualify for up to $4,200 toward a panel upgrade to 200 amps plus a 240-volt EV outlet (income-qualified households or designated disadvantaged communities, per evhome.sce.com). We'll tell you honestly if you're likely to qualify."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Safer Breakers & Connections",
+          "text": "A new panel with properly sized breakers, tight connections and current grounding and bonding, with AFCI/GFCI protection where code calls for it on the work we touch."
+        },
+        {
+          "title": "Room for EVs, Heat Pumps & Batteries",
+          "text": "200-amp service (or a right-sized alternative) gives you the capacity for a Level 2 charger, all-electric appliances and a home battery without constant breaker trips."
+        },
+        {
+          "title": "A Finaled Permit & Labeled Panel",
+          "text": "You keep a signed-off permit and a clear panel directory: useful for insurance, resale and any rebate claim, and it removes a common inspection flag when you sell."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How do I know if I need a panel upgrade?",
+          "answer": "Frequent breaker trips, flickering or dimming lights, a warm or buzzing panel, burning smells, a fuse box, or a Zinsco or Federal Pacific panel are all signs. So is planning a big new load like an EV charger or heat pump. A load calculation gives you a definite answer."
+        },
+        {
+          "question": "How long does a panel upgrade take?",
+          "answer": "Most installs are done in one day, with the power off for most of that day. Getting the permit and coordinating with the utility can add days or weeks before and after, depending on your city and utility. We give you a realistic timeline in the estimate."
+        },
+        {
+          "question": "Do I need a permit?",
+          "answer": "Yes. Panel replacements and service upgrades are permitted work everywhere we operate. We pull the permit under our C-10 license and schedule the inspection."
+        },
+        {
+          "question": "Should I replace a Zinsco or Federal Pacific panel even if it seems fine?",
+          "answer": "Many electricians recommend it, because the concern is breakers that may not trip under overload, and you can't see that from outside. We'll inspect it and give you a straight recommendation. More: [Do Federal Pacific panels need to be replaced?](/do-federal-pacific-panels-need-to-be-replaced-los-angeles/)"
+        },
+        {
+          "question": "Will upgrading my panel increase my home's value?",
+          "answer": "A modern, permitted panel is safer, supports EV charging and electrification, and removes a common inspection flag when you sell. It's a smart move if you're planning an EV charger or have seen the warning signs of an outdated panel."
+        },
+        {
+          "question": "Can I get a rebate?",
+          "answer": "If you're an SCE customer and meet [SCE Charge Ready Home](/sce-charge-ready-home-in-network-contractor-los-angeles/) eligibility, possibly: up to $4,200 toward a panel upgrade to 200 amps plus an EV outlet, per SCE's program site. Program terms change, so we confirm current rules with SCE for every job. Pasadena customers: see our [PWP panel rebate guide](/pasadena-panel-upgrade-rebate-2026-requirements-documents-timeline/)."
+        }
+      ]
+    },
+    "ev-charger-installation-los-angeles-ca": {
+      "shortDescription": "Level 2 chargers for homes, condos and businesses by EVITP-certified electricians. Panel capacity checked first; permit and inspection included.",
+      "intro": "911 Construction & Electric Inc. installs Level 2 EV chargers for homes, apartment buildings and businesses across Los Angeles. Before anything goes on the wall, we check your panel capacity and plan the circuit, so the charger runs at the speed you paid for without tripping breakers. Installs are done by EVITP-certified electricians under our C-10 license, with the permit and inspection included.\n\n## Level 1, Level 2, hardwired or plug-in?\n\n- **Level 1** is the 120-volt cord that came with the car. No install needed, but it's slow.\n- **Level 2** runs on a dedicated **240-volt circuit**, like a dryer. This is what most homes install.\n- **Hardwired vs. outlet:** hardwiring is generally the more robust option for high-output chargers; a heavy-duty 240-volt outlet (such as a NEMA 14-50) makes it easy to swap chargers later.\n\nWe install Tesla Wall Connectors and universal J1772/NACS chargers. Tell us what you drive and what charger you have (or want), and we'll size the circuit to match.\n\n## How a home EV charger install works\n\n1. **Quick call or photos.** Your car, your charger, where you park, and a photo of your panel with the door open.\n2. **Site visit and load check.** We look at your panel rating, open breaker space and existing loads, measure the route, and run a **load calculation**.\n3. **Circuit size and route.** We match breaker and wire to the charger and to what your panel can spare. A detached garage or driveway post means conduit or trenching, and that shows up in the price.\n4. **If the panel is tight:** turn the charger down, add [load management](/ev-charger-load-management-los-angeles/), or put a [panel upgrade](/electrical-panel-upgrades-los-angeles-ca/) and the charger on one permit.\n5. **Permit.** California requires cities to offer streamlined EV charger permitting. We pull it under our C-10 license.\n6. **Install day.** Usually one day: breaker, wire and conduit, charger or outlet, current limit set to match the circuit, then a test with your car if it's home.\n7. **Inspection.** You get a finaled permit, which you'll need for any rebate claim.\n\nMore: [complete guide to EV charger installation in LA](/complete-guide-ev-charger-installation-los-angeles/) · [typical EV charger installation costs](/ev-charger-installation-cost-los-angeles/)",
+      "features": [
+        {
+          "title": "EVITP-Certified Electricians",
+          "text": "EVITP is the recognized training standard for EV charger installers, and some utility and public charging programs require it. Our EV charger work is performed by EVITP-certified electricians."
+        },
+        {
+          "title": "Panel Capacity Checked First",
+          "text": "We look at your panel rating, breaker space and existing loads and run a load calculation before quoting, so the charger fits your service without nuisance trips."
+        },
+        {
+          "title": "Options Before a Panel Upgrade",
+          "text": "When the panel is tight, a lower charger setting or load management can sometimes avoid a service upgrade. If you really need more capacity, we put both on one permit."
+        },
+        {
+          "title": "Any Charger, Sized Right",
+          "text": "Tesla Wall Connectors and universal J1772/NACS chargers, hardwired or on a 240-volt outlet. Already bought one? Send the model and we'll size the circuit to it."
+        },
+        {
+          "title": "Condos, Apartments & Commercial",
+          "text": "Shared garages, HOA approvals, house meters, multi-charger load studies and networked chargers. See EV charging for condos and commercial EV charging."
+        },
+        {
+          "title": "SCE Charge Ready Home Contractor",
+          "text": "SCE customers in income-qualified households or designated disadvantaged communities may qualify for up to $1,000 toward an EV outlet, or up to $4,200 with a panel upgrade, per evhome.sce.com. It covers the electrical work, not the charger."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Full-Speed, Reliable Charging",
+          "text": "A dedicated circuit matched to your charger's rating, with the current limit set correctly, so you get the charging speed you paid for night after night."
+        },
+        {
+          "title": "Permitted & Inspected",
+          "text": "Every Level 2 install is permitted and inspected. The finaled permit is what rebate programs ask for, and it's useful for insurance and resale."
+        },
+        {
+          "title": "Ready for the Next Car",
+          "text": "We plan the circuit, outlet or conduit so a second EV, a new charger or load management can be added later without starting over."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long does EV charger installation take?",
+          "answer": "Most home installs are done in one day. If you need a panel upgrade, add the upgrade day plus the permit and utility steps. We give you a timeline after the site visit."
+        },
+        {
+          "question": "Do I need an electrical panel upgrade for an EV charger?",
+          "answer": "Not always. Many homes can add a Level 2 charger as is, or with a lower charger setting or load management. Older 100-amp services with central AC and electric appliances often need more capacity. You can also read our articles about [home EV charger installation in Los Angeles](/los-angeles-home-ev-charger-installation/) and [why hiring an EVITP certified installer matters](/why-hiring-an-evitp-certified-installer-matters-in-los-angeles/). Our team will inspect your panel and let you know if any upgrades are recommended before installation."
+        },
+        {
+          "question": "Do I need a permit for an EV charger?",
+          "answer": "Yes. A Level 2 charger needs an electrical permit and inspection. We handle both."
+        },
+        {
+          "question": "Hardwired or plug-in, which is better?",
+          "answer": "Hardwiring is generally better for high-output chargers and outdoor locations. A 240-volt outlet makes swapping chargers easy. We'll recommend one based on the charger you have and where it's mounted."
+        },
+        {
+          "question": "Can you install a charger I already bought?",
+          "answer": "Yes. Send us the model, and we'll size the circuit to its rating and your panel's capacity."
+        },
+        {
+          "question": "Can you install EV chargers for commercial properties?",
+          "answer": "Yes. We install charging for homes, apartment complexes, businesses and commercial sites, from a single charger to several units with load management. Already have a charger that's acting up? See [EV charger repair](/ev-charger-repair-los-angeles/)."
+        }
+      ]
+    },
+    "electrical-repairs-los-angeles-ca": {
+      "shortDescription": "Dead outlets, tripping breakers, flickering lights and partial outages. We find the real cause, explain it, and give you a price before we fix it.",
+      "intro": "911 Construction & Electric Inc. finds and fixes electrical problems in homes, businesses and rental properties across Los Angeles: dead outlets, breakers that won't stay on, flickering lights, warm switch plates, buzzing panels and partial outages. We track down the real cause, explain it in plain English, and give you a price before we fix it.\n\n**Smoke, flames, or someone shocked? Call 911 first.** Burning smell, sparking or a hot outlet? Stop using it, turn off that breaker if it's safe, and call us now. See [emergency electrician](/emergency-electrician-los-angeles-ca/).\n\n## Common problems, and what usually causes them\n\n- **Breaker keeps tripping:** too much load on one circuit, a short or ground fault, a damaged cord, or a worn-out breaker. Reset it once; if it trips again, leave it off. Never swap in a bigger breaker. → [Why a breaker keeps tripping](/circuit-breaker-keeps-tripping-los-angeles/)\n- **Outlets not working:** check for a tripped GFCI first (it may be in another room). Otherwise it's often a loose \"backstabbed\" connection upstream or a failed device. → [Outlet not working?](/outlet-not-working-repair-los-angeles/)\n- **Part of the house lost power:** a failed breaker, a loose feed, or one leg of your service. Lights dim on one side and bright on the other can mean a failing neutral, and that's urgent. → [Partial power outage](/partial-power-outage-in-house-los-angeles/)\n- **Flickering or dimming lights:** one fixture is usually the bulb, dimmer or fixture connection; the whole house dimming when the AC starts points to the panel or service. → [Flickering lights](/flickering-lights-electrician-los-angeles/)\n- **Warm, buzzing or sparking outlets and switches:** heat from a loose or failing connection. Stop using it and call. → [Outlet sparking or burning smell](/outlet-sparking-burning-smell-los-angeles/)\n- **Two-prong outlets, no GFCI, old wiring:** we add GFCI/AFCI protection and grounding where practical, and tell you when a [rewire](/house-rewiring-los-angeles-ca/) is the real fix. → [GFCI and AFCI outlets](/gfci-afci-outlet-installation-los-angeles/) · [Aluminum wiring repair](/aluminum-wiring-repair-los-angeles/)\n\n## What a repair visit looks like\n\n1. **You call and describe it.** A licensed electrician answers. If it sounds dangerous, we tell you what to shut off before we arrive.\n2. **Diagnosis on site.** We start at the panel, then trace the circuit to its outlets, switches, fixtures and junction boxes, testing with meters, not guesswork.\n3. **Clear explanation and price.** We show you what we found and give you options, each with a price. You decide.\n4. **Repair and test.** Most common repairs are done the same visit, and we test the circuit under load before we leave.\n5. **Permit when it's needed.** Some cities, Pasadena among them, require a permit even for a like-for-like breaker swap. We pull it and schedule the inspection. → [Pasadena electrical permits](/pasadena-electrical-permits-panel-ev-charger-rewire/)",
+      "features": [
+        {
+          "title": "Accurate Diagnosis, Not Guesswork",
+          "text": "We start at the panel and trace the circuit with meters, so we can tell a failed device apart from a wiring fault or an overloaded circuit, and fix the cause instead of the symptom."
+        },
+        {
+          "title": "A Price Before Any Repair",
+          "text": "We show you what we found and give you options: a simple repair, a longer-term fix, or both, each with a price. Nothing gets fixed until you decide."
+        },
+        {
+          "title": "Most Repairs Done Same Visit",
+          "text": "Failed breakers, outlets, switches and GFCIs, loose or burned connections, and overloaded circuits are usually fixed on the first visit and tested under load before we leave."
+        },
+        {
+          "title": "Honest About Bigger Problems",
+          "text": "Repeated trips and warm connections can trace back to an overloaded panel, a Zinsco or Federal Pacific panel, or old wiring. We'll tell you plainly whether a bigger fix is worth it. You don't have to decide that day."
+        },
+        {
+          "title": "Homes, Businesses & Rentals",
+          "text": "Homeowner troubleshooting, business outages affecting equipment and lighting, and tenant-reported issues for landlords and property managers, with access coordinated directly."
+        },
+        {
+          "title": "Licensed Electrician Answers 24/7",
+          "text": "Call 747-255-8595 day or night. Urgent hazards like burning smells, sparking or a failing neutral are handled as emergencies."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Power Back, Safely",
+          "text": "The circuit is repaired, tested under load and left safe, not just reset. Where code calls for it, we add GFCI/AFCI protection on the work we touch."
+        },
+        {
+          "title": "The Real Cause Fixed",
+          "text": "Fixing the loose connection, failed breaker or overloaded circuit behind the symptom means the same problem doesn't come back next week."
+        },
+        {
+          "title": "A Clear Picture of Your System",
+          "text": "You leave knowing what failed, why, and whether anything else in the house needs attention, so you can plan instead of react. Want a full baseline? Ask about an electrical safety inspection."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How quickly can you fix electrical issues?",
+          "answer": "Most common repairs are done the same day, once we've diagnosed the problem. Bigger fixes that need parts, a permit or utility coordination get a clear timeline."
+        },
+        {
+          "question": "Do you handle emergency electrical repairs?",
+          "answer": "Yes, 24/7. Sudden outages, exposed wiring, burning smells and sparking all count. See [emergency electrician](/emergency-electrician-los-angeles-ca/)."
+        },
+        {
+          "question": "What are common signs I need electrical repairs?",
+          "answer": "Flickering or dimming lights, breakers that trip often, burning smells, buzzing, warm outlets or switch plates, and sudden loss of power. If those point to an overloaded service, we may also recommend an [electrical panel upgrade](/electrical-panel-upgrades-los-angeles-ca/). If you notice any of these, call a licensed electrician promptly."
+        },
+        {
+          "question": "Can I just reset the breaker?",
+          "answer": "Once. If it trips again, leave it off, unplug what's on that circuit, and call."
+        },
+        {
+          "question": "Do small repairs need a permit?",
+          "answer": "It depends on the city and the work. Some cities require a permit even for like-for-like breaker or device replacement. We'll tell you and handle it."
+        },
+        {
+          "question": "Do you charge to diagnose?",
+          "answer": "Yes, there is a diagnostic fee. You'll get a price for the repair before we do it."
+        },
+        {
+          "question": "What can I do before you arrive?",
+          "answer": "Leave a tripped breaker off and note which one it is. Write down when the problem happens (only when the microwave runs, only when it rains). Unplug what's on the dead circuit, clear a path to the panel and attic or crawlspace access, and tell us about any recent work or storms. Renters: let your landlord know, and we can coordinate access with them."
+        }
+      ]
+    },
+    "lighting-installation-upgrades-los-angeles-ca": {
+      "shortDescription": "Recessed lights, fixtures, ceiling fans, under-cabinet, outdoor and security lighting. We check the circuit, box and switching, then install and test.",
+      "intro": "911 Construction & Electric Inc. installs and upgrades lighting for homes, businesses and property managers across Los Angeles: recessed lights, fixtures and ceiling fans, under-cabinet lighting, and outdoor, security and landscape lighting. We handle the electrical side properly, including the circuit, the boxes, the switching and the permit, so the result looks good and stays safe.\n\n## What we install\n\n- **Recessed (can) lighting:** slim LED wafers and traditional housings, fished through finished ceilings or installed during remodels. → [Recessed lighting installation](/recessed-lighting-installation-los-angeles/)\n- **Fixtures, chandeliers and pendants:** heavy fixtures hung on boxes rated for the weight, new pendant locations. → [Light fixture installation cost](/light-fixture-installation-cost-los-angeles/)\n- **Ceiling fans** on fan-rated boxes with separate fan and light control. → [Ceiling fan installation](/ceiling-fan-installation-los-angeles/)\n- **Under-cabinet and accent lighting** wired to a switch or dimmer. → [Under-cabinet lighting](/under-cabinet-lighting-installation-los-angeles/)\n- **Outdoor, security and landscape lighting** on weather-rated circuits. → [Outdoor landscape lighting](/outdoor-landscape-lighting-los-angeles/)\n- **Commercial and exterior lighting**, including LED retrofits and [parking lot lighting repair](/parking-lot-lighting-repair-los-angeles/)\n- **Dimmers, smart switches and controls**, three-way and four-way switching, occupancy sensors. → [Smart home wiring](/smart-home-electrical-wiring-los-angeles/)\n\n## How a lighting job works\n\n1. **Walkthrough.** We talk through what each room needs to do and check what's behind the ceiling: joists, attic access, insulation, and whether the circuit can take the load.\n2. **Layout and fixture plan.** Even spacing for recessed lights, the right ratings (damp or wet outdoors and in showers, IC-rated against insulation), and dimmers matched to the LED drivers, which prevents most flicker and buzz.\n3. **Circuit check.** If the existing circuit is overloaded, ungrounded or has old cloth wiring, we tell you before tying new lights into it.\n4. **Written price and permit.** New circuits, new fixture locations, outdoor wiring and most remodel lighting need a permit. We pull it.\n5. **Install day.** Floors protected, clean openings, boxes rated for the fixture or fan, dimmers and controls programmed. Most fixture swaps and single rooms take one visit.\n6. **Test and walkthrough.** We test every switch, dimmer and sensor with you and close out the permit.\n\nMany pre-1960 LA homes have shallow boxes and brittle cloth wiring at the fixture. If we find damaged insulation, we show you and fix it before mounting the new light. Planning a kitchen? See [kitchen remodel electrical](/kitchen-remodel-electrical-los-angeles/).",
+      "features": [
+        {
+          "title": "A Layout That Lights Evenly",
+          "text": "We plan spacing and placement so recessed lights give even light without hot spots and dark corners, and layer task, ambient and accent light on separate switches or dimmers."
+        },
+        {
+          "title": "The Right Fixture for the Spot",
+          "text": "Damp- or wet-rated fixtures outdoors and in showers, IC-rated housings where they touch insulation, and fan- or weight-rated boxes for ceiling fans and chandeliers."
+        },
+        {
+          "title": "Dimmers Matched to Your LEDs",
+          "text": "Most flicker and buzz complaints come from dimmers that aren't rated for the LED driver. We match them up front and fix existing ones that act up."
+        },
+        {
+          "title": "Circuit & Wiring Checked First",
+          "text": "Before we tie in new lights, we check that the circuit isn't overloaded, ungrounded or running on brittle cloth wiring, and tell you what we find."
+        },
+        {
+          "title": "Clean Work in Finished Ceilings",
+          "text": "We cut only the openings the fixtures need and fish wire from above or through small access holes. If an extra access opening is needed, we tell you beforehand."
+        },
+        {
+          "title": "Indoor, Outdoor & Commercial",
+          "text": "Kitchens, baths, hallways, garages, porches, driveways, landscape and security lighting, plus commercial interior retrofits and exterior and parking-lot lighting."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Better Light Where You Need It",
+          "text": "Task light at counters and mirrors, softer dimmable light in living spaces, and three-way switching on stairs and halls so nothing important is in shadow."
+        },
+        {
+          "title": "Safer Outdoors & at Night",
+          "text": "Motion and dusk-to-dawn lights at doors, driveways and side yards, aimed down so you light your property, not the neighbor's bedroom."
+        },
+        {
+          "title": "Lower Energy Use & Less Heat",
+          "text": "Replacing old incandescent and fluorescent fixtures with LED reduces energy use, maintenance and the heat that slowly damages old fixture wiring."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What types of lighting do you install?",
+          "answer": "Recessed lights, ceiling fixtures and chandeliers, pendants, ceiling fans, under-cabinet lighting, outdoor and security lighting, landscape lighting, and commercial interior and exterior lighting. We help you choose what fits the property and how you use it."
+        },
+        {
+          "question": "Are lighting upgrades worth it?",
+          "answer": "Yes. Lighting upgrades can improve safety, visibility, appearance and energy efficiency. Replacing old incandescent and fluorescent fixtures with LED reduces maintenance and heat."
+        },
+        {
+          "question": "How long does a lighting project take?",
+          "answer": "Single fixtures and small projects usually take one visit. Whole-house recessed lighting or long outdoor runs can take longer depending on scope, wiring conditions, fixture types and access. We give you a clear timeline before work begins."
+        },
+        {
+          "question": "Can you install fixtures I bought?",
+          "answer": "Yes. Send us the model or spec sheet so we can confirm the box, rating and dimmer compatibility ahead of time."
+        },
+        {
+          "question": "Do lighting projects need a permit?",
+          "answer": "New circuits, new fixture locations, outdoor wiring and remodel lighting usually do, and some cities require one even for replacements. We'll tell you and handle it."
+        },
+        {
+          "question": "Why do my LED lights flicker or buzz?",
+          "answer": "Usually a dimmer that isn't rated for LED, or too little load on it. Lights that dim when appliances start point to the circuit or panel instead. See [electrical repairs](/electrical-repairs-los-angeles-ca/)."
+        }
+      ]
+    },
+    "new-construction-electrical-los-angeles-ca": {
+      "shortDescription": "Electrical for new homes, ADUs, additions, rebuilds and commercial builds: plan review, temporary power, rough-in, inspections, service and final trim.",
+      "intro": "911 Construction & Electric Inc. is a C-10 licensed electrical contractor for new homes, ADUs, additions, rebuilds, tenant improvements and commercial builds across Los Angeles. We take the electrical scope from plan review through temporary power, rough-in, inspections, service and final trim, and plan around your inspection schedule so the electrical doesn't hold up drywall.\n\n## Projects we wire\n\n- **Custom and spec homes**, including rebuilds after fire loss\n- **ADUs and garage conversions**, attached or detached → [ADU electrical wiring](/adu-electrical-wiring-los-angeles/)\n- **Additions and second stories** that change the load on the existing service\n- **Multi-unit residential**: house meters, unit panels, common-area lighting\n- **Commercial and tenant improvements**: lighting, receptacles, equipment circuits and service work\n- **EV-ready and battery-ready builds**, with chargers, conduit and panel space planned from the start\n\n## How a new construction electrical job runs\n\n1. **Plan review and load calculation.** We size the service and panels and flag conflicts early. 2026 projects are inspected against the [2025 California Electrical Code](/2025-california-electrical-code-changes-pasadena-la/).\n2. **Utility service planning.** SCE, LADWP, PWP, GWP and BWP each have their own process for meter location, overhead or underground service and transformers. This is usually the longest lead time, so we open the request early.\n3. **Permits.** Pulled under our C-10 license with LADBS, LA County (for areas like Altadena) or the local city, coordinated with whoever holds the building permit.\n4. **Temporary power.** A permitted, inspected temporary power pole with GFCI-protected outlets. → [Temporary power poles](/temporary-power-pole-installation-los-angeles/)\n5. **Rough-in.** Boxes, branch circuits, feeders and conduit for future EV chargers, batteries or exterior lighting, labeled as we go.\n6. **Rough-in inspection.** We meet the inspector and turn corrections around fast so insulation and drywall can follow. → [Rough-in inspection: what to expect](/electrical-rough-in-inspection-los-angeles/)\n7. **Service and panels.** Main service equipment, subpanels and meter banks set, grounded, bonded and energized with the utility.\n8. **Trim-out and final.** Devices, fixtures, fans, smoke and CO alarms and appliance connections installed and tested, then a labeled panel directory and a finaled permit.\n\nRebuilding after a fire? The sequence is temporary power, then utility planning for the new permanent service, then the normal rough-in, inspection and final. Start the utility request early. → [Smoke-damaged wiring after the Eaton Fire](/smoke-damaged-wiring-eaton-fire-altadena-pasadena/)",
+      "features": [
+        {
+          "title": "Plan Review & Load Calculation",
+          "text": "We review the electrical plans (or help lay out the electrical if the plans only show architecture), size the service and panels, and flag fixture, panel-clearance and service-size conflicts while they're cheap to fix."
+        },
+        {
+          "title": "Utility Requests Opened Early",
+          "text": "New services are usually the longest lead time on the electrical side. We open the SCE, LADWP, PWP, GWP or BWP request early and keep it moving."
+        },
+        {
+          "title": "One Point of Contact for Electrical",
+          "text": "From bid through final, one electrical contractor handles the electrical scope, with change orders in writing (price and schedule impact) before the work."
+        },
+        {
+          "title": "Schedule-Aware Rough-In & Trim",
+          "text": "We plan rough-in and trim around framing, insulation, drywall and other trades, and turn inspection corrections around fast so a failed item doesn't hold up the next trade."
+        },
+        {
+          "title": "Owner Walkthroughs Before Rough-In",
+          "text": "Switch and outlet locations get settled with the owner before wire goes in, when moving them is cheap."
+        },
+        {
+          "title": "Line-Item Bids",
+          "text": "Send plans, the appliance schedule, service details and future loads, and we'll separate temporary power, rough-in, service and trim so bids are easy to compare and change orders easy to track."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Code-Compliant From Day One",
+          "text": "Built to the current California Electrical Code and local amendments, inspected at rough-in and final, with the permit closed out."
+        },
+        {
+          "title": "Fewer Delays & Corrections",
+          "text": "Early utility requests, labeled rough-in and fast correction turnarounds keep the electrical from becoming the reason drywall waits."
+        },
+        {
+          "title": "Ready for EVs, Batteries & All-Electric",
+          "text": "Capacity, conduit and panel space for EV charging, a home battery, a generator option and heat pump or induction appliances, planned now for a fraction of the retrofit cost."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What does new construction electrical include?",
+          "answer": "Plan review and load calculation, utility service planning, permits, temporary power, rough-in wiring, inspections, the main service and panels, and final trim: devices, fixtures, appliance connections and testing."
+        },
+        {
+          "question": "Do you work with builders and general contractors?",
+          "answer": "Yes. We work with homeowners, builders, developers and general contractors throughout Los Angeles, and coordinate with the construction schedule so electrical stays in sync with the build. On your project, we're the electrical contractor."
+        },
+        {
+          "question": "Will the electrical work meet local code requirements?",
+          "answer": "Yes. We build to the current California Electrical Code and local amendments, meet the inspector at rough-in and final, and close out the permit."
+        },
+        {
+          "question": "How early should I bring in the electrician?",
+          "answer": "Before plans are final if you can, and no later than when you apply for permits. Service size, meter location and panel placement are much cheaper to get right on paper."
+        },
+        {
+          "question": "Can you handle ADUs and detached structures?",
+          "answer": "Yes. That includes feeders, subpanels, trenching coordination and the decision between a separate meter or a subpanel off the main house. → [ADU electrical wiring](/adu-electrical-wiring-los-angeles/) · [Pasadena ADU electrical](/pasadena-adu-electrical-subpanel-meter-pwp-service/)"
+        },
+        {
+          "question": "How long does the utility take to energize a new service?",
+          "answer": "It varies by utility and project. It's often the longest wait on the electrical side, which is why we open the service request early."
+        }
+      ]
+    },
+    "backup-power-los-angeles-ca": {
+      "new": true,
+      "id": -101,
+      "displayOrder": 2.1,
+      "heroImageId": 45,
+      "cardImageId": 45,
+      "showRatingBadge": true,
+      "title": "Home Battery, Tesla Powerwall & Generator Backup in Los Angeles, CA",
+      "navLabel": "Home Battery & Generator Backup",
+      "metaTitle": "Home Battery, Tesla Powerwall & Generator Backup in Los Angeles, CA | 911 Electric",
+      "metaDescription": "Tesla Energy Certified installer for Powerwall and home batteries, plus generator interlocks and transfer switches in Los Angeles. Batteries only — we don't install solar. Call 747-255-8595.",
+      "heroSubheading": "911 Construction & Electric Inc. is a Tesla Energy Certified installer of Tesla Powerwall and other home batteries, and connects portable and standby generators with permitted interlock kits and transfer switches in Los Angeles, CA. We handle the load calculation, panel work, permit and inspection. We install batteries only; we don't install solar panels.",
+      "shortDescription": "Tesla Powerwall and other home batteries, plus generator interlocks and transfer switches. Sized to your loads and permitted. We don't install solar.",
+      "intro": "911 Construction & Electric Inc. keeps Los Angeles homes and businesses powered through heat waves, windstorms and Public Safety Power Shutoffs. We're a **Tesla Energy Certified installer** for Tesla Powerwall and other home batteries, and we connect portable and standby generators safely with permitted interlock kits and transfer switches. We're electricians first, so we handle the parts that decide whether backup power actually works: the load calculation, the panel, the permit and the inspection.\n\n**We install batteries. We don't install solar panels.**\n\n## Battery or generator?\n\n- **Home battery:** silent, no fuel, switches over automatically, usually without you noticing. On normal days it can run the house during peak hours on stored grid power, depending on your rate plan and settings. It runs until it's drained, then recharges from the grid. Big loads like central AC need enough battery output sized for them. Mostly hands-off.\n- **Portable generator with an interlock or transfer switch:** usually the lowest-cost way to power hardwired circuits like the fridge, lights, internet and furnace fan. You start it and switch over by hand, and it runs as long as you have fuel.\n- **Standby generator with an automatic transfer switch:** natural gas or propane, starts and switches over within seconds with nobody home, runs as long as fuel lasts and handles big loads like central air more easily. Needs periodic service and runs its own exercise cycle.\n\nSome homes choose one, some both. We'll ask what needs to keep running at 2 a.m. during a red-flag outage, then size the system to that, not to a brochure.\n\n## Home batteries and Tesla Powerwall\n\nA battery system includes the battery unit(s) (your quote lists the model and how many), backup controls that disconnect the house from the grid so power can't flow back onto utility lines, and app monitoring. The first decision is what it backs up:\n\n- **Backed-up circuits (critical-load panel):** the fridge, some lighting, Wi-Fi, bedroom outlets, a furnace blower or mini-split, medical equipment. Common in older LA homes, and it stretches one battery much further.\n- **Whole-home backup:** every circuit stays live, including central air. That usually takes more than one battery and often a service or panel upgrade.\n\n**Already have solar?** A battery can be added to many homes that already have solar. We look at how the battery ties into your existing electrical system. **We don't install, move or service solar panels**, so any work on the panels themselves stays with your solar company.\n\n## Generators and transfer switches\n\n**Never plug a generator into a wall or dryer outlet to power the house.** That \"suicide cord\" backfeeds the utility lines and can electrocute line crews. Every option below prevents it:\n\n- **Generator interlock kit:** a listed sliding plate on your panel makes it impossible to have the main and the generator breaker on at the same time. We add a 2-pole generator breaker and an outdoor inlet box, and you can run any circuit. Needs a listed kit for your panel. → [Generator interlock kits](/generator-interlock-kit-installation-los-angeles/)\n- **Manual transfer switch:** a separate switch panel with pre-selected circuits. Simpler under stress, and a good fit when the panel has no listed interlock kit.\n- **Automatic transfer switch (ATS)** for a standby generator: senses the outage, starts the generator and switches back when utility power returns. → [Whole-house generators](/whole-house-generator-installation-los-angeles/)\n\nCompare the options: [Generator transfer switch guide](/generator-transfer-switch-installation-los-angeles/)\n\n## How a backup power job works\n\n1. **Call and photos.** Why you want backup (outages, medical equipment, peak rates), what must stay on, your generator's wattage and outlet type if you have one, and photos of your main panel, its label, the meter, and where the battery or generator would go.\n2. **Site visit and load calculation.** We check service size, panel brand and condition, open breaker space, grounding, and whether a listed interlock kit exists. Code limits how much battery current a panel's busbar can accept, so this is where we find out if your panel can take a battery or generator connection as is.\n3. **Location.** Batteries usually go on a garage wall and must meet the manufacturer's clearances, temperature range and vehicle protection. Generators run outdoors only, well away from doors, windows and vents.\n4. **Written scope and price:** equipment, which circuits stay on, any panel work, the permit, utility paperwork and the timeline.\n5. **Permit and utility paperwork.** We pull the electrical permit under our C-10 license with LADBS or your local building department. Batteries also need utility approval (SCE, LADWP, Pasadena Water & Power, Glendale Water & Power or Burbank Water and Power), which we prepare and submit. Standby generators also need the fuel (gas) connection permitted separately; who handles that connection depends on the job.\n6. **Install.** Interlock or manual switch: usually a few hours. Battery: usually one to a few days, depending on panel work. Standby generator and ATS: usually one to two days of electrical work once the unit is set on its pad and the fuel connection is ready. Any panel upgrade usually comes first.\n7. **Inspection, testing and walkthrough.** For batteries, we commission the system, test a simulated outage and set up the app; it runs normally once the utility gives permission to operate. For portable generators, we walk you through the outage routine: generator outside, main off, generator breaker on, loads on one at a time. For standby units, the exercise cycle and status readout.\n\nMore: [Tesla Powerwall installation guide](/tesla-powerwall-installation-los-angeles/) · [Home battery backup guide](/home-battery-backup-installation-los-angeles/) · [Santa Ana winds, PSPS and backup power](/santa-ana-winds-psps-backup-power-foothill-homes/)",
+      "features": [
+        {
+          "title": "Tesla Energy Certified Installer",
+          "text": "We install Tesla Powerwall and other home batteries, plus the backup controls, backup panel and electrical work around them. Batteries only: we don't install solar panels."
+        },
+        {
+          "title": "Battery, Generator or Both",
+          "text": "We explain the trade-offs between a battery, an interlock kit, a manual transfer switch and a standby generator with an automatic switch, then recommend what fits your home, panel and budget."
+        },
+        {
+          "title": "Sized to What Must Stay On",
+          "text": "A load calculation matches the battery, generator and switch to the circuits you actually need, so the system isn't overloaded the first time the AC and the fridge kick on together."
+        },
+        {
+          "title": "Panel Readiness Checked First",
+          "text": "Homes with 100-amp service, a full panel, or a Zinsco or Federal Pacific panel often need an upgrade first; Zinsco and Federal Pacific Stab-Lok panels generally have no listed interlock kit. If needed, we do the upgrade under the same permit."
+        },
+        {
+          "title": "Permit & Utility Paperwork Handled",
+          "text": "We pull the electrical permit, prepare and submit the utility paperwork batteries need before they can operate. Standby generators also need a separately permitted fuel connection; who handles it depends on the job."
+        },
+        {
+          "title": "Honest About Incentives",
+          "text": "As of November 2026, the federal 25D credit doesn't apply to systems installed after Dec 31, 2025 (per the IRS), and SCE lists its SGIP ratepayer budgets as closed. We'll check what's open for your address, such as the PWP battery rebate."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Power Through Outages",
+          "text": "Your chosen circuits keep running during heat waves, windstorms and Public Safety Power Shutoffs, from a silent battery, a generator, or both."
+        },
+        {
+          "title": "No Backfeed, No Suicide Cord",
+          "text": "Every setup keeps backup power off the utility lines, protecting line crews, your equipment and your home."
+        },
+        {
+          "title": "Permitted, Inspected & Tested",
+          "text": "A finaled permit, utility permission to operate for batteries, and a tested switchover before we leave, plus a clear outage routine you can follow in the dark."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do you install solar panels?",
+          "answer": "No. We install home batteries, the backup panel and the electrical work around them, plus generator connections. We don't install solar."
+        },
+        {
+          "question": "Do I need solar to get a battery?",
+          "answer": "No. A battery can charge from the grid and still give you backup power. Solar just lets it recharge during long outages."
+        },
+        {
+          "question": "Should I get a battery or a generator?",
+          "answer": "A battery is silent, needs no fuel and can shift usage off peak, but runs down if it can't recharge. A standby generator runs as long as fuel lasts and handles big loads like central air more easily. A portable generator with an interlock or transfer switch is usually the lowest-cost option. Some homes choose one, some both. We'll walk you through it for your home."
+        },
+        {
+          "question": "How long will a battery run my house?",
+          "answer": "It depends on capacity and what's connected. A backup panel with the fridge, lights, networking and some outlets lasts far longer than whole-home backup with central air running. We size the system to your actual loads and tell you what to expect."
+        },
+        {
+          "question": "Will a battery run my air conditioner?",
+          "answer": "That depends on the battery's output, not just its capacity. Large AC compressors draw a big surge at startup. We'll tell you whether your AC can be backed up and what it takes."
+        },
+        {
+          "question": "Do I need a transfer switch or interlock for a portable generator?",
+          "answer": "Yes, if you want to power hardwired circuits like the furnace fan, ceiling lights or well pump. Extension cords only reach plug-in devices, and plugging into a wall outlet to backfeed the house is illegal and dangerous."
+        },
+        {
+          "question": "Interlock or transfer switch, which is better?",
+          "answer": "An interlock is usually cheaper and lets you run any circuit, but it needs a listed kit for your panel. A manual transfer switch works with almost any panel and is simpler during an outage, but only runs the circuits chosen ahead of time."
+        },
+        {
+          "question": "Do I need a permit?",
+          "answer": "Yes. Batteries need an electrical permit, inspection and utility approval. Generator connections, interlocks and transfer switches need an electrical permit and inspection, and standby generators also need the fuel (gas) connection permitted separately; who handles that depends on the job. We handle the electrical permit and the battery utility paperwork."
+        },
+        {
+          "question": "How long does installation take?",
+          "answer": "Interlock and manual switch installs usually take a few hours. Batteries usually take one to a few days depending on panel work, and standby generator electrical work is usually one to two days once the unit is set and fuel is ready. Permit and utility steps add time, and we give you a realistic timeline in your estimate."
+        },
+        {
+          "question": "Will a generator work with my solar or battery?",
+          "answer": "Standard transfer switches are designed for generators. Battery and solar systems use their own backup controls, so tell us what you have and we'll plan the connection safely before anything is wired."
+        }
+      ]
+    },
+    "house-rewiring-los-angeles-ca": {
+      "new": true,
+      "id": -103,
+      "displayOrder": 2.3,
+      "heroImageId": 46,
+      "cardImageId": 46,
+      "showRatingBadge": true,
+      "title": "House Rewiring in Los Angeles, CA",
+      "navLabel": "House Rewiring",
+      "metaTitle": "House Rewiring in Los Angeles, CA | Knob-and-Tube Replacement | 911 Electric",
+      "metaDescription": "Whole-house and partial rewiring in Los Angeles by licensed C-10 electricians. Knob-and-tube, cloth and aluminum wiring replaced, permitted and inspected. Call 747-255-8595.",
+      "heroSubheading": "911 Construction & Electric Inc. rewires older homes across Los Angeles, replacing knob-and-tube, cloth-insulated, ungrounded and problem aluminum branch wiring with modern grounded circuits, all at once or in planned phases. Every job is permitted and inspected under our C-10 license.",
+      "shortDescription": "Whole-house, partial and phased rewiring for older LA homes with knob-and-tube, cloth or aluminum wiring. Planned room by room and inspected in stages.",
+      "intro": "911 Construction & Electric Inc. rewires older homes across Los Angeles, Pasadena, Altadena, Glendale and the San Gabriel and San Fernando Valleys. LA has a huge stock of pre-war Craftsman bungalows, Spanish-style homes and mid-century houses, and many still have their original wiring behind the walls.\n\n## Does your house need rewiring?\n\n- **Knob-and-tube wiring:** ceramic knobs and tubes with single insulated wires in the attic or crawlspace\n- **Cloth-insulated or brittle wiring** at outlets and fixtures, or **two-prong, ungrounded outlets** throughout\n- **Aluminum branch wiring**, common in some 1960s–70s homes → [Aluminum wiring repair](/aluminum-wiring-repair-los-angeles/)\n- **Frequent trips or blown fuses**, lights that dim when appliances start, power strips everywhere\n- **Warm, discolored or buzzing outlets**, or a burning smell (call now: [emergency electrician](/emergency-electrician-los-angeles-ca/))\n- **Insurance or a buyer's inspector** flagged the wiring → [Knob-and-tube and insurance](/knob-and-tube-insurance-los-angeles/)\n\nNone of this means your house is about to burn down. It does mean the wiring should be evaluated by a licensed electrician. More: [7 warning signs your LA home needs rewiring](/7-warning-signs-your-los-angeles-home-needs-rewiring/) · [Knob-and-tube replacement](/knob-and-tube-wiring-replacement-los-angeles/)\n\n## How a rewire works, step by step\n\n1. **Evaluation.** We check the panel, open a sample of outlets, switches and fixtures, and look in the attic and crawlspace for knob-and-tube, cloth or aluminum wiring and amateur splices.\n2. **Plan and written estimate.** New circuits room by room, kitchen and bath circuits, dedicated appliance lines, lighting, and smoke and CO alarms, plus room for an [EV charger](/ev-charger-installation-los-angeles-ca/), heat pump or [home battery](/backup-power-los-angeles-ca/). The estimate spells out the circuits, panel work, permit and schedule. For typical ranges, see [cost to rewire a house](/cost-to-rewire-a-house-los-angeles/).\n3. **Permit.** Pulled under our C-10 license with LADBS, Pasadena, Glendale, LA County (for Altadena) or your local department. → [Pasadena](/pasadena-electrical-permits-panel-ev-charger-rewire/) · [South Pasadena](/south-pasadena-electrical-permits-panels-ev-rewires/) permit guides\n4. **Rough-in.** New cable fished through the attic, crawlspace and walls, using existing paths wherever we can, with openings in plaster or drywall kept as small as practical.\n5. **Rough-in inspection** before walls are closed. → [What to expect](/electrical-rough-in-inspection-los-angeles/)\n6. **Panel and connections.** Often a new 200-amp panel if the old one was undersized or a Zinsco or Federal Pacific, with AFCI and GFCI protection where code requires it.\n7. **Trim, final inspection and walkthrough.** New devices and fixtures, every circuit tested, the panel directory labeled, and a closed-out permit.\n\n**Timeline:** most single-family rewires take three to ten working days, depending on size, access and whether walls are open. Permit and inspection scheduling add time.",
+      "features": [
+        {
+          "title": "Whole-House, Partial or Phased",
+          "text": "Every circuit at once, one floor or the kitchen, or the whole house in planned stages starting with the riskiest circuits. We'll tell you honestly which makes sense; sometimes targeted repairs are enough."
+        },
+        {
+          "title": "A Room-by-Room Plan",
+          "text": "Outlet locations, kitchen and bath circuits, dedicated appliance lines, lighting and smoke and CO alarms, laid out before work starts and written into your estimate."
+        },
+        {
+          "title": "Small Openings, Existing Paths",
+          "text": "We use attics, crawlspaces and existing paths wherever we can and keep openings in lath-and-plaster or drywall as small as practical."
+        },
+        {
+          "title": "Inspected in Stages",
+          "text": "Rewiring is permitted work. We pull the permit under our C-10 license, meet the inspector at rough-in before walls close, and close it out at final."
+        },
+        {
+          "title": "Panel Upgrade on the Same Permit",
+          "text": "Older panels are often undersized, full or obsolete. Combining the panel and the rewire under one permit saves time and cost."
+        },
+        {
+          "title": "Care for Historic Homes",
+          "text": "Craftsman and 1920s Spanish homes often have plaster walls, tight attics and original details. We plan cable routes to avoid cutting into original trim and built-ins where possible."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Grounded, Modern Circuits",
+          "text": "Knob-and-tube, cloth and problem aluminum wiring replaced with grounded circuits and AFCI/GFCI protection where current code requires it."
+        },
+        {
+          "title": "Enough Circuits for Modern Life",
+          "text": "Kitchens, home offices, AC, induction ranges and EV chargers on circuits sized for them, instead of power strips and nuisance trips."
+        },
+        {
+          "title": "Paperwork for Insurance & Resale",
+          "text": "A closed-out permit and labeled panel directory you can show your insurer or a buyer's inspector."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How much does it cost to rewire a house in Los Angeles?",
+          "answer": "It depends on square footage, wiring type, wall access and whether a panel upgrade is included. See our [cost to rewire a house](/cost-to-rewire-a-house-los-angeles/) and [whole-house rewiring cost](/whole-house-rewiring-cost-los-angeles/) guides for typical ranges, then get a written estimate for your home."
+        },
+        {
+          "question": "Can I stay in the house during a rewire?",
+          "answer": "Usually, yes. We work in sections and restore power to finished areas wherever we can. We'll tell you if there are days when staying elsewhere makes sense."
+        },
+        {
+          "question": "Will you have to open my walls?",
+          "answer": "Some openings are usually needed, especially in plaster homes, but we keep them as small as practical and use attics and crawlspaces wherever possible."
+        },
+        {
+          "question": "Do I need a permit to rewire?",
+          "answer": "Yes. Whole-house and significant partial rewires need a permit and inspections. We handle both under our C-10 license."
+        },
+        {
+          "question": "How do I know if I have knob-and-tube?",
+          "answer": "Look in the attic or crawlspace for ceramic knobs and tubes with single wires, and check for two-prong outlets. The surest way to know is an inspection. → [Electrical safety inspection](/electrical-safety-inspection-los-angeles/)"
+        },
+        {
+          "question": "When is the best time to rewire?",
+          "answer": "When walls and ceilings are already open. If you're planning a kitchen, bath or addition, bring us in before demo so circuits, lighting and panel capacity are planned together on one permit. → [Kitchen remodel electrical](/kitchen-remodel-electrical-los-angeles/)"
+        }
+      ]
+    }
+  }
+}

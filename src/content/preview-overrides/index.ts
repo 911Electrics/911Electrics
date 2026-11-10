@@ -1,6 +1,8 @@
 import type { RichTextData } from '@/db/types'
+import { markdownToLexical } from '@/lib/markdown-to-lexical'
 
 import pages from './pages.json'
+import previewDrafts from './preview-drafts.json'
 
 export type PreviewReview = { quote: string; name: string; source: string }
 export type PreviewOverride = {
@@ -35,7 +37,41 @@ export const LIVE_OVERRIDE_PATHS = [
   '/electrician-arcadia-ca/',
 ] as const
 
+type DraftSpec = {
+  blocks: ({ keep: string } | { heading: string; md: string })[]
+  faqs: ({ keep: string } | { question: string; md: string })[]
+}
+
+/**
+ * Service-page copy (drafted 2026-11-08, go-live approved by Haik 2026-11-09 "Publish"):
+ * a path listed in preview-drafts.json gets its block/FAQ list rebuilt from that spec
+ * ("keep" = reuse the block/FAQ from pages.json verbatim, otherwise Markdown copy). Same
+ * PreviewCompactPage structure, photos, reviews, meta and hero.
+ */
+function applyPreviewDraft(path: string, live: PreviewOverride): PreviewOverride {
+  const spec = (previewDrafts as unknown as Record<string, DraftSpec>)[path]
+  if (!spec) return live
+  const blocks = spec.blocks.map((b) => {
+    if ('keep' in b) {
+      const found = live.blocks.find((x) => x.heading === b.keep)
+      if (!found) throw new Error(`preview draft: missing live block "${b.keep}"`)
+      return found
+    }
+    return { heading: b.heading, body: markdownToLexical(b.md) }
+  })
+  const faqs = spec.faqs.map((f) => {
+    if ('keep' in f) {
+      const found = live.faqs.find((x) => x.question === f.keep)
+      if (!found) throw new Error(`preview draft: missing live FAQ "${f.keep}"`)
+      return found
+    }
+    return { question: f.question, answer: markdownToLexical(f.md) }
+  })
+  return { ...live, blocks, faqs }
+}
+
 export function getPreviewOverride(path: string): PreviewOverride | null {
   if (!(LIVE_OVERRIDE_PATHS as readonly string[]).includes(path)) return null
-  return (pages as unknown as Record<string, PreviewOverride>)[path] ?? null
+  const live = (pages as unknown as Record<string, PreviewOverride>)[path] ?? null
+  return live ? applyPreviewDraft(path, live) : null
 }
