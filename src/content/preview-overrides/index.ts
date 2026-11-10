@@ -16,6 +16,9 @@ export type PreviewOverride = {
   reviews: PreviewReview[]
   blocks: { heading: string; body: RichTextData }[]
   faqs: { question: string; answer: RichTextData }[]
+  /** Optional second block group rendered after reviews (city panel-merge previews only). */
+  lateHeading?: string
+  lateBlocks?: { heading: string; body: RichTextData }[]
 }
 
 /**
