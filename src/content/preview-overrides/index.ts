@@ -3,6 +3,7 @@ import { markdownToLexical } from '@/lib/markdown-to-lexical'
 
 import pages from './pages.json'
 import previewDrafts from './preview-drafts.json'
+import cityRewritesEncinoEagleRock from './city-rewrites-encino-eagle-rock.json'
 
 export type PreviewReview = { quote: string; name: string; source: string }
 export type PreviewOverride = {
@@ -16,6 +17,9 @@ export type PreviewOverride = {
   reviews: PreviewReview[]
   blocks: { heading: string; body: RichTextData }[]
   faqs: { question: string; answer: RichTextData }[]
+  /** Optional second block group rendered after reviews (city panel-merge previews only). */
+  lateHeading?: string
+  lateBlocks?: { heading: string; body: RichTextData }[]
 }
 
 /**
@@ -70,7 +74,20 @@ function applyPreviewDraft(path: string, live: PreviewOverride): PreviewOverride
   return { ...live, blocks, faqs }
 }
 
+/**
+ * PREVIEW ONLY: Encino + Eagle Rock city page rewrites (Haik OK'd building previews
+ * 2026-11-09 10:09 PM PT). Rendered only on Vercel preview deployments, never on
+ * production, until Haik approves go-live. Kept in its own JSON file so it merges
+ * cleanly with other preview branches.
+ */
+const PREVIEW_ONLY_CITY_REWRITES_ENCINO_EAGLE_ROCK =
+  cityRewritesEncinoEagleRock as unknown as Record<string, PreviewOverride>
+
 export function getPreviewOverride(path: string): PreviewOverride | null {
+  if (process.env.VERCEL_ENV === 'preview') {
+    const draft = PREVIEW_ONLY_CITY_REWRITES_ENCINO_EAGLE_ROCK[path]
+    if (draft) return draft
+  }
   if (!(LIVE_OVERRIDE_PATHS as readonly string[]).includes(path)) return null
   const live = (pages as unknown as Record<string, PreviewOverride>)[path] ?? null
   return live ? applyPreviewDraft(path, live) : null

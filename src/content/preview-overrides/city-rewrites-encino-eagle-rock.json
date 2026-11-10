@@ -1,0 +1,3318 @@
+{
+ "/electrician-encino-ca/": {
+  "layout": "compact",
+  "metaTitle": "Electrician in Encino, CA | 911 Electric",
+  "metaDescription": "Find reliable electrician Encino CA for all your electrical needs and enjoy top-notch services at competitive rates.",
+  "heroHeading": "Electrician in Encino, CA for Repairs, Panel Upgrades & EV Chargers",
+  "heroSubheading": "We upgrade panels, install EV chargers and wire pools, spas and additions in Encino, and we handle the LADWP and LADBS steps for you. A licensed electrician answers 24/7.",
+  "trustPromise": null,
+  "photos": [
+   {
+    "url": "/job-photos/la-north-hollywood-main-panel.webp",
+    "caption": "Main panel work by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/siemens-labeled-breakers.webp",
+    "caption": "A new Siemens panel installed by our crew, with every breaker labeled.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/la-north-hills-panel-ev.webp",
+    "caption": "Panel work for a new EV charger circuit.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/la-north-hills-ev-charger.webp",
+    "caption": "A Level 2 EV charger, wired and mounted by our crew.",
+    "width": 1600,
+    "height": 1200
+   }
+  ],
+  "reviews": [
+   {
+    "quote": "I recently bought a house and during the inspection I was told that I would need to upgrade my panel. I called several companies off yelp to get an idea of what it would cost me. The best deal I got was with 911 Electric. I can just say so many good stuff about this company. The guys came out the first day and explained to me that before anything to be done I would need to contact my utility company. They explained to me step by step of what I would need to do. They gave me a time frame of how long it would take and I can say they were right on point. They pulled the permits for me and on the day of inspection made sure everything went smooth. I recommend 911 Electric to any person that needs any electrical work, they also told me to install security system, which I told them I would call in the next couple of months! Thank you guys for the great service!!!",
+    "name": "Edward S.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "We are very happy with their services - we just bought a house and guys did a great job re-wiring it plus installing and changing LED lights. Very professional, polite and reasonable prices. I would absolutely recommend using this company for any of your electrical needs.",
+    "name": "Julia P.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "They did an amazing job on my outdoor lights, it looks phenomenal. We love it so much. They were very kind, knowledgeable, and clearly skilled at what they do. Extremely professional from start to finish. Thank you again, we couldn't be happier.",
+    "name": "Inesa A.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "I called couple companies on Saturday for light fixture issue I was having. I got a hold of Harry from 911 Electric. They came out the same day and fixed the issue. Apparently I had a issue with my circuit breaker. They replaced my circuit breaker and everything was back to normal. Thank you 911 Electric, I will make sure I will call you guys back for any electrical work. Thank you so much !!!!!!!!!!!!!",
+    "name": "George G.",
+    "source": "Yelp"
+   },
+   {
+    "quote": "They recently installed a Tesla charger at our home and they were great to work with! They responded quickly when we reached out for an estimate, explained the process and timeline, and got the job done just as described. Would definitely hire them again for other projects based on how well this went!",
+    "name": "Abigail B.",
+    "source": "Google"
+   }
+  ],
+  "blocks": [
+   {
+    "heading": "Encino homes we work on",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Encino runs from the flats north of Ventura Boulevard, where many homes are post-war ranch houses on wide lots, up into the hillside streets south of Ventura toward Mulholland, where homes tend to be larger. We regularly:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Upgrade 100A and 200A services for remodels, additions and ADUs",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Wire pools, spas, outdoor kitchens and landscape lighting",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Add circuits for central AC, heat pumps, induction ranges and EV chargers",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Replace older panels that have no room left for breakers",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Track down tripping breakers, dead outlets and flickering lights",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Common electrical issues in Encino",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Valley summers mean long AC run times. A service that was fine for the original house can run short once AC, a pool pump and an EV charger share it",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Larger homes and additions often need 200A to 400A service or a sub-panel for a guest house or ADU",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Hillside lots can mean long runs to a detached garage, pool equipment or a lower level, so wire size and voltage drop matter",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Older ranch homes may still have two-prong outlets, no GFCI protection outdoors and panel brands that are no longer made",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Not sure what your home can handle? A ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/electrical-load-calculation-los-angeles/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "load calculation",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " answers that before you spend money. Big homes: see our ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/400-amp-service-upgrade-los-angeles/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "400-amp service guide",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Pools, spas & outdoor living",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Dedicated, GFCI-protected circuits for pool pumps, heaters, spas and hot tubs",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Bonding checked when pool or spa equipment is replaced",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Landscape, path and security lighting on timers or smart controls",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Pool wiring is on LADBS's Express Permit list, so most of these jobs don't need plan review",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Guides: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/pool-pump-electrical-wiring-los-angeles/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "pool pump wiring",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " and ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/hot-tub-electrical-hookup-los-angeles/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "hot tub hookups",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "EV chargers & backup power",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Level 2 chargers, Tesla Wall Connectors and universal J1772/NACS chargers. See ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/ev-charger-installation-los-angeles-ca/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "EV charger installation",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Load management when the panel is close to full, so you may not need an upgrade",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Tesla Powerwall and other home batteries, generators and transfer switches. See ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/backup-power-los-angeles-ca/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "backup power",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Panel upgrades with every breaker labeled. See ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/electrical-panel-upgrades-los-angeles-ca/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "panel upgrades",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Encino is on LADWP",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Encino is part of the City of Los Angeles. Power comes from LADWP and permits come from the Los Angeles Department of Building and Safety (LADBS). SCE programs such as SCE Charge Ready Home don't apply here. For a panel upgrade:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "number",
+        "tag": "ol",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Load calculation and plan",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "LADWP meter spot: an LADWP Electric Service Representative (ESR) visits, usually within 5–15 business days",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "LADBS Express Permit, filed online. Residential electrical work up to 400 amps doesn't need plan review",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We install, LADBS inspects, then LADWP signs off and reconnects",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "You get the finaled permit for your records and any rebate",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Service over 320 amps or new construction goes through the LADWP Connection Center, (213) 367-6937. More: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/electrical-panel-permit-los-angeles/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "panel permits in Los Angeles",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "LADWP rebates",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "From LADWP's published programs (check current terms before you buy):",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "EV charger:",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " up to ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$1,000",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " toward a qualifying Level 2 charger and its installation, plus ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$500",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " more for Lifeline or EZ-SAVE customers. Panel, breaker, wiring and permit costs can count",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "EV meter:",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$250",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " for a separate time-of-use EV meter",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Heat pump water heater:",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " up to ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$2,500",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " per unit",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Variable-speed pool pump:",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " a rebate through LADWP's Consumer Rebate Program",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Most require a finaled LADBS permit, which we provide. Details: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/ladwp-ev-charger-rebate-2026-explained/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "LADWP EV charger rebate explained",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Why Encino customers call us",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Licensed C-10 and Class B contractor, CSLB #1027421, bonded and insured",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "24/7: a licensed electrician answers ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "tel:+17472558595",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "747-255-8595",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We handle the LADWP meter spot, the LADBS permit and the inspection",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Tesla Energy Certified (Powerwall installer) and EVITP certified for EV chargers",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Nearby too: ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/electrician-sherman-oaks-ca/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "Sherman Oaks",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           },
+           {
+            "type": "text",
+            "text": ", ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/electrician-tarzana-ca/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "Tarzana",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           },
+           {
+            "type": "text",
+            "text": " and ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/electrician-van-nuys-ca/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "Van Nuys",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Is Encino on LADWP or SCE?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Encino is in the City of Los Angeles, so homes are on LADWP. Your electric bill shows it.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Who issues electrical permits in Encino?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "LADBS, the Los Angeles Department of Building and Safety. Most residential electrical work up to 400 amps can be an Express Permit with no plan review. We pull it and meet the inspector.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Do I need a 400-amp service?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Only if the load calculation says so. Large homes with pools, several AC units and EV chargers sometimes do. Many homes are fine at 200 amps.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Can you wire a pool, spa or outdoor kitchen?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. We install GFCI-protected circuits for pools, spas, outdoor kitchens and landscape lighting, with permits and inspection.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Is there an LADWP rebate for EV chargers?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. LADWP lists up to $1,000 for a qualifying Level 2 charger and installation, plus $500 for Lifeline or EZ-SAVE customers. A finaled permit is required.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Are you licensed and available after hours?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. CSLB License #1027421 (C-10 and Class B), bonded and insured, and open 24/7 at ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "tel:+17472558595",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "747-255-8595",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ]
+ },
+ "/electrician-eagle-rock-ca/": {
+  "layout": "compact",
+  "metaTitle": "Electrician in Eagle Rock, CA | 911 Electric",
+  "metaDescription": "Top electrician in Eagle Rock, CA. We provide expert electrical installations, repairs, and construction solutions for you.",
+  "heroHeading": "Electrician in Eagle Rock, CA for Repairs, Panel Upgrades & EV Chargers",
+  "heroSubheading": "We rewire older homes, upgrade panels and install EV chargers in Eagle Rock, and we handle the LADWP and LADBS steps for you. A licensed electrician answers 24/7.",
+  "trustPromise": null,
+  "photos": [
+   {
+    "url": "/job-photos/siemens-panel-install.webp",
+    "caption": "A new Siemens main panel installed by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/damaged-wires.webp",
+    "caption": "Damaged service wiring before our repair.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/tesla-charger-panel.webp",
+    "caption": "A Tesla Wall Connector and electrical panel installation by our crew.",
+    "width": 1200,
+    "height": 1600
+   },
+   {
+    "url": "/job-photos/sub-panel-install.webp",
+    "caption": "A sub-panel installation by our team.",
+    "width": 1200,
+    "height": 1600
+   }
+  ],
+  "reviews": [
+   {
+    "quote": "I called 911 Construction & Electric Inc. to install an outlet for my tankless water heater in Eagle Rock, and they did an amazing job! The team arrived quickly, worked professionally, and had everything installed perfectly. The quality of their work was excellent, and they left everything clean and neat. I’m very impressed with their fast response and reliable service—highly recommend them for any electrical needs.",
+    "name": "Franklin O.",
+    "source": "Google"
+   },
+   {
+    "quote": "I called 911 Construction and Electric for my house in Eagle Rock to install Electric Charger for my car. They answered and did the work following week. Thank you",
+    "name": "Akop K.",
+    "source": "Google"
+   },
+   {
+    "quote": "I recently hired 911 Construction & Electric to handle a full rewiring of my older home and to install new lighting throughout, and they absolutely did an amazing job. From the very first quote to the final walkthrough, their team was professional and incredibly efficient. The rewiring was a big job — our house is from the 1950s and needed a complete update for safety and modern power needs. They worked cleanly, explained everything clearly (including why certain upgrades were important), and left no mess behind each day. Everything was done to code and passed inspection without a single issue. They also added beautiful new LED lighting in the kitchen, living room, bedrooms, and even outdoor fixtures. The fixtures look fantastic, the lighting levels are perfect, and they even helped me choose smart dimmers and different options. The difference in both safety and ambiance is night and day. Thanks for the great work again and will highly recommend them.",
+    "name": "Andranik N.",
+    "source": "Google"
+   },
+   {
+    "quote": "I own a house and needed to upgrade the electrical power for the entire property. I called 911 Construction & Electric Inc., and they did an absolutely amazing job. Their team was professional, knowledgeable, and handled the project with precision from start to finish. The upgrade was done quickly, safely. I highly recommend 911 Construction & Electric Inc. to anyone who needs reliable electrical work done.",
+    "name": "zinanshan",
+    "source": "Google"
+   },
+   {
+    "quote": "911 Construction & Electric Inc. handled the installation of our home Tesla Wall Connector, treating our property with the utmost care and respect, as if it were their own. The work was completed both swiftly and flawlessly. During the final inspection, they kindly provided detailed answers to all my questions about residential EV charging. Furthermore, they graciously resolved an issue with another wall outlet that I requested assistance with. I wholeheartedly recommend their services to everyone.",
+    "name": "Hyun Sun Y.",
+    "source": "Google"
+   }
+  ],
+  "blocks": [
+   {
+    "heading": "Eagle Rock homes we work on",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Much of Eagle Rock was built between the 1910s and the 1950s: Craftsman bungalows, Spanish Revival homes and mid-century houses on the flats around Colorado and Eagle Rock Boulevards and up the hillside streets. Many still have parts of their original wiring. We regularly:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Replace fuse boxes and full or outdated panels",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Rewire older homes, room by room or all at once",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Add grounded outlets and GFCI protection in kitchens, baths and outdoors",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Add circuits for ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/electric-tankless-water-heater-installation-los-angeles/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "electric tankless",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           },
+           {
+            "type": "text",
+            "text": " and heat pump water heaters, induction ranges and mini-splits",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Install EV chargers in garages and driveways",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Older wiring we find",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Knob-and-tube and cloth-insulated wiring in pre-war homes. See ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/knob-and-tube-wiring-replacement-los-angeles/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "knob-and-tube replacement",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Two-prong outlets with no ground",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Fuse boxes and Zinsco or Federal Pacific panels. See ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/zinsco-federal-pacific-panel-replacement-los-angeles/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "Zinsco and FPE replacement",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "60A or 100A services that can't carry an EV charger, AC and a modern kitchen together",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Old splices and add-ons left from past remodels",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Buying an older home? A ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/pre-purchase-electrical-inspection-los-angeles/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "pre-purchase electrical inspection",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " shows what you're taking on before closing.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Rewiring an older home",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We start with an inspection and tell you what needs replacing now and what can wait",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Whole-house or phased rewiring, with permits and inspection. See ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/house-rewiring-los-angeles-ca/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "house rewiring",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "The panel and service can be upgraded in the same project",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Insurers often ask about knob-and-tube. Our ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/knob-and-tube-insurance-los-angeles/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "knob-and-tube insurance guide",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           },
+           {
+            "type": "text",
+            "text": " explains why",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Panel upgrades & EV chargers",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "100A to 200A service upgrades, every breaker labeled. See ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/electrical-panel-upgrades-los-angeles-ca/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "panel upgrades",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Load calculation first. Sometimes a new circuit or load management is enough",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Level 2 chargers, Tesla Wall Connectors and universal J1772/NACS chargers. See ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/ev-charger-installation-los-angeles-ca/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "EV charger installation",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Tesla Powerwall and other home batteries. See ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/backup-power-los-angeles-ca/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "backup power",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Read more: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/electrician-eagle-rock-ca-panel-upgrades/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "Eagle Rock panel upgrades for 1920s homes",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Eagle Rock is on LADWP",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Eagle Rock is part of the City of Los Angeles. Power comes from LADWP and permits come from the Los Angeles Department of Building and Safety (LADBS). SCE programs such as SCE Charge Ready Home don't apply here. For a panel upgrade:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "number",
+        "tag": "ol",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Load calculation and plan",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "LADWP meter spot: an LADWP Electric Service Representative (ESR) visits, usually within 5–15 business days",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "LADBS Express Permit, filed online. Residential electrical work up to 400 amps doesn't need plan review",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We install, LADBS inspects, then LADWP signs off and reconnects",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "You get the finaled permit for your records and any rebate",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Near the city line? Glendale and Pasadena run their own utilities. If your bill says Glendale Water & Power or Pasadena Water & Power, see our ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/electrician-glendale-ca/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "Glendale",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " or ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/electrician-pasadena-ca/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "Pasadena",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " page.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "LADWP rebates",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "From LADWP's published programs (check current terms before you buy):",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "EV charger:",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " up to ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$1,000",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " toward a qualifying Level 2 charger and its installation, plus ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$500",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " more for Lifeline or EZ-SAVE customers. Panel, breaker, wiring and permit costs can count",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "EV meter:",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$250",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " for a separate time-of-use EV meter",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Heat pump water heater:",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " up to ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": "$2,500",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " per unit when it replaces a gas water heater",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Most require a finaled LADBS permit, which we provide. Details: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/ladwp-ev-charger-rebate-2026-explained/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "LADWP EV charger rebate explained",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "Why Eagle Rock customers call us",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Licensed C-10 and Class B contractor, CSLB #1027421, bonded and insured",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "24/7: a licensed electrician answers ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "tel:+17472558595",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "747-255-8595",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 3,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Office nearby at 1308 E Colorado Blvd, Pasadena",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 4,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "We handle the LADWP meter spot, the LADBS permit and the inspection",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 5,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Tesla Energy Certified (Powerwall installer) and EVITP certified for EV chargers",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 6,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Nearby too: ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/electrician-highland-park-ca/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "Highland Park",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           },
+           {
+            "type": "text",
+            "text": " and ",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "link",
+            "version": 3,
+            "fields": {
+             "url": "/electrician-glendale-ca/",
+             "newTab": false,
+             "linkType": "custom"
+            },
+            "children": [
+             {
+              "type": "text",
+              "text": "Glendale",
+              "format": 0,
+              "version": 1,
+              "detail": 0,
+              "mode": "normal",
+              "style": ""
+             }
+            ]
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ],
+  "faqs": [
+   {
+    "question": "Is Eagle Rock on LADWP or SCE?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Eagle Rock is in the City of Los Angeles, so homes are on LADWP. Near the Glendale or Pasadena line, check your bill.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Who issues electrical permits in Eagle Rock?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "LADBS, the Los Angeles Department of Building and Safety. Most residential electrical work up to 400 amps can be an Express Permit with no plan review. We pull it and meet the inspector.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Does my older Eagle Rock home need a full rewire?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Not always. We inspect first. Some homes need a full rewire, others only the old circuits replaced and a new panel.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Can you upgrade the panel without rewiring the house?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Usually, yes. If we find knob-and-tube or damaged wiring on a circuit, we show you and you decide.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Is there an LADWP rebate for EV chargers?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. LADWP lists up to $1,000 for a qualifying Level 2 charger and installation, plus $500 for Lifeline or EZ-SAVE customers. A finaled permit is required.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Are you licensed and available after hours?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Yes. CSLB License #1027421 (C-10 and Class B), bonded and insured, and open 24/7 at ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "tel:+17472558595",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "747-255-8595",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   }
+  ]
+ }
+}
