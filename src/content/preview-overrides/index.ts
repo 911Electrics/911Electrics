@@ -3,6 +3,7 @@ import { markdownToLexical } from '@/lib/markdown-to-lexical'
 
 import pages from './pages.json'
 import previewDrafts from './preview-drafts.json'
+import cityRewritesEncinoEagleRock from './city-rewrites-encino-eagle-rock.json'
 
 export type PreviewReview = { quote: string; name: string; source: string }
 export type PreviewOverride = {
@@ -16,6 +17,9 @@ export type PreviewOverride = {
   reviews: PreviewReview[]
   blocks: { heading: string; body: RichTextData }[]
   faqs: { question: string; answer: RichTextData }[]
+  /** Optional second block group rendered after reviews (city panel-merge previews only). */
+  lateHeading?: string
+  lateBlocks?: { heading: string; body: RichTextData }[]
 }
 
 /**
@@ -35,6 +39,10 @@ export const LIVE_OVERRIDE_PATHS = [
   '/electrician-glendale-ca/',
   '/electrician-altadena-ca/',
   '/electrician-arcadia-ca/',
+  // Round 3, go-live approved by Haik 2026-11-09 10:20 PM PT ("Yes"). Content lives in
+  // city-rewrites-encino-eagle-rock.json.
+  '/electrician-encino-ca/',
+  '/electrician-eagle-rock-ca/',
 ] as const
 
 type DraftSpec = {
@@ -70,8 +78,20 @@ function applyPreviewDraft(path: string, live: PreviewOverride): PreviewOverride
   return { ...live, blocks, faqs }
 }
 
+/**
+ * Encino + Eagle Rock city page rewrites (previews built 2026-11-09; go-live approved by
+ * Haik 2026-11-09 10:20 PM PT). Kept in their own JSON file so they merge cleanly with
+ * other branches. Served only for paths listed in LIVE_OVERRIDE_PATHS.
+ * Title/meta for these pages still come from the cities table (buildMeta).
+ */
+const CITY_REWRITES_ENCINO_EAGLE_ROCK =
+  cityRewritesEncinoEagleRock as unknown as Record<string, PreviewOverride>
+
 export function getPreviewOverride(path: string): PreviewOverride | null {
   if (!(LIVE_OVERRIDE_PATHS as readonly string[]).includes(path)) return null
-  const live = (pages as unknown as Record<string, PreviewOverride>)[path] ?? null
+  const live =
+    (pages as unknown as Record<string, PreviewOverride>)[path] ??
+    CITY_REWRITES_ENCINO_EAGLE_ROCK[path] ??
+    null
   return live ? applyPreviewDraft(path, live) : null
 }
