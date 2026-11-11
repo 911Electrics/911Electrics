@@ -2,7 +2,7 @@ If your Los Angeles home still runs on a 60- or 100-amp service, you have probab
 
 ## What to know first
 
-- For most single-family homes here, a standard electrical panel upgrade cost falls between roughly $2,000 and $4,500 for a like-for-like 200-amp service. Those are our typical 2026 planning ranges, not a quote.
+- For most single-family homes here, a standard electrical panel upgrade cost falls between roughly $2,000 and $4,500 for a like-for-like 200-amp service. Those are typical 2026 planning ranges, not a written quote.
 - Two independent reference points sit in a similar band: a 2025 national survey by Lawrence Berkeley National Laboratory found a $3,500 median for a single-family main panel replacement, and Southern California Edison's home-electrification guide says a panel upgrade will likely cost between $2,000 and $6,000. Neither is a Los Angeles bid, and neither replaces a site visit.
 - A permit and inspection are required for panel work throughout Los Angeles County. In the City of Los Angeles, LADBS generally requires electrical plan check when the total load exceeds 400 amperes or the equipment is rated 600 amperes or more — so a typical 200-amp house job often does not need plan check, though other project conditions can still trigger one.
 - The utility's own work is separate from the panel you own. LADWP says that if its existing service can handle the new demand, there are generally no installation charges; conduit work in public property, transformer work, or street resurfacing can bring charges. In SCE territory, Rule 16 applies an allowance to SCE's service work and bills the estimated cost above it; a relocation you request is billed at SCE's full estimated cost. Pasadena, Glendale, and Burbank each have their own utility rules.
@@ -22,7 +22,7 @@ The single biggest variable is amperage. 200-amp service is the most common requ
 
 ## How those ranges compare with independent data
 
-Our figures above are typical ranges from work in this area, city permit included in the planning number, and they are not a published statistic. Two public sources are useful as a cross-check:
+The planning ranges above are estimates, not a written quote. Confirm whether permit and utility charges are included. They are not a published statistic. Two public sources are useful as a cross-check:
 
 - Lawrence Berkeley National Laboratory ran a national survey in summer 2025 (140 respondents in 34 states) and published it in August 2026. For single-family homes, contractors and engineers reported a $3,500 median for a main service panel replacement (middle half of answers $2,100–$5,000; 34 answers). A service-size increase on the customer-owned equipment had a $2,800 median ($2,000–$5,000; 22 answers). Utility-side costs passed to the owner were more variable: a $3,500 median ($1,650–$7,000; 19 answers). Those utility figures are national; LADWP and SCE publish their own local rules, below. Medians are the better guide in that survey because a few expensive jobs pull the averages up.
 - SCE's own [Guide to Home Electrification](https://www.sce.com/sites/default/files/custom-files/PDF_Files/Guide_to_Home_Electrification.pdf) says upgrading your panel will likely cost between $2,000 and $6,000, depending on its age.
