@@ -17,8 +17,7 @@ import type { PostDetail } from '@/lib/posts'
  */
 const PREVIEW_SLUG = 'electrical-panel-upgrade-cost-los-angeles'
 
-export function applyPostPreviewDraft(post: PostDetail | null): PostDetail | null {
-  if (!post) return post
+export function applyPostPreviewDraft(post: PostDetail): PostDetail {
   if (process.env.VERCEL_ENV !== 'preview') return post
   if (post.slug !== PREVIEW_SLUG) return post
 
