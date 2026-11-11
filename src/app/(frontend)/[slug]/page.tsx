@@ -14,6 +14,7 @@ import {
   getCityPageTemplate,
 } from '@/lib/queries'
 import { applyServiceDraft } from '@/content/service-drafts'
+import { applyPostPreviewDraft } from '@/content/post-preview-drafts'
 import { retiredComboTarget, serviceCityPath } from '@/lib/service-city'
 import { getServiceCity } from '@/lib/service-city.server'
 import { getServiceBySlug, type ServiceDetail } from '@/lib/services'
@@ -60,7 +61,7 @@ const querySlug = cache(async (slug: string): Promise<Resolved | null> => {
     if (city.pathOverride) return { type: 'redirect', to: city.pathOverride }
     return { type: 'city', doc: city }
   }
-  if (post) return { type: 'post', doc: post }
+  if (post) return { type: 'post', doc: applyPostPreviewDraft(post) }
 
   // Retired combos (SEO cleanup) are 301'd by redirects.ts; this is a safety net in
   // case a request reaches the page anyway.
