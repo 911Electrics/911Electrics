@@ -40,7 +40,7 @@ export function TrustStrip({
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                5.0 on Google (77 reviews)
+                5.0 on Google (79 reviews)
               </a>
               {' · '}
               <a
