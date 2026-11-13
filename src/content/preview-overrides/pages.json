@@ -816,6 +816,53 @@
         "format": "",
         "indent": 0,
         "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Planning an office, retail or restaurant tenant improvement? Our guide to ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/pasadena-tenant-improvement-electrical-permits-timeline/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "Pasadena tenant improvement electrical permits and timeline",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " covers the separate electrical permit, Title 24 lighting forms and PWP service steps.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
        }
       ],
       "format": "",
