@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(__filename)
 import { redirects } from './redirects'
+import { getCanonicalHost } from './src/utilities/canonicalHost'
 
 const NEXT_PUBLIC_SERVER_URL = process.env.VERCEL_PROJECT_PRODUCTION_URL
   ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
@@ -89,7 +90,28 @@ const nextConfig: NextConfig = {
       { key: 'Content-Security-Policy', value: csp },
     ]
 
-    return [{ source: '/:path*', headers: securityHeaders }]
+    const rules: Awaited<ReturnType<NonNullable<NextConfig['headers']>>> = [
+      { source: '/:path*', headers: securityHeaders },
+    ]
+
+    // Keep every non-canonical host (the *.vercel.app domains, preview deploys)
+    // out of search indexes. This replaces the per-request check that used to
+    // run in src/proxy.ts. The canonical host comes from the same env-driven
+    // getCanonicalHost() (CANONICAL_DOMAIN, then NEXT_PUBLIC_SERVER_URL, then
+    // VERCEL_PROJECT_PRODUCTION_URL); in production it resolves to
+    // 911electrics.com. The regex is fully anchored so only that exact host is
+    // exempt: www.911electrics.com and *.vercel.app still get noindex.
+    const canonicalHost = getCanonicalHost()
+    if (canonicalHost) {
+      const escapedHost = canonicalHost.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+      rules.push({
+        source: '/:path*',
+        missing: [{ type: 'host', value: `^${escapedHost}$` }],
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex' }],
+      })
+    }
+
+    return rules
   },
   turbopack: {
     root: path.resolve(dirname),
