@@ -6,7 +6,7 @@ import { AboutSection } from '@/components/sections/AboutSection'
 import { CTABanner } from '@/components/sections/CTABanner'
 import { getHomepage, getSiteSettings } from '@/lib/queries'
 
-export const revalidate = 3600
+export const revalidate = 86400
 
 export default async function AboutPage() {
   const [homepage, siteSettings] = await Promise.all([getHomepage(), getSiteSettings()])
