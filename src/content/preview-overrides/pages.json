@@ -490,6 +490,35 @@
           "type": "link",
           "version": 3,
           "fields": {
+           "url": "/pasadena-panel-upgrade-rebate-2026-requirements-documents-timeline/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "2026 PWP rebate requirements & timeline",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ", ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
            "url": "/pwp-battery-rebate-pasadena-2026/",
            "newTab": false,
            "linkType": "custom"
@@ -1001,6 +1030,53 @@
         "format": "",
         "indent": 0,
         "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Many older Pasadena homes still run on 60- or 100-amp service, an original fuse box, or a Zinsco or Federal Pacific panel that inspectors flag. We size the replacement from a load calculation, not a guess. For most homes that means 200 amps, because PWP requires provisions for a transformer on private property for single-phase service over 200 amps. More: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/electrician-pasadena-ca-panel-upgrades/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "Pasadena Panel Upgrades & Rewiring for Older Homes",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
        }
       ],
       "format": "",
@@ -1235,12 +1311,244 @@
          },
          {
           "type": "text",
-          "text": " installers, we put in Tesla Wall Connectors and other Level 2 chargers. We check panel capacity first, so you get load management when that's enough, or an upgrade that also qualifies for PWP's rebate.",
+          "text": " installers, we put in Tesla Wall Connectors and other Level 2 chargers, including universal J1772 and NACS units. We check panel capacity first, so you get load management when that's enough, or an upgrade that also qualifies for PWP's rebate.",
           "format": 0,
           "version": 1,
           "detail": 0,
           "mode": "normal",
           "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Every charger starts with a load calculation. If your panel has room, we add a dedicated 240V circuit. If it's close to full, a load-management device, or setting the charger to a lower amperage, can keep the total within what your service carries, often without a service upgrade. If you're also planning a heat pump, induction range or ADU, a 200-amp upgrade usually makes more sense, and it can line up with PWP's panel rebate. Every new charger circuit needs a City of Pasadena permit and inspection, and we pull it.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "The federal 30C charger tax credit ended for chargers placed in service after June 30, 2026, so local utility programs are what's left. See ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/pasadena-ev-charger-rebate-homeowners/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "Pasadena EV Charger Rebate: What Homeowners Should Know",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " and ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/ev-charger-tax-credit-2026-pasadena-los-angeles-rebates/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "EV Charger Tax Credit 2026: What's Left in Pasadena & LA",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ". Program terms change, so confirm current amounts with PWP before you buy.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "heading": "ADU electrical in Pasadena",
+    "body": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "An ADU adds a second kitchen, water heater, heating and cooling, laundry and often an EV charger, so the plan starts with a load calculation on your main service. Then there are two common setups:",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "list",
+        "listType": "bullet",
+        "tag": "ul",
+        "start": 1,
+        "version": 1,
+        "children": [
+         {
+          "type": "listitem",
+          "value": 1,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Subpanel",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": " fed from the main house: one PWP meter and one bill, usually the simpler route for a family unit or garage conversion",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         },
+         {
+          "type": "listitem",
+          "value": 2,
+          "version": 1,
+          "children": [
+           {
+            "type": "text",
+            "text": "Separate PWP meter",
+            "format": 1,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           },
+           {
+            "type": "text",
+            "text": ", if you request one: its own account and bill, but PWP wants all meters at the same panel or a PWP-approved location, so it usually means a multi-meter panel at the house, not a second service at the back of the lot",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ],
+          "format": "",
+          "indent": 0,
+          "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Pasadena's ADU plans show the existing and proposed panel and sub-panel locations, and PWP inspects before it energizes the service. We handle the load calculation, the PWP meter spot and the City permit. Guide: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/pasadena-adu-electrical-subpanel-meter-pwp-service/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "Pasadena ADU Electrical: Subpanel, Meter & PWP Service",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
          }
         ],
         "format": "",
@@ -1351,25 +1659,6 @@
           "children": [
            {
             "type": "text",
-            "text": "Battery backup and Tesla Powerwall",
-            "format": 0,
-            "version": 1,
-            "detail": 0,
-            "mode": "normal",
-            "style": ""
-           }
-          ],
-          "format": "",
-          "indent": 0,
-          "direction": "ltr"
-         },
-         {
-          "type": "listitem",
-          "value": 6,
-          "version": 1,
-          "children": [
-           {
-            "type": "text",
             "text": "Install day: power is off for part of the day while we swap the panel, and every breaker gets labeled",
             "format": 0,
             "version": 1,
@@ -1381,6 +1670,138 @@
           "format": "",
           "indent": 0,
           "direction": "ltr"
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Battery backup and Tesla Powerwall.",
+          "format": 1,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "text",
+          "text": " As a Tesla Energy Certified installer, we install Tesla Powerwall and other home battery backup systems, pull the City of Pasadena permit, and build the itemized invoice PWP asks for. See ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/pwp-battery-rebate-pasadena-2026/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "PWP battery rebate",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ". We don't install solar panels. If you have solar or plan to add it, we leave panel space and conduit so your solar contractor can tie in cleanly.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       },
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "Power out, or a panel that's warm or buzzing? A licensed electrician answers 24/7 at ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "tel:+17472558595",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "747-255-8595",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ". If the whole block is dark, it's probably a PWP outage. Our guide ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/pwp-outage-or-panel-problem-pasadena/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "PWP Outage or Your Panel? What to Check in Pasadena",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " covers what to check before you call.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
          }
         ],
         "format": "",
@@ -1538,6 +1959,128 @@
          {
           "type": "text",
           "text": "Yes. We inspect and repair fire- and smoke-damaged service equipment and wire rebuilds in Pasadena and Altadena.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Is it a PWP outage or a problem with my panel?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "If the neighbors are dark too, it's most likely a PWP outage, so report it to PWP. If only your home, or part of it, is out, check the main breaker and GFCI outlets, and call us if a breaker keeps tripping or the panel is warm, buzzing or scorched. Our ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/pwp-outage-or-panel-problem-pasadena/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "PWP outage guide",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": " walks through each check.",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         }
+        ],
+        "format": "",
+        "indent": 0,
+        "direction": "ltr"
+       }
+      ],
+      "format": "",
+      "indent": 0,
+      "direction": "ltr"
+     }
+    }
+   },
+   {
+    "question": "Does a Pasadena ADU need its own electric meter?",
+    "answer": {
+     "root": {
+      "type": "root",
+      "version": 1,
+      "children": [
+       {
+        "type": "paragraph",
+        "version": 1,
+        "children": [
+         {
+          "type": "text",
+          "text": "No. PWP allows a separate ADU meter if you request one, but many ADUs run from a subpanel fed by the main house. A separate meter needs its own PWP account and address assignment. Details: ",
+          "format": 0,
+          "version": 1,
+          "detail": 0,
+          "mode": "normal",
+          "style": ""
+         },
+         {
+          "type": "link",
+          "version": 3,
+          "fields": {
+           "url": "/pasadena-adu-electrical-subpanel-meter-pwp-service/",
+           "newTab": false,
+           "linkType": "custom"
+          },
+          "children": [
+           {
+            "type": "text",
+            "text": "Pasadena ADU electrical guide",
+            "format": 0,
+            "version": 1,
+            "detail": 0,
+            "mode": "normal",
+            "style": ""
+           }
+          ]
+         },
+         {
+          "type": "text",
+          "text": ".",
           "format": 0,
           "version": 1,
           "detail": 0,
