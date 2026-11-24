@@ -3,36 +3,27 @@ import React from 'react'
 
 /**
  * Preview-only owner story for /about/. Do not reuse on the homepage or city hubs.
- * Copy is Haik's approved wording. Photo is the public @911construction_electric
- * profile image; only the 150×150 thumbnail was reachable without a browser login.
+ * Copy is Haik's approved wording. Photo is the sharper original he sent
+ * (portrait crop, hard hat and vest).
  */
 export function OwnerStory() {
   return (
     <section className="py-16 md:py-20" id="owner">
-      <div className="container grid items-start gap-10 lg:grid-cols-[minmax(0,18rem)_1fr] lg:items-center lg:gap-12">
-        <figure className="mx-auto w-full max-w-[18rem]">
-          <div className="relative aspect-square overflow-hidden rounded-2xl bg-muted shadow-lg">
+      <div className="container grid items-start gap-10 lg:grid-cols-[minmax(0,20rem)_1fr] lg:items-center lg:gap-12">
+        <figure className="mx-auto w-full max-w-[20rem]">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-muted shadow-lg">
             <Image
-              alt="Haik Hairapetian, owner of 911 Construction & Electric, wearing a white hard hat and a yellow safety vest"
-              className="object-cover"
+              alt="Haik Hairapetian, owner of 911 Construction & Electric, in a white hard hat and yellow safety vest"
+              className="object-cover object-top"
               fill
-              sizes="288px"
-              src="/media/haik-hairapetian-instagram-profile.jpg"
+              priority
+              sizes="(min-width: 1024px) 320px, 80vw"
+              src="/media/haik-hairapetian-hardhat.webp"
             />
           </div>
-          <figcaption className="mt-3 text-xs leading-relaxed text-muted-foreground">
-            Preview note: this is the public @911construction_electric Instagram profile photo.
-            Only the 150×150 thumbnail was reachable without a signed-in browser; a sharper
-            original should replace it before this page goes live.
-          </figcaption>
         </figure>
         <div>
-          <p className="mb-2 text-sm font-semibold tracking-widest text-brand-600 uppercase">
-            From the owner
-          </p>
-          <h2 className="text-3xl font-bold text-balance text-navy-950 md:text-4xl">
-            A note from Haik
-          </h2>
+          <h2 className="text-3xl font-bold text-balance text-navy-950 md:text-4xl">Our Story</h2>
           <div className="mt-5 max-w-prose space-y-4 leading-relaxed text-muted-foreground">
             <p>
               I studied business in college, and at the same time I was working in my family&apos;s
