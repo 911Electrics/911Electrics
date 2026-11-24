@@ -4,6 +4,7 @@ import {
   buildComboSlug,
   cityToken,
   isEligibleCity,
+  localizeEmergencyHeroSubheading,
   parseComboSlug,
   serviceCityPath,
   serviceToken,
@@ -95,5 +96,33 @@ describe('parseComboSlug', () => {
         })
       }
     }
+  })
+})
+
+const EMERGENCY_SUBHEADING =
+  '911 Construction & Electric Inc. provides 24/7 emergency electrical service in Los Angeles, CA for urgent issues that cannot wait.'
+
+describe('localizeEmergencyHeroSubheading', () => {
+  it('replaces the leftover Los Angeles phrase on emergency city pages only', () => {
+    expect(
+      localizeEmergencyHeroSubheading(
+        'emergency-electrician-los-angeles-ca',
+        EMERGENCY_SUBHEADING,
+        'Pasadena',
+      ),
+    ).toBe(
+      '911 Construction & Electric Inc. provides 24/7 emergency electrical service in Pasadena, CA for urgent issues that cannot wait.',
+    )
+  })
+
+  it('leaves other services and null subheadings unchanged', () => {
+    expect(
+      localizeEmergencyHeroSubheading(
+        'electrical-panel-upgrades-los-angeles-ca',
+        EMERGENCY_SUBHEADING,
+        'Pasadena',
+      ),
+    ).toBe(EMERGENCY_SUBHEADING)
+    expect(localizeEmergencyHeroSubheading('emergency-electrician-los-angeles-ca', null, 'Pasadena')).toBeNull()
   })
 })
