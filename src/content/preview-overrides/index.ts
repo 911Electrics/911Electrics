@@ -43,6 +43,8 @@ export const LIVE_OVERRIDE_PATHS = [
   // city-rewrites-encino-eagle-rock.json.
   '/electrician-encino-ca/',
   '/electrician-eagle-rock-ca/',
+  // Preview only, 2026-11-24. Not approved for production. Do not merge until Haik OKs go-live.
+  '/electrician-baldwin-park-ca/',
 ] as const
 
 type DraftSpec = {
