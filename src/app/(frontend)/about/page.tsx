@@ -4,6 +4,7 @@ import React from 'react'
 
 import { AboutSection } from '@/components/sections/AboutSection'
 import { CTABanner } from '@/components/sections/CTABanner'
+import { OwnerStory } from '@/components/sections/OwnerStory'
 import { getHomepage, getSiteSettings } from '@/lib/queries'
 
 export const revalidate = 86400
@@ -28,6 +29,8 @@ export default async function AboutPage() {
           </p>
         </div>
       </header>
+
+      <OwnerStory />
 
       <AboutSection
         body={homepage.aboutBody}
