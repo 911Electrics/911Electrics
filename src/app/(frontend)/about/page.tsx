@@ -30,14 +30,14 @@ export default async function AboutPage() {
         </div>
       </header>
 
-      <OwnerStory />
-
       <AboutSection
         body={homepage.aboutBody}
         differentiators={homepage.differentiators}
         heading={homepage.aboutHeading}
         image={homepage.aboutImage}
       />
+
+      <OwnerStory />
 
       <CTABanner
         body={homepage.contactBody}
