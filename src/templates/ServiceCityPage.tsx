@@ -23,7 +23,7 @@ import {
   lexicalToPlainText,
   serviceSchema,
 } from '@/lib/schema-org'
-import { isEligibleCity, isRetiredCombo, serviceCityPath } from '@/lib/service-city'
+import { isEligibleCity, isRetiredCombo, localizeEmergencyHeroSubheading, serviceCityPath } from '@/lib/service-city'
 import { getServerSideURL } from '@/utilities/getURL'
 
 const MAX_NEARBY = 9
@@ -121,7 +121,7 @@ export function ServiceCityPage({
         licenseNumber={siteSettings.licenseNumber}
         phone={siteSettings.phone}
         rating={service.showRatingBadge ? siteSettings.aggregateRating : null}
-        subheading={service.heroSubheading}
+        subheading={localizeEmergencyHeroSubheading(service.slug, service.heroSubheading, city.cityName)}
       />
       <TrustStrip licenseNumber={siteSettings.licenseNumber} phone={siteSettings.phone} />
 

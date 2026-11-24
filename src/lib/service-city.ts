@@ -89,3 +89,21 @@ export function hubServiceHref(serviceSlug: string, citySlug: string): string {
 export function retiredComboTarget(slug: string): string | null {
   return RETIRED_COMBOS[`/${slug}/`] ?? null
 }
+
+export const EMERGENCY_SERVICE_SLUG = 'emergency-electrician-los-angeles-ca'
+
+/**
+ * City emergency combo pages reuse the parent LA service hero subheading, which
+ * hard-codes "in Los Angeles, CA". Swap that phrase for the page's own city.
+ * The parent LA service page is rendered by ServicePage and is left unchanged.
+ * Other services are not rewritten, even if their subheading also names LA.
+ */
+export function localizeEmergencyHeroSubheading(
+  serviceSlug: string,
+  subheading: string | null,
+  cityName: string,
+): string | null {
+  if (!subheading) return subheading
+  if (serviceSlug !== EMERGENCY_SERVICE_SLUG) return subheading
+  return subheading.split('in Los Angeles, CA').join(`in ${cityName}, CA`)
+}

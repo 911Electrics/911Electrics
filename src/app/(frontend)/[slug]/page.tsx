@@ -140,6 +140,30 @@ async function CityPageWrapper({
   )
 }
 
+
+/** Haik-approved Google title/description for three emergency city pages only
+ * (2026-11-24). Other combo pages keep the generated city-first template.
+ * The LA emergency service page stores its meta on the services row, not here.
+ * Titles stay at 60 characters or fewer; descriptions stay at 160 or fewer.
+ * These do not include the 1-hour on-site promise, which is LA-title-only. */
+const EMERGENCY_CITY_META_OVERRIDES: Record<string, { title: string; description: string }> = {
+  '/emergency-electrician-west-hills-ca/': {
+    title: '24/7 Emergency Electrician West Hills | 747-255-8595',
+    description:
+      'Licensed 24/7 emergency electrician in West Hills. Call 747-255-8595 day or night, weekends and holidays. CSLB #1027421. 5.0 on Google (79 reviews).',
+  },
+  '/emergency-electrician-studio-city-ca/': {
+    title: '24/7 Emergency Electrician Studio City | 747-255-8595',
+    description:
+      'Licensed 24/7 emergency electrician in Studio City. Call 747-255-8595 day or night, weekends and holidays. CSLB #1027421. 5.0 on Google (79 reviews).',
+  },
+  '/emergency-electrician-beverly-hills-ca/': {
+    title: '24/7 Emergency Electrician Beverly Hills | 747-255-8595',
+    description:
+      'Licensed 24/7 emergency electrician in Beverly Hills. Call 747-255-8595 day or night, weekends and holidays. CSLB #1027421. 5.0 on Google (79 reviews).',
+  },
+}
+
 export async function generateMetadata({ params: paramsPromise }: Args): Promise<Metadata> {
   const { slug = '' } = await paramsPromise
   const resolved = await querySlug(decodeURIComponent(slug))
@@ -163,11 +187,15 @@ export async function generateMetadata({ params: paramsPromise }: Args): Promise
     // combo snippet open with "…in Los Angeles" for the exact city query it targets;
     // lead with the city instead so the SERP snippet matches intent.
     const svc = service.navLabel.toLowerCase().replace(/\bev\b/g, 'EV')
+    const path = serviceCityPath(service.slug, city.slug)
+    const override = EMERGENCY_CITY_META_OVERRIDES[path]
     return buildMeta({
-      title: `${service.navLabel} in ${city.cityName}, CA`,
-      description: `${service.navLabel} in ${city.cityName}, CA by 911 Construction & Electric — licensed, bonded & insured for ${svc}, with free estimates and 24/7 emergency service.`,
+      title: override?.title ?? `${service.navLabel} in ${city.cityName}, CA`,
+      description:
+        override?.description ??
+        `${service.navLabel} in ${city.cityName}, CA by 911 Construction & Electric — licensed, bonded & insured for ${svc}, with free estimates and 24/7 emergency service.`,
       image: service.meta.image,
-      path: serviceCityPath(service.slug, city.slug),
+      path,
       fallbackTitle: `${service.navLabel} in ${city.cityName}, CA`,
     })
   }
